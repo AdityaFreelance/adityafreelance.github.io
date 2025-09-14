@@ -1,0 +1,14 @@
+{
+  "_comment": "This is the main configuration file.",
+  "mcp": {
+    "_comment": "This section contains the configuration for the MCP (Multi-Command Processor).",
+    "your_server_name": {
+      "_comment": "This is a sample server configuration. You should replace 'your_server_name' with a descriptive name for your server.",
+      "command": "your_server_command",
+      "args": ["arg1", "arg2"],
+      "env": {
+        "ENV_VAR": "value"
+      }
+    }
+  }
+}
