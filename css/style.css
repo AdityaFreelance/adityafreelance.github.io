@@ -1,17 +1,19 @@
 /* General Styling */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem; /* 16px */
     font-weight: 400;
     line-height: 1.5;
+    color: #5f6368;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    color: #202124;
 }
 
 h1 {
@@ -25,6 +27,8 @@ h2 {
 /* Card Styling */
 .card {
     transition: transform .2s;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .card:hover {
@@ -34,8 +38,51 @@ h2 {
 /* Layout */
 header {
     padding: 5rem 0;
+    background-color: #202124;
+    background-image: linear-gradient(45deg, #232526 25%, transparent 25%), linear-gradient(-45deg, #232526 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #232526 75%), linear-gradient(-45deg, transparent 75%, #232526 75%);
+    background-size: 20px 20px;
+}
+
+footer {
+    background-color: #202124;
+    background-image: linear-gradient(45deg, #232526 25%, transparent 25%), linear-gradient(-45deg, #232526 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #232526 75%), linear-gradient(-45deg, transparent 75%, #232526 75%);
+    background-size: 20px 20px;
+    padding: 3rem 0;
+    color: #f8f9fa;
+    text-align: center;
 }
 
 section {
     padding: 4rem 0;
+}
+
+/* Custom Colors */
+.bg-dark {
+    background-color: #202124 !important;
+}
+
+.text-white {
+    color: #f8f9fa !important;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-primary:hover {
+    background-color: #185abc;
+    border-color: #185abc;
+}
+
+.navbar-dark .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(248, 249, 250, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f8f9fa;
 }
