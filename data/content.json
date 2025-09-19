@@ -1,0 +1,147 @@
+{
+  "_comment": "This file contains all the content for the portfolio website.",
+  "navigation": {
+    "_comment": "Navigation bar content.",
+    "brand": "Portfolio",
+    "links": [
+      { "text": "About", "href": "#about" },
+      { "text": "Skills", "href": "#skills" },
+      { "text": "Services", "href": "#services" },
+      { "text": "Experience", "href": "#experience" },
+      { "text": "Projects", "href": "#projects" },
+      { "text": "Testimonials", "href": "#testimonials" },
+      { "text": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "_comment": "Hero section with the typed text.",
+    "typed_text": ["Welcome to My Portfolio", "A showcase of my work and skills."]
+  },
+  "about": {
+    "_comment": "About Me section content.",
+    "title": "About Me",
+    "text": "A passionate and proficient Software Engineer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. I specialize in creating responsive, accessible, and optimized web applications. With experience in collaborating with designers and developers, I excel at transforming project requirements into high-quality, user-friendly interfaces. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
+    "image": "images/Profile1.jpg"
+  },
+  "skills": {
+    "_comment": "Skills section content.",
+    "title": "My Skills",
+    "proficient_technologies": [
+      "HTML",
+      "CSS",
+      "Scss",
+      "Bootstrap",
+      "Media Query",
+      "Figma to HTML",
+      "PSD to HTML",
+      "AI to HTML",
+      "JavaScript",
+      "Litmus",
+      "Mailchimp",
+      "ADA Compliance"
+    ],
+    "familiar_technologies": [
+      "Advance JavaScript"
+    ],
+    "tools": [
+      "Git & GitHub",
+      "VS Code",
+      "Visual Studio Code"
+    ],
+    "soft_skills": [
+      "Problem Solving",
+      "Communication",
+      "Teamwork & Collaboration",
+      "Time Management & Organization",
+      "Adaptability & Learning"
+    ]
+  },
+  "services": {
+    "_comment": "Services section content.",
+    "title": "Services",
+    "items": [
+      { "icon": "fas fa-palette", "title": "Web Design", "text": "I create beautiful and functional websites that are tailored to your needs." },
+      { "icon": "fas fa-code", "title": "Web Development", "text": "I build responsive and interactive websites using the latest technologies." },
+      { "icon": "fas fa-magnifying-glass-chart", "title": "SEO Optimization", "text": "I can help you improve your website's ranking on search engines." },
+      { "icon": "fab fa-accessible-icon", "title": "ADA Compliance", "text": "I ensure websites are accessible to people with disabilities, following WCAG guidelines." },
+      { "icon": "fas fa-envelope-open-text", "title": "Emailer Design", "text": "I design and develop responsive email templates for your marketing campaigns." }
+    ]
+  },
+  "experience": {
+    "_comment": "Experience section content.",
+    "title": "Experience",
+    "summary": "With a solid background as an HTML Developer and Software Engineer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
+    "jobs": [
+      {
+        "company": "Funex",
+        "title": "Software Engineer",
+        "duration": "April 2024 - Aug 2025",
+        "location": "India",
+        "responsibilities": [
+          "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
+          "Collaborating with designers, developers, and other stakeholders to understand project requirements and deliverables.",
+          "Ensuring that web pages and web applications are responsive, accessible, and optimized for different browsers and devices, including adhering to ADA Compliance Standards.",
+          "Creating and managing web page templates, layout designs, and user interfaces using HTML, CSS, and JavaScript frameworks.",
+          "Implementing and testing email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
+          "Keeping up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
+          "Performing code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
+        ]
+      },
+      {
+        "company": "Xenelsoft Technologies Private Limited",
+        "title": "HTML Developer",
+        "duration": "May 2023 - March 2024",
+        "location": "Noida, India",
+        "responsibilities": [
+          "Developed and maintained HTML, CSS, and JavaScript for various web projects.",
+          "Contributed to projects like Byzfunder, ThePhix, Gloria Agency, Green Light Finance, and Taxi Transfer."
+        ]
+      },
+      {
+        "company": "Q2A Media",
+        "title": "HTML Developer",
+        "duration": "Apr 2022 - May 2023",
+        "location": "Noida, India",
+        "responsibilities": [
+          "Developed and maintained HTML, CSS, and JavaScript for various web projects.",
+          "Contributed to projects like Lift Learning, Speki, and Naylor."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "_comment": "Projects section content. The actual project data is in projects.json.",
+    "title": "Projects",
+    "tabs": [
+      { "id": "all", "text": "All Projects" },
+      { "id": "Q2A", "text": "Q2A Media" },
+      { "id": "Xenelsoft", "text": "Xenelsoft Technology" },
+      { "id": "Funex", "text": "Funex" },
+      { "id": "Freelancing", "text": "Freelancing" }
+    ],
+    "data_file": "js/projects.json"
+  },
+  "testimonials": {
+    "_comment": "Testimonials section content.",
+    "title": "Testimonials",
+    "items": [
+      { "image": "https://picsum.photos/150/150?random=5", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "John Doe", "company": "Company" },
+      { "image": "https://picsum.photos/150/150?random=6", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "Jane Smith", "company": "Another Company" },
+      { "image": "https://picsum.photos/150/150?random=7", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "Peter Jones", "company": "Third Company" }
+    ]
+  },
+  "contact": {
+    "_comment": "Contact Me section content.",
+    "title": "Contact Me",
+    "form": {
+      "name_label": "Name",
+      "email_label": "Email",
+      "message_label": "Message",
+      "submit_button": "Submit"
+    }
+  },
+  "footer": {
+    "_comment": "Footer content.",
+    "text": "&copy; 2025 My Portfolio"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "Xenelsoft": [
+    {
+      "title": "Byzfunder",
+      "description": "ByzFunder offers fast, simple, and secure short-term financing for small businesses in the US, providing up to $500,000 within 24 hours of application.",
+      "image": "https://byzfunder.com/wp-content/uploads/2023/09/logo.png",
+      "link": "http://byzfunder.com/",
+      "company": "Xenelsoft"
+    },
+    {
+      "title": "ThePhix",
+      "description": "Thephix.co sells organic, vegan, cruelty-free, and pH-balanced skincare products. The website features various products like cleansers, serums, eye creams, moisturizers, toners, and SPF.",
+      "image": "https://thephix.co/cdn/shop/files/logo_1.png?v=1745564245&width=270",
+      "link": "https://thephix.co/",
+      "company": "Xenelsoft"
+    },
+    {
+      "title": "Gloria Agency",
+      "description": "The Gloria Agency provides assistance with Medicare options, supplemental insurance, health insurance, and Social Security planning in Rockford, IL.",
+      "image": "https://storagesnoozzybs20.blob.core.windows.net/bc-web/uploads%5C2024%5C12%5CGloriaLogo.png?sv=2018-03-28&sr=b&sig=4zKV6pQvDTakQWzb9TvsY8dMAOu3phTpMyByj3wYWOs%3D&se=2025-09-19T04%3A06%3A07Z&sp=r&rscd=inline",
+      "link": "https://thegloriaagency1.com/",
+      "company": "Xenelsoft"
+    },
+    {
+      "title": "Green Light Finance",
+      "description": "Greenlight Financial is a Miami-based accounting firm offering bookkeeping, tax preparation, tax planning, international business, company registration, and business management services.",
+      "image": "https://greenlightfinancial.net/wp-content/uploads/2024/09/greenlight_logo_white-2.png",
+      "link": "https://greenlightfinancial.net/",
+      "company": "Xenelsoft"
+    },
+    {
+      "title": "Taxi Transfer",
+      "description": "Taxi Transfer Solutions offers 24-hour taxi and minicab services, including airport transfers to major UK airports, corporate transfers, and private hire.",
+      "image": "https://taxitransfersolutions.co.uk/wp-content/uploads/2023/12/logo-6.png",
+      "link": "https://taxitransfersolutions.co.uk/",
+      "company": "Xenelsoft"
+    }
+  ],
+  "Q2A": [
+    {
+      "title": "Lift Learning",
+      "description": "LiFT Learning offers a project-based learning and skills assessment platform designed to help schools and districts implement learner-centered systems.",
+      "image": "https://liftlearning.com/wp-content/uploads/2020/09/LiFT-Learning-Logo-300.svg",
+      "link": "https://liftlearning.com/",
+      "company": "Q2A"
+    },
+    {
+      "title": "Speki",
+      "description": "Speki.org is an AI-powered technology platform that focuses on personalized education, corporate training, and workforce development. It aims to upskill and place veterans into rewarding careers.",
+      "image": "https://cdn.durable.co/blocks/3akMNuz2In6w6tFtrudB6t9BZKgRd3vNGhbJ5yZc3oqszimEwdTjNj8auc5C5vt8.jpg",
+      "link": "https://www.speki.org/",
+      "company": "Q2A"
+    },
+    {
+      "title": "Naylor",
+      "description": "Naylor Association Solutions helps associations increase engagement and non-dues revenue through various services like member communications, content creation, and event management.",
+      "image": "https://www.naylor.com/wp-content/uploads/2023/04/Naylor-Association-Solutions-Logo-4C.svg",
+      "link": "https://www.naylor.com/",
+      "company": "Q2A"
+    }
+  ],
+  "Funex": [
+    {
+      "title": "Funex",
+      "description": "Funex.com offers discount tickets for various attractions, theme parks, movies, hotels, rental cars, cruises, and shopping deals.",
+      "image": "https://res.cloudinary.com/funex/image/upload/v1716864847/funex-Logo_ljcp1u.svg?v=funexpress",
+      "link": "http://funex.com/",
+      "company": "Funex"
+    },
+    {
+      "title": "Great Work Perks",
+      "description": "Great Work Perks offers an employee discount program used by over 20,000 companies, providing exclusive deals on shopping, travel, entertainment, and more.",
+      "image": "https://www.greatworkperks.com/static/images/icons/GWP-logo.svg",
+      "link": "https://greatworkperks.com/",
+      "company": "Funex"
+    },
+    {
+      "title": "Travel Agency Outlet",
+      "description": "A global travel distribution platform for travel agents and tour operators, offering discounted tickets to theme parks and city passes. It provides access to global attractions, flexible cancellations, exclusive agent discounts, and dedicated customer support.",
+      "image": "https://res.cloudinary.com/greatperks/image/upload/v1742822814/Logo_hjfbyv.png",
+      "link": "https://www.travelagencyoutlet.com/",
+      "company": "Funex"
+    }
+  ],
+  "Freelancing": [
+    {
+      "title": "Job Crafters",
+      "description": "Job Crafter is an education and job placement consultation service that aims to make individuals competent and employable by securing 100% job placement in their dream country.",
+      "image": "https://jobcrafters.in/wp-content/uploads/2024/02/logo-Jobcrafter-2-1.png",
+      "link": "https://jobcrafters.in/",
+      "company": "Freelancing"
+    }
+  ]
+}
