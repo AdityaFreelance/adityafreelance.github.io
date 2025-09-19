@@ -217,7 +217,7 @@ function populateProjects(projectsData) {
                     <div class="card h-100">
                         <img src="${project.image}" class="card-img-top project-logo" alt="Logo for ${project.title}">
                         <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">${project.title}</h5>
+                            <h3 class="card-title">${project.title}</h3>
                             <p class="card-text flex-grow-1">${project.description}</p>
                             <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank">View Project</a>
                         </div>
