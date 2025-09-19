@@ -93,8 +93,8 @@ function populateContent(data) {
             experienceContainer.innerHTML += `
                 <div class="card mb-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
-                        <h5 class="card-title">${job.title}</h5>
-                        <h6 class="card-subtitle mb-2">${job.company} | ${job.duration} | ${job.location}</h6>
+                        <h3 class="card-title">${job.title}</h3>
+                        <h4 class="card-subtitle mb-2">${job.company} | ${job.duration} | ${job.location}</h4>
                         <ul>
                             ${job.responsibilities.map(responsibility => `<li>${responsibility}</li>`).join('')}
                         </ul>
