@@ -76,7 +76,7 @@ h2 {
 /* Layout */
 .hero-section {
     padding: 8rem 0;
-    background: url('https://picsum.photos/1600/600?random=7') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x600/?coding,technology') no-repeat center center/cover;
     position: relative;
     color: var(--white-color);
 }
@@ -107,7 +107,7 @@ footer {
 section {
     padding: 4rem 0;
     background-color: var(--background-color);
-    margin-bottom: 2rem;
+    margin-bottom: 0rem !important;
     border-radius: 8px;
     box-shadow: 0 0.25rem 0.75rem var(--section-shadow-color);
 }
@@ -278,4 +278,90 @@ section:last-of-type {
     object-fit: cover;
     display: block;
     margin: auto;
+}
+
+/* Responsive Design */
+
+@media (max-width: 992px) {
+    .hero-section {
+        padding: 6rem 0;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 3rem 0;
+    }
+
+    .hero-section {
+        padding: 5rem 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-image {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 2rem;
+    }
+
+    #skills .col-md-6 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 2rem 0;
+    }
+
+    .hero-section {
+        padding: 4rem 0;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    .about-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-link {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    color: var(--white-color);
+    transition: color 0.3s;
+}
+
+.social-link:hover {
+    color: var(--primary-hover-color);
+}
+
+footer p, footer .social-link {
+    color: #ffffff !important;
 }

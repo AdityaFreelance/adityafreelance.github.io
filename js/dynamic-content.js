@@ -1,5 +1,4 @@
 function populateContent(data) {
-    console.log('populateContent started');
     // Navigation
     if (data.navigation) {
         document.querySelector('.navbar-brand').textContent = data.navigation.brand;
@@ -101,7 +100,6 @@ function populateContent(data) {
 
     // Projects (Tabs)
     if (data.projects) {
-        console.log('Populating project tabs');
         document.getElementById('projects-title').textContent = data.projects.title;
         const projectTabs = document.getElementById('projectTabs');
         projectTabs.innerHTML = '';
@@ -113,7 +111,6 @@ function populateContent(data) {
                 </li>
             `;
         });
-        console.log('Project tabs populated');
     }
 
     // Testimonials
@@ -144,50 +141,65 @@ function populateContent(data) {
 
     // Footer
     if (data.footer) {
-        document.querySelector('footer p').innerHTML = data.footer.text;
+        const footer = document.getElementById('main-footer');
+        footer.innerHTML = ''; // Clear the footer
+
+        if (data.footer.social_links) {
+            const socialLinksContainer = document.createElement('ul');
+            socialLinksContainer.classList.add('d-flex', 'align-items-center', 'justify-content-center', 'mb-3');
+            socialLinksContainer.style.gap = '1rem';
+            socialLinksContainer.style.listStyle = 'none';
+            socialLinksContainer.style.padding = '0';
+            data.footer.social_links.forEach(link => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = link.href;
+                a.classList.add('social-link');
+                a.target = '_blank';
+                const i = document.createElement('i');
+                i.className = link.icon;
+                a.appendChild(i);
+                li.appendChild(a);
+                socialLinksContainer.appendChild(li);
+            });
+            footer.appendChild(socialLinksContainer);
+        }
+
+        const copyrightP = document.createElement('p');
+        copyrightP.innerHTML = data.footer.text;
+        footer.appendChild(copyrightP);
     }
-    console.log('populateContent finished');
 }
 
-function populateProjects(projectsData, projectTabsData) {
-    console.log('populateProjects started');
-    let allProjectsData = projectsData;
+function populateProjects(projectsData) {
     const projectsContainer = document.getElementById('projects-container');
     const projectTabs = document.getElementById('projectTabs');
+    const loadMoreContainer = document.getElementById('load-more-container');
+    let currentFilter = 'all';
+    const expandedState = {};
 
-    // Populate project tabs
-    if (projectTabsData) {
-        console.log('Populating project tabs in populateProjects');
-        projectTabs.innerHTML = '';
-        projectTabsData.forEach((tab, index) => {
-            const activeClass = (index === 0) ? 'active' : '';
-            projectTabs.innerHTML += `
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link ${activeClass}" id="${tab.id}-tab" type="button" role="tab" data-company="${tab.id}">${tab.text}</button>
-                </li>
-            `;
-        });
-        console.log('Project tabs populated in populateProjects');
+    // Initialize expanded state
+    for (const company in projectsData) {
+        expandedState[company] = false;
     }
+    expandedState['all'] = false;
 
-    function renderProjects(filter = 'all') {
-        console.log('renderProjects started with filter:', filter);
-        if (!projectsContainer) {
-            console.log('projectsContainer not found');
-            return;
-        }
 
+    function renderProjects() {
         let projectsToRender = [];
-        if (filter === 'all') {
-            for (const company in allProjectsData) {
-                projectsToRender = projectsToRender.concat(allProjectsData[company]);
+        if (currentFilter === 'all') {
+            for (const company in projectsData) {
+                projectsToRender = projectsToRender.concat(projectsData[company]);
             }
         } else {
-            projectsToRender = allProjectsData[filter] || [];
+            projectsToRender = projectsData[currentFilter] || [];
         }
 
+        const isExpanded = expandedState[currentFilter];
+        const projectsToShow = isExpanded ? projectsToRender : projectsToRender.slice(0, 3);
+
         projectsContainer.innerHTML = ''; // Clear existing projects
-        projectsToRender.forEach(project => {
+        projectsToShow.forEach(project => {
             const projectCard = `
                 <div class="col-md-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="card h-100">
@@ -202,42 +214,73 @@ function populateProjects(projectsData, projectTabsData) {
             `;
             projectsContainer.innerHTML += projectCard;
         });
-        console.log('renderProjects finished. Projects rendered:', projectsToRender.length);
+
+        // Render Load More/Less button
+        loadMoreContainer.innerHTML = '';
+        if (projectsToRender.length > 3) {
+            const buttonText = isExpanded ? 'Load Less' : 'Load More';
+            const loadMoreButton = `<button id="load-more-btn" class="btn btn-primary">${buttonText}</button>`;
+            loadMoreContainer.innerHTML = loadMoreButton;
+        }
     }
 
-    renderProjects(); // Render all projects initially
+    // Initial render
+    renderProjects();
 
+    // Event listener for tabs
     if (projectTabs) {
         projectTabs.addEventListener('click', function(event) {
-            console.log('Tab clicked');
             const clickedButton = event.target.closest('[data-company]');
             if (clickedButton) {
-                event.preventDefault(); // Prevent default tab behavior
+                event.preventDefault();
 
-                // Handle active state
                 const allTabs = projectTabs.querySelectorAll('[data-company]');
                 allTabs.forEach(tab => tab.classList.remove('active'));
                 clickedButton.classList.add('active');
 
-                const company = clickedButton.getAttribute('data-company');
-                renderProjects(company);
+                currentFilter = clickedButton.getAttribute('data-company');
+                renderProjects();
             }
         });
     }
-    console.log('populateProjects finished');
+
+    // Event listener for Load More/Less button
+    if (loadMoreContainer) {
+        loadMoreContainer.addEventListener('click', function(event) {
+            if (event.target.id === 'load-more-btn') {
+                expandedState[currentFilter] = !expandedState[currentFilter];
+                renderProjects();
+            }
+        });
+    }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOMContentLoaded fired');
     Promise.all([
         fetch('data/content.json').then(response => response.json()),
         fetch('data/projects.json').then(response => response.json())
     ])
     .then(([contentData, projectsData]) => {
-        console.log('Data fetched successfully');
         populateContent(contentData);
-        populateProjects(projectsData, contentData.projects.tabs);
-        console.log('populateContent and populateProjects called');
+        populateProjects(projectsData);
     })
     .catch(error => console.error('Error fetching data:', error));
+
+    const contactForm = document.querySelector('#contact form');
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        
+        const whatsappMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+        const encodedMessage = encodeURIComponent(whatsappMessage);
+        
+        const phoneNumber = '918545845171';
+        
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+        
+        window.location.href = whatsappURL;
+    });
 });

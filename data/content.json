@@ -2,20 +2,19 @@
   "_comment": "This file contains all the content for the portfolio website.",
   "navigation": {
     "_comment": "Navigation bar content.",
-    "brand": "Portfolio",
+    "brand": "Aditya",
     "links": [
       { "text": "About", "href": "#about" },
       { "text": "Skills", "href": "#skills" },
       { "text": "Services", "href": "#services" },
       { "text": "Experience", "href": "#experience" },
       { "text": "Projects", "href": "#projects" },
-      { "text": "Testimonials", "href": "#testimonials" },
       { "text": "Contact", "href": "#contact" }
     ]
   },
   "hero": {
     "_comment": "Hero section with the typed text.",
-    "typed_text": ["Welcome to My Portfolio", "A showcase of my work and skills."]
+    "typed_text": ["HTML Developer", "Front End Developer", "UI Developer"]
   },
   "about": {
     "_comment": "About Me section content.",
@@ -58,13 +57,12 @@
   },
   "services": {
     "_comment": "Services section content.",
-    "title": "Services",
+    "title": "Services I Offer",
     "items": [
-      { "icon": "fas fa-palette", "title": "Web Design", "text": "I create beautiful and functional websites that are tailored to your needs." },
-      { "icon": "fas fa-code", "title": "Web Development", "text": "I build responsive and interactive websites using the latest technologies." },
-      { "icon": "fas fa-magnifying-glass-chart", "title": "SEO Optimization", "text": "I can help you improve your website's ranking on search engines." },
-      { "icon": "fab fa-accessible-icon", "title": "ADA Compliance", "text": "I ensure websites are accessible to people with disabilities, following WCAG guidelines." },
-      { "icon": "fas fa-envelope-open-text", "title": "Emailer Design", "text": "I design and develop responsive email templates for your marketing campaigns." }
+      { "icon": "fas fa-code", "title": "Web Development", "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap." },
+      { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces." },
+      { "icon": "fas fa-envelope-open-text", "title": "Email Marketing", "text": "Creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp." },
+      { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." }
     ]
   },
   "experience": {
@@ -75,7 +73,7 @@
       {
         "company": "Funex",
         "title": "Software Engineer",
-        "duration": "April 2024 - Aug 2025",
+        "duration": "April 2024 - Present",
         "location": "India",
         "responsibilities": [
           "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
@@ -132,16 +130,22 @@
   },
   "contact": {
     "_comment": "Contact Me section content.",
-    "title": "Contact Me",
+    "title": "Get in Touch",
     "form": {
       "name_label": "Name",
       "email_label": "Email",
       "message_label": "Message",
-      "submit_button": "Submit"
+      "submit_button": "Send Message"
     }
   },
   "footer": {
     "_comment": "Footer content.",
-    "text": "&copy; 2025 My Portfolio"
+    "text": "Copyright © 2025 By Aditya",
+    "social_links": [
+        { "icon": "fas fa-envelope", "href": "mailto:adityapksingh2014@gmail.com" },
+        { "icon": "fab fa-linkedin", "href": "https://www.linkedin.com/in/aditya-html22/" },
+        { "icon": "fas fa-phone", "href": "tel:+919198005474" },
+        { "icon": "fab fa-whatsapp", "href": "https://wa.me/918545845171" }
+    ]
   }
 }
