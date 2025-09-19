@@ -130,7 +130,7 @@ function populateContent(data) {
         data.testimonials.items.forEach(item => {
             testimonialSlider.innerHTML += `
                 <div class="testimonial-item">
-                    <img src="${item.image}" class="rounded-circle" alt="Testimonial Image">
+                    <img src="${item.image}" class="rounded-circle" alt="Photo of ${item.author}">
                     <p>"${item.text}"</p>
                     <footer class="blockquote-footer">${item.author}, <cite title="Source Title">${item.company}</cite></footer>
                 </div>
@@ -215,7 +215,7 @@ function populateProjects(projectsData) {
             const projectCard = `
                 <div class="col-md-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="card h-100">
-                        <img src="${project.image}" class="card-img-top project-logo" alt="${project.title} Logo">
+                        <img src="${project.image}" class="card-img-top project-logo" alt="Logo for ${project.title}">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">${project.title}</h5>
                             <p class="card-text flex-grow-1">${project.description}</p>
