@@ -72,7 +72,7 @@ function populateContent(data) {
                     <div class="card text-center h-100">
                         <div class="card-body h-100">
                             <i class="${service.icon} service-icon"></i>
-                            <h5 class="card-title">${service.title}</h5>
+                            <h3 class="card-title">${service.title}</h3>
                             <p class="card-text">${service.text}</p>
                         </div>
                     </div>
