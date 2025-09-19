@@ -29,6 +29,9 @@ function populateContent(data) {
     // Skills
     if (data.skills) {
         document.getElementById('skills-title').textContent = data.skills.title;
+        if (data.skills.skills_summary) {
+            document.getElementById('skills-summary').textContent = data.skills.skills_summary;
+        }
         
         const proficientTechList = document.getElementById('proficient-tech-list');
         proficientTechList.innerHTML = '';
@@ -58,6 +61,9 @@ function populateContent(data) {
     // Services
     if (data.services) {
         document.getElementById('services-title').textContent = data.services.title;
+        if (data.services.services_summary) {
+            document.getElementById('services-summary').textContent = data.services.services_summary;
+        }
         const servicesContainer = document.getElementById('services-container');
         servicesContainer.innerHTML = '';
         data.services.items.forEach(service => {
@@ -101,6 +107,9 @@ function populateContent(data) {
     // Projects (Tabs)
     if (data.projects) {
         document.getElementById('projects-title').textContent = data.projects.title;
+        if (data.projects.projects_summary) {
+            document.getElementById('projects-summary').textContent = data.projects.projects_summary;
+        }
         const projectTabs = document.getElementById('projectTabs');
         projectTabs.innerHTML = '';
         data.projects.tabs.forEach((tab, index) => {
@@ -133,6 +142,9 @@ function populateContent(data) {
     // Contact
     if (data.contact) {
         document.getElementById('contact-title').textContent = data.contact.title;
+        if (data.contact.contact_summary) {
+            document.getElementById('contact-summary').textContent = data.contact.contact_summary;
+        }
         document.getElementById('name-label').textContent = data.contact.form.name_label;
         document.getElementById('email-label').textContent = data.contact.form.email_label;
         document.getElementById('message-label').textContent = data.contact.form.message_label;

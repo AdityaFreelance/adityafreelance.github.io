@@ -25,6 +25,7 @@
   "skills": {
     "_comment": "Skills section content.",
     "title": "My Skills",
+    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, and Bootstrap, and have experience with JavaScript and jQuery. I am also familiar with design tools like Figma and ensuring web accessibility through ADA compliance.",
     "proficient_technologies": [
       "HTML",
       "CSS",
@@ -58,6 +59,7 @@
   "services": {
     "_comment": "Services section content.",
     "title": "Services I Offer",
+    "services_summary": "I offer a range of services including developing and maintaining responsive and accessible web pages, creating and managing web page templates, and implementing and testing email campaigns. I am a collaborative team player who can work with designers and developers to deliver high-quality web applications.",
     "items": [
       { "icon": "fas fa-code", "title": "Web Development", "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap." },
       { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces." },
@@ -110,6 +112,7 @@
   "projects": {
     "_comment": "Projects section content. The actual project data is in projects.json.",
     "title": "Projects",
+    "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects. These projects have allowed me to hone my skills in HTML, CSS, and JavaScript, and have given me experience in building and deploying web applications. You can see some of my work below.",
     "tabs": [
       { "id": "all", "text": "All Projects" },
       { "id": "Q2A", "text": "Q2A Media" },
@@ -131,6 +134,7 @@
   "contact": {
     "_comment": "Contact Me section content.",
     "title": "Get in Touch",
+    "contact_summary": "I am always open to new opportunities and collaborations. If you have a project in mind or would like to connect, please feel free to reach out to me. I look forward to hearing from you.",
     "form": {
       "name_label": "Name",
       "email_label": "Email",
