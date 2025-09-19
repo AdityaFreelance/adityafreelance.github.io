@@ -18,7 +18,9 @@
     --section-shadow-color: rgba(0, 0, 0, 0.1);
     --nav-link-color: #ffffff;
 }
-
+html{
+    overflow-x: hidden !important;
+}
 body {
     font-family: 'Roboto Mono', monospace;
     font-size: 1rem;
@@ -142,7 +144,7 @@ section:nth-of-type(even) {
 }
 
 .navbar-dark .navbar-brand {
-    color: var(--white-color);
+    color: var(--white-color) !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
