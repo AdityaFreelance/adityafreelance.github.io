@@ -46,6 +46,7 @@ h6 {
 
 p,
 li {
+    font-size: 1.1rem;
     color: var(--white-color) !important;
 }
 
@@ -63,6 +64,10 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
 }
 
 /* Card Styling */
@@ -320,6 +325,18 @@ section:last-of-type {
     h2 {
         font-size: 1.8rem;
     }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p, li {
+        font-size: 1.0rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -337,6 +354,18 @@ section:last-of-type {
 
     h2 {
         font-size: 1.6rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.0rem;
+    }
+
+    p, li {
+        font-size: 0.9rem;
     }
 
     .about-image {
@@ -365,6 +394,18 @@ section:last-of-type {
 
     h2 {
         font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 0.9rem;
+    }
+
+    p, li {
+        font-size: 0.8rem;
     }
 
     .about-image {
