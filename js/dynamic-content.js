@@ -303,7 +303,7 @@ function populateFAQ(faqData) {
         const show = index === 0 ? 'show' : '';
         const collapsed = index === 0 ? '' : 'collapsed';
         faqAccordion.innerHTML += `
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="accordion-header" id="heading${index}">
                     <button class="accordion-button ${collapsed}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="${expanded}" aria-controls="collapse${index}">
                         ${faq.question}
