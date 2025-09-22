@@ -20,7 +20,7 @@
   "about": {
     "_comment": "About Me section content.",
     "title": "About Me",
-    "text": "A passionate and proficient Software Engineer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. I specialize in creating responsive, accessible, and optimized web applications. With experience in collaborating with designers and developers, I excel at transforming project requirements into high-quality, user-friendly interfaces. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
+    "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With experience in collaborating with designers and developers, I excel at transforming project requirements into high-quality, user-friendly interfaces, including Figma to HTML conversions. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
     "image": "images/Profile1.jpg"
   },
   "skills": {
@@ -63,7 +63,7 @@
     "services_summary": "I offer a range of services including developing and maintaining responsive and accessible web pages, creating and managing web page templates, and implementing and testing email campaigns. I am a collaborative team player who can work with designers and developers to deliver high-quality web applications.",
     "items": [
       { "icon": "fas fa-code", "title": "Web Development", "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap." },
-      { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces." },
+      { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces, including Figma to HTML." },
       { "icon": "fas fa-envelope-open-text", "title": "Email Marketing", "text": "Creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp." },
       { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." }
     ]
@@ -71,7 +71,7 @@
   "experience": {
     "_comment": "Experience section content.",
     "title": "Experience",
-    "summary": "With a solid background as an HTML Developer and Software Engineer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
+    "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
     "jobs": [
       {
         "company": "Funex",

@@ -3,9 +3,10 @@ function populateContent(data) {
     if (data.navigation) {
         document.querySelector('.navbar-brand').textContent = data.navigation.brand;
         const navLinks = document.querySelector('.navbar-nav');
+        navLinks.setAttribute('role', 'menu');
         navLinks.innerHTML = '';
         data.navigation.links.forEach(link => {
-            navLinks.innerHTML += `<li class="nav-item"><a class="nav-link" href="${link.href}">${link.text}</a></li>`;
+            navLinks.innerHTML += `<li class="nav-item" role="menuitem"><a class="nav-link" href="${link.href}">${link.text}</a></li>`;
         });
     }
 
@@ -114,9 +115,10 @@ function populateContent(data) {
         projectTabs.innerHTML = '';
         data.projects.tabs.forEach((tab, index) => {
             const activeClass = (index === 0) ? 'active' : '';
+            const ariaSelected = (index === 0) ? 'true' : 'false';
             projectTabs.innerHTML += `
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link ${activeClass}" id="${tab.id}-tab" type="button" role="tab" data-company="${tab.id}">${tab.text}</button>
+                    <button class="nav-link ${activeClass}" id="${tab.id}-tab" type="button" role="tab" data-company="${tab.id}" aria-selected="${ariaSelected}">${tab.text}</button>
                 </li>
             `;
         });

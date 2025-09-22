@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adityafreelance.github.io/Gemini_New/sitemap.xml
