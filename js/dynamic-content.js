@@ -278,15 +278,29 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     .catch(error => console.error('Error fetching data:', error));
 
-    const contactForm = document.querySelector('#contact form');
+    const contactForm = document.querySelector('#contact-form');
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
         
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const message = document.getElementById('message').value.trim();
+        const errorMessage = document.getElementById('error-message');
         
-        const whatsappMessage = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
+        errorMessage.textContent = '';
+
+        if (name === '' || email === '' || message === '') {
+            errorMessage.textContent = 'All fields are required.';
+            return;
+        }
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            errorMessage.textContent = 'Please enter a valid email address.';
+            return;
+        }
+        
+        const whatsappMessage = `Name: ${name}\\nEmail: ${email}\\nMessage: ${message}`;
         const encodedMessage = encodeURIComponent(whatsappMessage);
         
         const phoneNumber = '918545845171';

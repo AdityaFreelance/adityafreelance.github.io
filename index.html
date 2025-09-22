@@ -151,21 +151,24 @@
             <div class="container">
                 <h2 id="contact-title" class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2>
                 <p id="contact-summary" class="text-center mb-4"></p>
+                <div id="error-message" class="text-danger mb-3"></div>
                 <!-- Contact form -->
-                <form method="post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <form id="contact-form" method="post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="mb-3">
                         <label id="name-label" for="name" class="form-label"></label>
-                        <input type="text" class="form-control" id="name" name="name">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="mb-3">
                         <label id="email-label" for="email" class="form-label"></label>
-                        <input type="email" class="form-control" id="email" name="email">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
                     </div>
                     <div class="mb-3">
                         <label id="message-label" for="message" class="form-label"></label>
-                        <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+                        <textarea class="form-control" id="message" rows="3" name="message" placeholder="Your Message" required></textarea>
                     </div>
-                    <button id="submit-button" type="submit" class="btn btn-primary"></button>
+                    <div class="text-center">
+                        <button id="submit-button" type="submit" class="btn btn-primary"></button>
+                    </div>
                 </form>
             </div>
         </section>
