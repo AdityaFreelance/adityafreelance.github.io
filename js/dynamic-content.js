@@ -267,14 +267,42 @@ function populateProjects(projectsData) {
     }
 }
 
+function populateFAQ(faqData) {
+    document.getElementById('faq-title').textContent = faqData.title;
+    document.getElementById('faq-summary').textContent = faqData.summary;
+    const faqAccordion = document.getElementById('faqAccordion');
+    faqAccordion.innerHTML = '';
+    faqData.faqs.forEach((faq, index) => {
+        const expanded = index === 0 ? 'true' : 'false';
+        const show = index === 0 ? 'show' : '';
+        const collapsed = index === 0 ? '' : 'collapsed';
+        faqAccordion.innerHTML += `
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="heading${index}">
+                    <button class="accordion-button ${collapsed}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="${expanded}" aria-controls="collapse${index}">
+                        ${faq.question}
+                    </button>
+                </h2>
+                <div id="collapse${index}" class="accordion-collapse collapse ${show}" aria-labelledby="heading${index}" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        ${faq.answer}
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     Promise.all([
         fetch('data/content.json').then(response => response.json()),
-        fetch('data/projects.json').then(response => response.json())
+        fetch('data/projects.json').then(response => response.json()),
+        fetch('data/faq.json').then(response => response.json())
     ])
-    .then(([contentData, projectsData]) => {
+    .then(([contentData, projectsData, faqData]) => {
         populateContent(contentData);
         populateProjects(projectsData);
+        populateFAQ(faqData);
     })
     .catch(error => console.error('Error fetching data:', error));
 

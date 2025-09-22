@@ -146,6 +146,17 @@
             </div>
         </section>
 
+        <!-- FAQ section -->
+        <section id="faq" class="mb-0">
+            <div class="container">
+                <h2 id="faq-title" class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2>
+                <p id="faq-summary" class="text-center mb-4"></p>
+                <div class="accordion" id="faqAccordion">
+                    <!-- FAQ items will be loaded here dynamically -->
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Me section -->
         <section id="contact">
             <div class="container">
@@ -188,6 +199,57 @@
     <!-- Custom script -->
     <script src="js/dynamic-content.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.onLoad = function(){
+        // Pre-fill visitor information from the contact form
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+
+        let attributes = {};
+        if (name) {
+            attributes.name = name;
+        }
+        if (email) {
+            attributes.email = email;
+        }
+
+        // Add custom attributes
+        attributes['Services'] = 'Web Development, UI/UX Implementation, Email Marketing, Accessibility (ADA Compliance)';
+        attributes['Skills'] = 'HTML, CSS, Scss, Bootstrap, Media Query, Figma to HTML, PSD to HTML, AI to HTML, JavaScript, Litmus, Mailchimp, ADA Compliance';
+
+        window.Tawk_API.setAttributes(attributes, function(error){
+            if (error) {
+                console.error('Tawk.to setAttributes error:', error);
+            }
+        });
+
+        // Listen for changes on the name and email fields
+        document.getElementById('name').addEventListener('input', function(e) {
+            window.Tawk_API.setAttributes({
+                'name': e.target.value
+            });
+        });
+        document.getElementById('email').addEventListener('input', function(e) {
+            window.Tawk_API.setAttributes({
+                'email': e.target.value
+            });
+        });
+    };
+</script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/68d123cdfd9f9e1925e405a9/1j5of7n81';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 
 </html>

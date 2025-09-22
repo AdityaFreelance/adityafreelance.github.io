@@ -1,0 +1,50 @@
+{
+  "title": "Frequently Asked Questions",
+  "summary": "Here are some frequently asked questions about me and my work. If you have any other questions, please feel free to contact me.",
+  "faqs": [
+    {
+      "question": "What services do you offer?",
+      "answer": "I offer a range of services including Web Development, UI/UX Implementation, Email Marketing, and ensuring Accessibility (ADA Compliance)."
+    },
+    {
+      "question": "What are your proficient technologies?",
+      "answer": "I am proficient in HTML, CSS, Scss, Bootstrap, Media Query, Figma to HTML, PSD to HTML, AI to HTML, JavaScript, Litmus, Mailchimp, and ADA Compliance."
+    },
+    {
+      "question": "What are you familiar with?",
+      "answer": "I am familiar with Advance JavaScript."
+    },
+    {
+      "question": "What tools do you use?",
+      "answer": "I use Git & GitHub for version control and VS Code as my primary code editor."
+    },
+    {
+      "question": "What are your soft skills?",
+      "answer": "My soft skills include Problem Solving, Communication, Teamwork & Collaboration, Time Management & Organization, and Adaptability & Learning."
+    },
+    {
+      "question": "What is your experience as a Software Engineer?",
+      "answer": "I am currently a Software Engineer at Funex, where I develop, test, and maintain web pages and applications. I collaborate with designers and developers to ensure our products are responsive, accessible, and optimized."
+    },
+    {
+      "question": "What kind of projects have you worked on?",
+      "answer": "I have worked on a variety of web development projects, including Byzfunder, ThePhix, Gloria Agency, Green Light Finance, and Taxi Transfer."
+    },
+    {
+      "question": "Are you available for freelance projects?",
+      "answer": "Yes, I am open to new opportunities and collaborations, including freelance projects. Please feel free to reach out to me through the contact form."
+    },
+    {
+      "question": "How can I contact you?",
+      "answer": "You can contact me by filling out the contact form on this website, or through my social media links in the footer."
+    },
+    {
+      "question": "What is your approach to web development?",
+      "answer": "I focus on creating responsive, accessible, and optimized web applications. I enjoy collaborating with teams to transform project requirements into high-quality, user-friendly interfaces."
+    },
+    {
+      "question": "Do you have experience with accessibility (ADA Compliance)?",
+      "answer": "Yes, I have experience in ensuring that web pages and web applications are accessible to people with disabilities by adhering to ADA Compliance Standards."
+    }
+  ]
+}
