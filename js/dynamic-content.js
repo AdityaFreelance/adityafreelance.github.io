@@ -3,10 +3,9 @@ function populateContent(data) {
     if (data.navigation) {
         document.querySelector('.navbar-brand').textContent = data.navigation.brand;
         const navLinks = document.querySelector('.navbar-nav');
-        navLinks.setAttribute('role', 'menu');
         navLinks.innerHTML = '';
         data.navigation.links.forEach(link => {
-            navLinks.innerHTML += `<li class="nav-item" role="menuitem"><a class="nav-link" href="${link.href}">${link.text}</a></li>`;
+            navLinks.innerHTML += `<li class="nav-item"><a class="nav-link" href="${link.href}">${link.text}</a></li>`;
         });
     }
 
@@ -25,6 +24,16 @@ function populateContent(data) {
         document.getElementById('about-title').textContent = data.about.title;
         document.getElementById('about-text').textContent = data.about.text;
         document.getElementById('about-image').src = data.about.image;
+
+        if (data.about.resume) {
+            const aboutButtonContainer = document.getElementById('about-button-container');
+            const resumeButton = document.createElement('a');
+            resumeButton.href = data.about.resume.download_url;
+            resumeButton.textContent = data.about.resume.button_text;
+            resumeButton.classList.add('btn', 'btn-primary');
+            resumeButton.setAttribute('download', '');
+            aboutButtonContainer.appendChild(resumeButton);
+        }
     }
 
     // Skills
@@ -170,6 +179,21 @@ function populateContent(data) {
                 a.href = link.href;
                 a.classList.add('social-link');
                 a.target = '_blank';
+                
+                let ariaLabel = '';
+                if (link.icon.includes('linkedin')) {
+                    ariaLabel = 'Visit my LinkedIn profile';
+                } else if (link.icon.includes('envelope')) {
+                    ariaLabel = 'Send me an email';
+                } else if (link.icon.includes('phone')) {
+                    ariaLabel = 'Call me';
+                } else if (link.icon.includes('whatsapp')) {
+                    ariaLabel = 'Send me a message on WhatsApp';
+                } else if (link.icon.includes('twitter')) {
+                    ariaLabel = 'Visit my Twitter profile';
+                }
+                a.setAttribute('aria-label', ariaLabel);
+
                 const i = document.createElement('i');
                 i.className = link.icon;
                 a.appendChild(i);
@@ -284,10 +308,10 @@ function populateFAQ(faqData) {
                     <button class="accordion-button ${collapsed}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="${expanded}" aria-controls="collapse${index}">
                         ${faq.question}
                     </button>
-                </h2>
+                </h3>
                 <div id="collapse${index}" class="accordion-collapse collapse ${show}" aria-labelledby="heading${index}" data-bs-parent="#faqAccordion">
                     <div class="accordion-body">
-                        ${faq.answer}
+                        <p style="margin-bottom: 0;">${faq.answer}</p>
                     </div>
                 </div>
             </div>

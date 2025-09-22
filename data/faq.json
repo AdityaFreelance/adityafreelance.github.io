@@ -45,6 +45,46 @@
     {
       "question": "Do you have experience with accessibility (ADA Compliance)?",
       "answer": "Yes, I have experience in ensuring that web pages and web applications are accessible to people with disabilities by adhering to ADA Compliance Standards."
+    },
+    {
+      "question": "What is your role at Funex?",
+      "answer": "As a Software Engineer at Funex, I develop, test, and maintain web pages and applications, ensuring they are responsive, accessible, and optimized. I also collaborate with designers and other developers on project requirements."
+    },
+    {
+      "question": "Can you describe your experience with front-end development?",
+      "answer": "I am a proficient HTML Developer and Front End Developer with strong skills in HTML, CSS, Bootstrap, and JavaScript. I specialize in creating responsive and accessible web applications and have experience with Figma to HTML conversions."
+    },
+    {
+      "question": "What is your experience with UI development?",
+      "answer": "As a UI Developer, I focus on creating user-friendly interfaces and transforming project requirements into high-quality web pages. I have a strong understanding of UI principles and work to ensure a seamless user experience."
+    },
+    {
+      "question": "Have you worked with any content management systems (CMS)?",
+      "answer": "While my primary focus is on front-end development, I have collaborated with teams working on various platforms, including WordPress and Shopify, by providing high-quality HTML and SCSS."
+    },
+    {
+      "question": "What is your experience with email marketing?",
+      "answer": "I have experience creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility."
+    },
+    {
+      "question": "Can you provide examples of your freelance work?",
+      "answer": "Yes, I have worked on freelance projects such as Job Crafter, an education and job placement consultation service. You can find more details in the projects section of my portfolio."
+    },
+    {
+      "question": "What is your approach to teamwork and collaboration?",
+      "answer": "I am a collaborative team player and believe in open communication. I have experience working with designers, developers (including React, WordPress, and Shopify developers), and other stakeholders to deliver high-quality web applications."
+    },
+    {
+      "question": "How do you stay updated with new technologies?",
+      "answer": "I am committed to continuous learning and staying up-to-date with industry trends and best practices. I am always eager to learn and adapt to new technologies to improve my skills and drive innovation."
+    },
+    {
+      "question": "What is your experience with design tools?",
+      "answer": "I am familiar with design tools like Figma and have experience converting Figma designs into pixel-perfect HTML, ensuring that the final product matches the design specifications."
+    },
+    {
+      "question": "What is your experience with version control?",
+      "answer": "I use Git and GitHub for version control to manage my code, collaborate with team members, and track changes in my projects."
     }
   ]
 }

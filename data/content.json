@@ -21,7 +21,11 @@
     "_comment": "About Me section content.",
     "title": "About Me",
     "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With experience in collaborating with designers and developers, I excel at transforming project requirements into high-quality, user-friendly interfaces, including Figma to HTML conversions. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
-    "image": "images/Profile1.jpg"
+    "image": "images/Profile1.jpg",
+    "resume": {
+      "button_text": "Download CV",
+      "download_url": "https://drive.google.com/uc?export=download&id=1LV3VD0iMi0gQThnx6CgYyWvTsC1WwwjB"
+    }
   },
   "skills": {
     "_comment": "Skills section content.",
@@ -65,7 +69,13 @@
       { "icon": "fas fa-code", "title": "Web Development", "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap." },
       { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces, including Figma to HTML." },
       { "icon": "fas fa-envelope-open-text", "title": "Email Marketing", "text": "Creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp." },
-      { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." }
+      { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." },
+      { "icon": "fas fa-file-code", "title": "Figma to HTML Conversion", "text": "Converting Figma designs into clean, semantic, and responsive HTML and CSS code." },
+      { "icon": "fas fa-mobile-alt", "title": "Responsive Design", "text": "Building websites that work seamlessly across all devices and screen sizes, from desktops to mobile phones." },
+      { "icon": "fas fa-tachometer-alt", "title": "Website Optimization", "text": "Improving website performance and user experience through code optimization and best practices." },
+      { "icon": "fab fa-git-alt", "title": "Version Control with Git", "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects." },
+      { "icon": "fas fa-file-image", "title": "PSD to HTML Conversion", "text": "Converting Photoshop designs into clean, semantic, and responsive HTML and CSS code." },
+      { "icon": "fas fa-file-pen", "title": "AI to HTML Conversion", "text": "Converting Adobe Illustrator designs into clean, semantic, and responsive HTML and CSS code." }
     ]
   },
   "experience": {
@@ -76,7 +86,7 @@
       {
         "company": "Funex",
         "title": "Software Engineer",
-        "duration": "April 2024 - Present",
+        "duration": "April 2024 - August 2025",
         "location": "India",
         "responsibilities": [
           "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
@@ -150,7 +160,8 @@
         { "icon": "fas fa-envelope", "href": "mailto:adityapksingh2014@gmail.com" },
         { "icon": "fab fa-linkedin", "href": "https://www.linkedin.com/in/aditya-html22/" },
         { "icon": "fas fa-phone", "href": "tel:+919198005474" },
-        { "icon": "fab fa-whatsapp", "href": "https://wa.me/918545845171" }
+        { "icon": "fab fa-whatsapp", "href": "https://wa.me/918545845171" },
+        { "icon": "fab fa-twitter", "href": "https://x.com/adityaSoft76" }
     ]
   }
 }
