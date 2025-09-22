@@ -133,22 +133,7 @@ function populateContent(data) {
         });
     }
 
-    // Testimonials
-    if (data.testimonials) {
-        document.getElementById('testimonials-title').textContent = data.testimonials.title;
-        const testimonialSlider = document.querySelector('.testimonial-slider');
-        testimonialSlider.innerHTML = '';
-        data.testimonials.items.forEach(item => {
-            testimonialSlider.innerHTML += `
-                <div class="testimonial-item">
-                    <img src="${item.image}" class="rounded-circle" alt="Photo of ${item.author}">
-                    <p>"${item.text}"</p>
-                    <footer class="blockquote-footer">${item.author}, <cite title="Source Title">${item.company}</cite></footer>
-                </div>
-            `;
-        });
-        
-    }
+    // Projects (Tabs)
 
     // Contact
     if (data.contact) {
@@ -156,9 +141,6 @@ function populateContent(data) {
         if (data.contact.contact_summary) {
             document.getElementById('contact-summary').textContent = data.contact.contact_summary;
         }
-        document.getElementById('name-label').textContent = data.contact.form.name_label;
-        document.getElementById('email-label').textContent = data.contact.form.email_label;
-        document.getElementById('message-label').textContent = data.contact.form.message_label;
         document.getElementById('submit-button').textContent = data.contact.form.submit_button;
     }
 
@@ -303,7 +285,7 @@ function populateFAQ(faqData) {
         const show = index === 0 ? 'show' : '';
         const collapsed = index === 0 ? '' : 'collapsed';
         faqAccordion.innerHTML += `
-            <div class="accordion-item">
+            <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="accordion-header" id="heading${index}">
                     <button class="accordion-button ${collapsed}" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="${expanded}" aria-controls="collapse${index}">
                         ${faq.question}

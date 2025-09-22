@@ -20,7 +20,7 @@
   "about": {
     "_comment": "About Me section content.",
     "title": "About Me",
-    "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With experience in collaborating with designers and developers, I excel at transforming project requirements into high-quality, user-friendly interfaces, including Figma to HTML conversions. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
+    "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With expertise in Figma to HTML, PSD to HTML, and AI to HTML conversions, I excel at transforming design requirements into high-quality, user-friendly interfaces. My experience includes implementing email marketing campaigns and ensuring ADA compliance. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I leverage Version Control with Git for efficient collaboration. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
     "image": "images/Profile1.jpg",
     "resume": {
       "button_text": "Download CV",
@@ -30,7 +30,7 @@
   "skills": {
     "_comment": "Skills section content.",
     "title": "My Skills",
-    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, and Bootstrap, and have experience with JavaScript and jQuery. I am also familiar with design tools like Figma and ensuring web accessibility through ADA compliance.",
+    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, Scss, and Bootstrap, and have experience with JavaScript and jQuery. I am also adept at Figma to HTML conversions, ensuring web accessibility through ADA compliance, and delivering scalable and maintainable code for cross-browser compatibility.",
     "proficient_technologies": [
       "HTML",
       "CSS",
@@ -72,7 +72,7 @@
       { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." },
       { "icon": "fas fa-file-code", "title": "Figma to HTML Conversion", "text": "Converting Figma designs into clean, semantic, and responsive HTML and CSS code." },
       { "icon": "fas fa-mobile-alt", "title": "Responsive Design", "text": "Building websites that work seamlessly across all devices and screen sizes, from desktops to mobile phones." },
-      { "icon": "fas fa-tachometer-alt", "title": "Website Optimization", "text": "Improving website performance and user experience through code optimization and best practices." },
+      { "icon": "fas fa-tachometer-alt", "title": "Website Optimization", "text": "Improving website performance, speed optimization, and user experience through code optimization and best practices." },
       { "icon": "fab fa-git-alt", "title": "Version Control with Git", "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects." },
       { "icon": "fas fa-file-image", "title": "PSD to HTML Conversion", "text": "Converting Photoshop designs into clean, semantic, and responsive HTML and CSS code." },
       { "icon": "fas fa-file-pen", "title": "AI to HTML Conversion", "text": "Converting Adobe Illustrator designs into clean, semantic, and responsive HTML and CSS code." }
@@ -123,7 +123,7 @@
   "projects": {
     "_comment": "Projects section content. The actual project data is in projects.json.",
     "title": "Projects",
-    "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects. These projects have allowed me to hone my skills in HTML, CSS, and JavaScript, and have given me experience in building and deploying web applications. You can see some of my work below.",
+    "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects, ranging from e-commerce platforms to informational websites and lead generation tools. These projects have allowed me to hone my skills in HTML, CSS, and JavaScript, and have given me experience in building and deploying high-quality web applications that deliver tangible results. You can see some of my work below.",
     "tabs": [
       { "id": "all", "text": "All Projects" },
       { "id": "Q2A", "text": "Q2A Media" },
