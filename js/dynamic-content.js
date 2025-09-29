@@ -104,7 +104,7 @@ function populateContent(data) {
                 <div class="card mb-3" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card-body">
                         <h3 class="card-title">${job.title}</h3>
-                        <h4 class="card-subtitle mb-2">${job.company} | ${job.duration} | ${job.location}</h4>
+                        <h4 class="card-subtitle mb-2">${job.company} | ${job.duration} | ${job.location} | ${job.job_type}</h4>
                         <ul>
                             ${job.responsibilities.map(responsibility => `<li>${responsibility}</li>`).join('')}
                         </ul>

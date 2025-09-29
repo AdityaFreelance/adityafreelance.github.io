@@ -85,6 +85,22 @@
     {
       "question": "What is your experience with version control?",
       "answer": "I use Git and GitHub for version control to manage my code, collaborate with team members, and track changes in my projects."
+    },
+    {
+      "question": "What is your experience with React?",
+      "answer": "I have experience building responsive and user-friendly web applications with React.js. I am responsible for developing reusable UI components, optimizing website performance, and ensuring SEO-friendly structures."
+    },
+    {
+      "question": "How do you ensure your websites are responsive and mobile-friendly?",
+      "answer": "I have a strong focus on responsive web design for both desktop and mobile. I use modern CSS techniques like Flexbox and Bootstrap to create layouts that adapt to different screen sizes."
+    },
+    {
+      "question": "What is your approach to website optimization and performance?",
+      "answer": "I am experienced in optimizing website performance by writing clean and maintainable code, and implementing best practices to ensure fast loading times and a smooth user experience."
+    },
+    {
+      "question": "Can you work with APIs?",
+      "answer": "Yes, I have experience collaborating with teams to implement JSON-based APIs to fetch and display data in web applications."
     }
   ]
 }
