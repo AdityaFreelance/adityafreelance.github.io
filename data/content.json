@@ -4,18 +4,43 @@
     "_comment": "Navigation bar content.",
     "brand": "Aditya",
     "links": [
-      { "text": "About", "href": "#about" },
-      { "text": "Skills", "href": "#skills" },
-      { "text": "Services", "href": "#services" },
-      { "text": "Experience", "href": "#experience" },
-      { "text": "Projects", "href": "#projects" },
-      { "text": "FAQ", "href": "#faq" },
-      { "text": "Contact", "href": "#contact" }
+      {
+        "text": "About",
+        "href": "#about"
+      },
+      {
+        "text": "Skills",
+        "href": "#skills"
+      },
+      {
+        "text": "Services",
+        "href": "#services"
+      },
+      {
+        "text": "Experience",
+        "href": "#experience"
+      },
+      {
+        "text": "Projects",
+        "href": "#projects"
+      },
+      {
+        "text": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "text": "Contact",
+        "href": "#contact"
+      }
     ]
   },
   "hero": {
     "_comment": "Hero section with the typed text.",
-    "typed_text": ["HTML Developer", "Front End Developer", "UI Developer"]
+    "typed_text": [
+      "HTML Developer",
+      "Front End Developer",
+      "UI Developer"
+    ]
   },
   "about": {
     "_comment": "About Me section content.",
@@ -66,16 +91,56 @@
     "title": "Services I Offer",
     "services_summary": "I offer a range of services including developing and maintaining responsive and accessible web pages, creating and managing web page templates, and implementing and testing email campaigns. I am a collaborative team player who can work with designers and developers to deliver high-quality web applications.",
     "items": [
-      { "icon": "fas fa-code", "title": "Web Development", "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap." },
-      { "icon": "fas fa-palette", "title": "UI/UX Implementation", "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces, including Figma to HTML." },
-      { "icon": "fas fa-envelope-open-text", "title": "Email Marketing", "text": "Creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp." },
-      { "icon": "fab fa-accessible-icon", "title": "Accessibility (ADA Compliance)", "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards." },
-      { "icon": "fas fa-file-code", "title": "Figma to HTML Conversion", "text": "Converting Figma designs into clean, semantic, and responsive HTML and CSS code." },
-      { "icon": "fas fa-mobile-alt", "title": "Responsive Design", "text": "Building websites that work seamlessly across all devices and screen sizes, from desktops to mobile phones." },
-      { "icon": "fas fa-tachometer-alt", "title": "Website Optimization", "text": "Improving website performance, speed optimization, and user experience through code optimization and best practices." },
-      { "icon": "fab fa-git-alt", "title": "Version Control with Git", "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects." },
-      { "icon": "fas fa-file-image", "title": "PSD to HTML Conversion", "text": "Converting Photoshop designs into clean, semantic, and responsive HTML and CSS code." },
-      { "icon": "fas fa-file-pen", "title": "AI to HTML Conversion", "text": "Converting Adobe Illustrator designs into clean, semantic, and responsive HTML and CSS code." }
+      {
+        "icon": "fas fa-code",
+        "title": "Web Development",
+        "text": "Building responsive and high-quality websites and web applications using modern technologies like HTML, CSS, JavaScript, and Bootstrap."
+      },
+      {
+        "icon": "fas fa-palette",
+        "title": "UI/UX Implementation",
+        "text": "Transforming Figma and PSD designs into pixel-perfect, interactive, and user-friendly web interfaces, including Figma to HTML."
+      },
+      {
+        "icon": "fas fa-envelope-open-text",
+        "title": "Email Marketing",
+        "text": "Creating and testing responsive email templates for marketing campaigns using tools like Litmus and Mailchimp."
+      },
+      {
+        "icon": "fab fa-accessible-icon",
+        "title": "Accessibility (ADA Compliance)",
+        "text": "Ensuring websites are accessible to people with disabilities by following the ADA and WCAG standards."
+      },
+      {
+        "icon": "fas fa-file-code",
+        "title": "Figma to HTML Conversion",
+        "text": "Converting Figma designs into clean, semantic, and responsive HTML and CSS code."
+      },
+      {
+        "icon": "fas fa-mobile-alt",
+        "title": "Responsive Design",
+        "text": "Building websites that work seamlessly across all devices and screen sizes, from desktops to mobile phones."
+      },
+      {
+        "icon": "fas fa-tachometer-alt",
+        "title": "Website Optimization",
+        "text": "Improving website performance, speed optimization, and user experience through code optimization and best practices."
+      },
+      {
+        "icon": "fab fa-git-alt",
+        "title": "Version Control with Git",
+        "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects."
+      },
+      {
+        "icon": "fas fa-file-image",
+        "title": "PSD to HTML Conversion",
+        "text": "Converting Photoshop designs into clean, semantic, and responsive HTML and CSS code."
+      },
+      {
+        "icon": "fas fa-file-pen",
+        "title": "AI to HTML Conversion",
+        "text": "Converting Adobe Illustrator designs into clean, semantic, and responsive HTML and CSS code."
+      }
     ]
   },
   "experience": {
@@ -83,6 +148,22 @@
     "title": "Experience",
     "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
     "jobs": [
+      {
+        "company": "OneTouchGrade",
+        "title": "Software Engineer",
+        "duration": "Sept 2025 - Present",
+        "location": "India",
+        "responsibilities": [
+          "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
+          "Collaborating with designers, developers, and other stakeholders to understand project requirements and deliverables.",
+          "Ensuring that web pages and web applications are responsive, accessible, and optimized for different browsers and devices, including adhering to ADA Compliance Standards.",
+          "Creating and managing web page templates, layout designs, and user interfaces using HTML, CSS, and JavaScript frameworks.",
+          "Implementing and testing email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
+          "Keeping up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
+          "Performing code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
+        ],
+        "job_type": "Full-time"
+      },
       {
         "company": "Funex",
         "title": "Software Engineer",
@@ -96,7 +177,8 @@
           "Implementing and testing email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
           "Keeping up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
           "Performing code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
-        ]
+        ],
+        "job_type": "Full-time"
       },
       {
         "company": "Xenelsoft Technologies Private Limited",
@@ -106,7 +188,8 @@
         "responsibilities": [
           "Developed and maintained HTML, CSS, and JavaScript for various web projects.",
           "Contributed to projects like Byzfunder, ThePhix, Gloria Agency, Green Light Finance, and Taxi Transfer."
-        ]
+        ],
+        "job_type": "Full-time"
       },
       {
         "company": "Q2A Media",
@@ -116,7 +199,8 @@
         "responsibilities": [
           "Developed and maintained HTML, CSS, and JavaScript for various web projects.",
           "Contributed to projects like Lift Learning, Speki, and Naylor."
-        ]
+        ],
+        "job_type": "Full-time"
       }
     ]
   },
@@ -125,11 +209,26 @@
     "title": "Projects",
     "projects_summary": "Throughout my career, I have had the opportunity to work on a variety of web development projects, ranging from e-commerce platforms to informational websites and lead generation tools. These projects have allowed me to hone my skills in HTML, CSS, and JavaScript, and have given me experience in building and deploying high-quality web applications that deliver tangible results. You can see some of my work below.",
     "tabs": [
-      { "id": "all", "text": "All Projects" },
-      { "id": "Q2A", "text": "Q2A Media" },
-      { "id": "Xenelsoft", "text": "Xenelsoft Technology" },
-      { "id": "Funex", "text": "Funex" },
-      { "id": "Freelancing", "text": "Freelancing" }
+      {
+        "id": "all",
+        "text": "All Projects"
+      },
+      {
+        "id": "Q2A",
+        "text": "Q2A Media"
+      },
+      {
+        "id": "Xenelsoft",
+        "text": "Xenelsoft Technology"
+      },
+      {
+        "id": "Funex",
+        "text": "Funex"
+      },
+      {
+        "id": "Freelancing",
+        "text": "Freelancing"
+      }
     ],
     "data_file": "js/projects.json"
   },
@@ -137,9 +236,24 @@
     "_comment": "Testimonials section content.",
     "title": "Testimonials",
     "items": [
-      { "image": "https://picsum.photos/150/150?random=5", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "John Doe", "company": "Company" },
-      { "image": "https://picsum.photos/150/150?random=6", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "Jane Smith", "company": "Another Company" },
-      { "image": "https://picsum.photos/150/150?random=7", "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.", "author": "Peter Jones", "company": "Third Company" }
+      {
+        "image": "https://picsum.photos/150/150?random=5",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+        "author": "John Doe",
+        "company": "Company"
+      },
+      {
+        "image": "https://picsum.photos/150/150?random=6",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+        "author": "Jane Smith",
+        "company": "Another Company"
+      },
+      {
+        "image": "https://picsum.photos/150/150?random=7",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
+        "author": "Peter Jones",
+        "company": "Third Company"
+      }
     ]
   },
   "contact": {
@@ -157,11 +271,26 @@
     "_comment": "Footer content.",
     "text": "Copyright © 2025 By Aditya",
     "social_links": [
-        { "icon": "fas fa-envelope", "href": "mailto:adityapksingh2014@gmail.com" },
-        { "icon": "fab fa-linkedin", "href": "https://www.linkedin.com/in/aditya-html22/" },
-        { "icon": "fas fa-phone", "href": "tel:+919198005474" },
-        { "icon": "fab fa-whatsapp", "href": "https://wa.me/918545845171" },
-        { "icon": "fab fa-twitter", "href": "https://x.com/adityaSoft76" }
+      {
+        "icon": "fas fa-envelope",
+        "href": "mailto:adityapksingh2014@gmail.com"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "href": "https://www.linkedin.com/in/aditya-html22/"
+      },
+      {
+        "icon": "fas fa-phone",
+        "href": "tel:+919198005474"
+      },
+      {
+        "icon": "fab fa-whatsapp",
+        "href": "https://wa.me/918545845171"
+      },
+      {
+        "icon": "fab fa-twitter",
+        "href": "https://x.com/adityaSoft76"
+      }
     ]
   }
 }
