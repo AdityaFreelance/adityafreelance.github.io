@@ -71,7 +71,11 @@
       "ADA Compliance"
     ],
     "familiar_technologies": [
-      "Advance JavaScript"
+      "Advance JavaScript",
+      "React",
+      "PHP",
+      "SQL Database",
+      "React"
     ],
     "tools": [
       "Git & GitHub",
@@ -154,15 +158,17 @@
         "duration": "Sept 2025 - Present",
         "location": "India",
         "responsibilities": [
-          "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
-          "Collaborating with designers, developers, and other stakeholders to understand project requirements and deliverables.",
-          "Ensuring that web pages and web applications are responsive, accessible, and optimized for different browsers and devices, including adhering to ADA Compliance Standards.",
-          "Creating and managing web page templates, layout designs, and user interfaces using HTML, CSS, and JavaScript frameworks.",
-          "Implementing and testing email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
-          "Keeping up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
-          "Performing code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
+          "Contributed to building responsive and user-friendly web applications using React.js, JavaScript, HTML, CSS (Flexbox, Bootstrap) and modern development practices.",
+          "Responsible for developing reusable UI components.",
+          "Optimizing website performance.",
+          "Ensuring SEO-friendly structures.",
+          "Collaborated with the team to implement JSON-based APIs.",
+          "Version control with GitHub.",
+          "Delivered projects with a focus on responsive web design for both desktop and mobile.",
+          "Enhanced overall user experience.",
+          "Improved project efficiency through clean, maintainable code."
         ],
-        "job_type": "Full-time"
+        "job_type": "Freelance"
       },
       {
         "company": "Funex",
@@ -200,7 +206,7 @@
           "Developed and maintained HTML, CSS, and JavaScript for various web projects.",
           "Contributed to projects like Lift Learning, Speki, and Naylor."
         ],
-        "job_type": "Full-time"
+        "job_type": "Intern"
       }
     ]
   },
