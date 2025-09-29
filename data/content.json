@@ -37,9 +37,10 @@
   "hero": {
     "_comment": "Hero section with the typed text.",
     "typed_text": [
-      "HTML Developer",
-      "Front End Developer",
-      "UI Developer"
+      "a HTML Developer",
+      "a Front End Developer",
+      "an UI Developer",
+      "Software Engineer"
     ]
   },
   "about": {
