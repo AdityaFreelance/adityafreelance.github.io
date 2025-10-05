@@ -151,8 +151,7 @@
   "experience": {
     "_comment": "Experience section content.",
     "title": "Experience",
-    "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spans across various companies, where I have honed my skills in front-end technologies. I have collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
-    "jobs": [
+        "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spanned across various companies, where I honed my skills in front-end technologies. I collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",    "jobs": [
       {
         "company": "OneTouchGrade",
         "title": "Software Engineer",
@@ -160,11 +159,11 @@
         "location": "India",
         "responsibilities": [
           "Contributed to building responsive and user-friendly web applications using React.js, JavaScript, HTML, CSS (Flexbox, Bootstrap) and modern development practices.",
-          "Responsible for developing reusable UI components.",
-          "Optimizing website performance.",
-          "Ensuring SEO-friendly structures.",
+          "Was responsible for developing reusable UI components.",
+          "Optimized website performance.",
+          "Ensured SEO-friendly structures.",
           "Collaborated with the team to implement JSON-based APIs.",
-          "Version control with GitHub.",
+          "Used version control with GitHub.",
           "Delivered projects with a focus on responsive web design for both desktop and mobile.",
           "Enhanced overall user experience.",
           "Improved project efficiency through clean, maintainable code."
@@ -177,13 +176,13 @@
         "duration": "April 2024 - August 2025",
         "location": "India",
         "responsibilities": [
-          "Developing, testing, and maintaining HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
-          "Collaborating with designers, developers, and other stakeholders to understand project requirements and deliverables.",
-          "Ensuring that web pages and web applications are responsive, accessible, and optimized for different browsers and devices, including adhering to ADA Compliance Standards.",
-          "Creating and managing web page templates, layout designs, and user interfaces using HTML, CSS, and JavaScript frameworks.",
-          "Implementing and testing email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
-          "Keeping up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
-          "Performing code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
+          "Developed, tested, and maintained HTML, CSS, Bootstrap, and Javascript for web pages and web applications.",
+          "Collaborated with designers, developers, and other stakeholders to understand project requirements and deliverables.",
+          "Ensured that web pages and web applications were responsive, accessible, and optimized for different browsers and devices, including adhering to ADA Compliance Standards.",
+          "Created and managed web page templates, layout designs, and user interfaces using HTML, CSS, and JavaScript frameworks.",
+          "Implemented and tested email campaigns using tools like Litmus and Mailchimp to ensure cross-platform compatibility and adherence to industry standards.",
+          "Kept up-to-date with industry trends, best practices, and new technologies to improve code quality and efficiency.",
+          "Performed code reviews, debugging, and troubleshooting to identify and fix errors and performance issues in web pages, email templates, or applications."
         ],
         "job_type": "Full-time"
       },
