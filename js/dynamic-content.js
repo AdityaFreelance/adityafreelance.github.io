@@ -161,6 +161,7 @@ function populateContent(data) {
                 a.href = link.href;
                 a.classList.add('social-link');
                 a.target = '_blank';
+                a.rel = 'noopener noreferrer';
                 
                 let ariaLabel = '';
                 if (link.icon.includes('linkedin')) {
@@ -223,11 +224,11 @@ function populateProjects(projectsData) {
             const projectCard = `
                 <div class="col-md-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
                     <div class="card h-100">
-                        <img src="${project.image}" class="card-img-top project-logo" alt="Logo for ${project.title}">
+                        <img src="${project.image}" class="card-img-top project-logo" alt="Logo for ${project.title}" loading="lazy" decoding="async" width="100" height="100">
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title">${project.title}</h3>
                             <p class="card-text flex-grow-1">${project.description}</p>
-                            <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank">View Project</a>
+                            <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">View Project</a>
                         </div>
                     </div>
                 </div>

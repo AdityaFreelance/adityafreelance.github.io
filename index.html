@@ -120,7 +120,8 @@
     <meta property="og:title" content="Aditya Kumar Singh - Web Developer Portfolio">
     <meta property="og:description"
         content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
-    <meta property="og:image" content="images/Profile1.jpg">
+    <meta property="og:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <meta property="og:image:alt" content="Aditya Kumar Singh - Profile image">
     <meta property="og:url" content="https://adityafreelance.github.io/">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:type" content="website">
@@ -128,7 +129,28 @@
     <meta name="twitter:site" content="@adityaSoft76">
     <meta name="twitter:creator" content="@adityaSoft76">
     <link rel="canonical" href="https://adityafreelance.github.io/">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="manifest.json">
+    <meta name="author" content="Aditya Kumar Singh">
+    <meta name="theme-color" content="#121212">
+    <meta property="og:site_name" content="Aditya Kumar Singh">
+    <meta name="twitter:title" content="Aditya Kumar Singh - Web Developer Portfolio">
+    <meta name="twitter:description" content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
+    <meta name="twitter:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <!-- Resource Hints -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="dns-prefetch" href="https://unpkg.com">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://code.jquery.com">
+    <link rel="preconnect" href="https://code.jquery.com" crossorigin>
+    <link rel="dns-prefetch" href="https://source.unsplash.com">
+    <link rel="preconnect" href="https://source.unsplash.com" crossorigin>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
@@ -154,6 +176,13 @@
 </head>
 
 <body>
+    <div id="preloader" class="preloader" aria-hidden="true">
+        <div class="preloader-inner">
+            <div class="ring" aria-hidden="true"></div>
+            <div class="logo" aria-label="Aditya Kumar Singh">AK</div>
+            <span class="visually-hidden">Loading</span>
+        </div>
+    </div>
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <!-- Navigation bar -->
@@ -197,8 +226,7 @@
                         <div id="about-button-container"></div>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <img id="about-image" src="" alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair."
-                            class="img-fluid about-image">
+                        <img id="about-image" src="" alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair." class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
                     </div>
                 </div>
             </div>
@@ -318,14 +346,14 @@
     </footer>
 
     <!-- External scripts for Bootstrap and AOS -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Custom script -->
-    <script src="js/dynamic-content.js"></script>
-    <script src="js/script.js"></script>
+    <script defer src="js/dynamic-content.js"></script>
+    <script defer src="js/script.js"></script>
     <script>
         window.Tawk_API = window.Tawk_API || {};
         window.Tawk_API.onLoad = function () {
