@@ -134,7 +134,8 @@
     <meta name="theme-color" content="#121212">
     <meta property="og:site_name" content="Aditya Kumar Singh">
     <meta name="twitter:title" content="Aditya Kumar Singh - Web Developer Portfolio">
-    <meta name="twitter:description" content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
+    <meta name="twitter:description"
+        content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
     <meta name="twitter:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
     <!-- Resource Hints -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -151,16 +152,6 @@
     <link rel="preconnect" href="https://code.jquery.com" crossorigin>
     <link rel="dns-prefetch" href="https://source.unsplash.com">
     <link rel="preconnect" href="https://source.unsplash.com" crossorigin>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-TVRPDW970Z');
-    </script>
 
     <!-- External stylesheets for Bootstrap and AOS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -183,14 +174,14 @@
             <span class="visually-hidden">Loading</span>
         </div>
     </div>
-    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <a href="#main-content" class="skip-link" title="Skip to main content">Skip to main content</a>
 
     <!-- Navigation bar -->
     <header class="navbar-dark bg-dark">
         <div class="container">
             <nav class="navbar navbar-expand-lg sticky-top">
-                <a class="navbar-brand" href="index.html">
-                    
+                <a class="navbar-brand" href="index.html" title="Aditya Kumar Singh - Homepage">
+
                 </a>
                 <!-- Navbar toggler for mobile devices -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -222,11 +213,20 @@
                 <div class="row align-items-center">
                     <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000">
                         <h2 id="about-title"></h2>
+                        <div class="mobile-view">
+                            <img id="about-image" src=""
+                                alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair."
+                                class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
+                        </div>
                         <p id="about-text"></p>
                         <div id="about-button-container"></div>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
-                        <img id="about-image" src="" alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair." class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
+                        <div class="desktop-view">
+                            <img id="about-image" src=""
+                                alt="A headshot of Aditya Kumar Singh, a smiling man with short black hair."
+                                class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -269,7 +269,7 @@
         <section id="experience" class="mb-0">
             <div class="container">
                 <h2 id="experience-title" class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2>
-                <p id="experience-summary" class="text-center mb-4" ></p>
+                <p id="experience-summary" class="text-center mb-4"></p>
                 <div id="experience-container">
                     <!-- Experience items will be loaded here dynamically -->
                 </div>
@@ -350,7 +350,8 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script defer type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script defer type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Custom script -->
     <script defer src="js/dynamic-content.js"></script>
     <script defer src="js/script.js"></script>
@@ -405,6 +406,16 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https.www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-TVRPDW970Z');
+    </script>
 </body>
 
 </html>

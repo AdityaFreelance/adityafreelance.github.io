@@ -296,6 +296,15 @@
       {
         "icon": "fab fa-twitter",
         "href": "https://x.com/adityaSoft76"
+      },
+      {
+        "svg_icon": "images/fiverr-icon.svg",
+        "href": "https://fiverr.com/s/pdev1lN"
+      },
+      {
+        "icon": "fa-brands fa-upwork",
+        "href": "https://www.upwork.com/freelancers/~019c9adf6faa0a7333?mp_source=share",
+        "title": "Visit my Upwork profile"
       }
     ]
   }

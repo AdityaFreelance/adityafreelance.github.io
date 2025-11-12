@@ -66,6 +66,11 @@ li {
     color: var(--white-color);
 }
 
+button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .card-text {
     font-size: 1rem;
 }
@@ -316,6 +321,10 @@ section:last-of-type {
     margin: auto;
 }
 
+.mobile-view {
+    display: none;
+}
+
 /* Responsive Design */
 
 @media (max-width: 992px) {
@@ -357,7 +366,8 @@ section:last-of-type {
         font-size: 1.1rem;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 1.0rem;
     }
 }
@@ -365,6 +375,25 @@ section:last-of-type {
 @media (max-width: 768px) {
     section {
         padding: 3rem 0;
+    }
+
+    .desktop-view {
+        display: none;
+    }
+
+    .mobile-view {
+        display: block !important;
+    }
+
+    .col-md-6:has(#about-title)>h2 {
+        margin-bottom: 20px;
+    }
+
+    .col-md-6:has(#about-title) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .hero-section {
@@ -412,22 +441,23 @@ section:last-of-type {
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     h3 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     h4 {
         font-size: 0.9rem;
     }
 
-    p, li {
+    p,
+    li {
         font-size: 0.8rem;
     }
 
@@ -528,35 +558,45 @@ footer .social-link {
     z-index: 1050;
     transition: opacity .4s ease, visibility .4s ease;
 }
+
 .preloader.hidden {
     opacity: 0;
     visibility: hidden;
 }
+
 .preloader-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
+
 .preloader .ring {
     width: 72px;
     height: 72px;
     border-radius: 50%;
-    border: 3px solid rgba(255,255,255,0.15);
+    border: 3px solid rgba(255, 255, 255, 0.15);
     border-top-color: var(--white-color);
-    box-shadow: inset 0 0 12px rgba(255,255,255,0.25);
+    box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.25);
     animation: preloader-spin 1s linear infinite;
 }
+
 .preloader .logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--white-color);
-    text-shadow: 0 0 8px rgba(255,255,255,0.3);
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
 }
+
 @keyframes preloader-spin {
-    to { transform: rotate(360deg); }
+    to {
+        transform: rotate(360deg);
+    }
 }
+
 @media (prefers-reduced-motion: reduce) {
-    .preloader .ring { animation: none; }
+    .preloader .ring {
+        animation: none;
+    }
 }

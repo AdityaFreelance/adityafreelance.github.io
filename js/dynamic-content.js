@@ -5,7 +5,7 @@ function populateContent(data) {
         const navLinks = document.querySelector('.navbar-nav');
         navLinks.innerHTML = '';
         data.navigation.links.forEach(link => {
-            navLinks.innerHTML += `<li class="nav-item"><a class="nav-link" href="${link.href}">${link.text}</a></li>`;
+            navLinks.innerHTML += `<li class="nav-item"><a class="nav-link" href="${link.href}" title="Go to ${link.text} section">${link.text}</a></li>`;
         });
     }
 
@@ -32,6 +32,7 @@ function populateContent(data) {
             resumeButton.textContent = data.about.resume.button_text;
             resumeButton.classList.add('btn', 'btn-primary');
             resumeButton.setAttribute('download', '');
+            resumeButton.setAttribute('title', 'Download Resume');
             aboutButtonContainer.appendChild(resumeButton);
         }
     }
@@ -164,22 +165,33 @@ function populateContent(data) {
                 a.rel = 'noopener noreferrer';
                 
                 let ariaLabel = '';
-                if (link.icon.includes('linkedin')) {
+                if (link.icon && link.icon.includes('linkedin')) {
                     ariaLabel = 'Visit my LinkedIn profile';
-                } else if (link.icon.includes('envelope')) {
+                } else if (link.icon && link.icon.includes('envelope')) {
                     ariaLabel = 'Send me an email';
-                } else if (link.icon.includes('phone')) {
+                } else if (link.icon && link.icon.includes('phone')) {
                     ariaLabel = 'Call me';
-                } else if (link.icon.includes('whatsapp')) {
+                } else if (link.icon && link.icon.includes('whatsapp')) {
                     ariaLabel = 'Send me a message on WhatsApp';
-                } else if (link.icon.includes('twitter')) {
+                } else if (link.icon && link.icon.includes('twitter')) {
                     ariaLabel = 'Visit my Twitter profile';
+                } else if (link.svg_icon && link.svg_icon.includes('fiverr')) {
+                    ariaLabel = 'Visit my Fiverr profile';
                 }
                 a.setAttribute('aria-label', ariaLabel);
+                a.setAttribute('title', link.title || ariaLabel);
 
-                const i = document.createElement('i');
-                i.className = link.icon;
-                a.appendChild(i);
+                if (link.svg_icon) {
+                    const img = document.createElement('img');
+                    img.src = link.svg_icon;
+                    img.style.width = '24px';
+                    img.style.height = '24px';
+                    a.appendChild(img);
+                } else {
+                    const i = document.createElement('i');
+                    i.className = link.icon;
+                    a.appendChild(i);
+                }
                 li.appendChild(a);
                 socialLinksContainer.appendChild(li);
             });
@@ -228,7 +240,7 @@ function populateProjects(projectsData) {
                         <div class="card-body d-flex flex-column">
                             <h3 class="card-title">${project.title}</h3>
                             <p class="card-text flex-grow-1">${project.description}</p>
-                            <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer">View Project</a>
+                            <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer" title="View the ${project.title} project">View Project</a>
                         </div>
                     </div>
                 </div>
