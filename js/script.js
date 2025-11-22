@@ -46,3 +46,19 @@ setTimeout(function(){
     const preloader = document.getElementById('preloader');
     if (preloader) preloader.classList.add('hidden');
 }, PRELOADER_MIN_MS);
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (document.getElementById('typed')) {
+        new Typed('#typed', {
+            strings: [
+                "a Software Engineer",
+                "a Front End Developer",
+                "an UI Developer",
+                "a HTML Developer"
+            ],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    }
+});

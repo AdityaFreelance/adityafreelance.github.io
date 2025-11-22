@@ -32,6 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('theme', newTheme);
     });
 
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = htmlElement.getAttribute('data-theme') || localStorage.getItem('theme') || 'dark';
     applyTheme(savedTheme);
 });
