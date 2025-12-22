@@ -39,6 +39,7 @@
     "typed_text": [
       "a Software Engineer",
       "a Front End Developer",
+      "a Full Stack Developer",
       "an UI Developer",
       "a HTML Developer"
     ]
@@ -46,7 +47,7 @@
   "about": {
     "_comment": "About Me section content.",
     "title": "About Me",
-    "text": "A passionate and proficient Software Engineer and HTML Developer with a strong foundation in front-end technologies, including HTML, CSS, Bootstrap, and JavaScript. As a Front End Developer and UI Developer, I specialize in creating responsive, accessible, and optimized web applications. With expertise in Figma to HTML, PSD to HTML, and AI to HTML conversions, I excel at transforming design requirements into high-quality, user-friendly interfaces. My experience includes implementing email marketing campaigns and ensuring ADA compliance. I am familiar with modern tools and frameworks like Figma, jQuery, and Mailchimp, and I leverage Version Control with Git for efficient collaboration. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
+    "text": "A passionate and proficient Software Engineer and Full Stack Developer with a strong foundation in both front-end and back-end technologies. I specialize in creating scalable, responsive, and optimized web applications using React.js, Next.js, Node.js, and Python. My expertise extends to database management with MySQL and MongoDB, as well as Technical SEO and API integrations. I excel at transforming design requirements into high-quality, user-friendly interfaces and streamlining business workflows through secure backend solutions. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
     "image": "images/Profile1.jpg",
     "resume": {
       "button_text": "Download CV",
@@ -56,32 +57,36 @@
   "skills": {
     "_comment": "Skills section content.",
     "title": "My Skills",
-    "skills_summary": "With a strong foundation in front-end technologies, I am proficient in HTML, CSS, Scss, and Bootstrap, and have experience with JavaScript and jQuery. I am also adept at Figma to HTML conversions, ensuring web accessibility through ADA compliance, and delivering scalable and maintainable code for cross-browser compatibility.",
+    "skills_summary": "With a strong foundation in Full Stack development, I am proficient in modern JavaScript frameworks like React.js and Next.js, as well as backend technologies including Node.js and Python. I have extensive experience in database management, API integrations, and Technical SEO, ensuring robust and scalable web solutions.",
     "proficient_technologies": [
       "HTML",
       "CSS",
       "Scss",
       "Bootstrap",
-      "Media Query",
-      "Figma to HTML",
-      "PSD to HTML",
-      "AI to HTML",
       "JavaScript",
-      "Litmus",
-      "Mailchimp",
+      "React.js",
+      "Next.js",
+      "Node.js",
+      "Python",
+      "MySQL",
+      "MongoDB",
+      "Technical SEO",
+      "Schema Markup",
+      "Figma to HTML",
       "ADA Compliance"
     ],
     "familiar_technologies": [
       "Advance JavaScript",
-      "React",
       "PHP",
-      "SQL Database",
-      "React"
+      "ATS Integrations",
+      "CRM Integrations",
+      "VMS Systems"
     ],
     "tools": [
       "Git & GitHub",
       "VS Code",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "Postman"
     ],
     "soft_skills": [
       "Problem Solving",
@@ -94,8 +99,28 @@
   "services": {
     "_comment": "Services section content.",
     "title": "Services I Offer",
-    "services_summary": "I offer a range of services including developing and maintaining responsive and accessible web pages, creating and managing web page templates, and implementing and testing email campaigns. I am a collaborative team player who can work with designers and developers to deliver high-quality web applications.",
+    "services_summary": "I offer comprehensive web development services, ranging from Full Stack application development to UI/UX implementation and Technical SEO. I build scalable solutions that streamline operations and enhance user experience.",
     "items": [
+      {
+        "icon": "fas fa-layer-group",
+        "title": "Full Stack Development",
+        "text": "Designing and developing scalable web applications using React.js, Next.js, Node.js, and Python, covering both frontend and backend needs."
+      },
+      {
+        "icon": "fas fa-server",
+        "title": "Backend & API Integration",
+        "text": "Developing secure APIs and integrating third-party platforms (ATS, CRM, VMS) to streamline business workflows and data management."
+      },
+      {
+        "icon": "fas fa-search-dollar",
+        "title": "Technical SEO",
+        "text": "Implementing technical SEO best practices, schema markup, and performance optimizations to enhance search engine visibility."
+      },
+      {
+        "icon": "fas fa-database",
+        "title": "Database Management",
+        "text": "Managing and optimizing databases like MySQL and MongoDB to ensure efficient and secure data storage."
+      },
       {
         "icon": "fas fa-code",
         "title": "Web Development",
@@ -135,23 +160,30 @@
         "icon": "fab fa-git-alt",
         "title": "Version Control with Git",
         "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects."
-      },
-      {
-        "icon": "fas fa-file-image",
-        "title": "PSD to HTML Conversion",
-        "text": "Converting Photoshop designs into clean, semantic, and responsive HTML and CSS code."
-      },
-      {
-        "icon": "fas fa-file-pen",
-        "title": "AI to HTML Conversion",
-        "text": "Converting Adobe Illustrator designs into clean, semantic, and responsive HTML and CSS code."
       }
     ]
   },
   "experience": {
     "_comment": "Experience section content.",
     "title": "Experience",
-        "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spanned across various companies, where I honed my skills in front-end technologies. I collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",    "jobs": [
+    "summary": "With a solid background as an HTML Developer, Front End Developer, and UI Developer, I have a proven track record of developing and maintaining web pages and applications. My experience spanned across various companies, where I honed my skills in front-end technologies. I collaborated effectively with cross-functional teams, including React, WordPress, and Shopify developers, providing high-quality HTML and SCSS to build modern and responsive websites.",
+    "jobs": [
+      {
+        "company": "United Health Care Staffing",
+        "title": "Software Engineer - Full Stack Developer",
+        "duration": "Dec 2025 - Present",
+        "location": "San Jose, CA (Remote)",
+        "responsibilities": [
+          "Responsible for designing, developing, and maintaining scalable web-based applications for healthcare staffing operations, covering end-to-end development.",
+          "Designed and maintained recruiter dashboards, candidate tracking systems, and client portals using React.js, Next.js, Python, and Node.js.",
+          "Implemented technical SEO best practices, schema markup, and page performance optimizations to enhance visibility for healthcare staffing searches.",
+          "Developed secure backend APIs and integrated third-party platforms such as ATS, CRM, VMS, and payroll systems to streamline workflows.",
+          "Managed and optimized databases (MySQL/MongoDB) to store recruiter and client data efficiently and securely.",
+          "Ensured system uptime, scalability, and data integrity for 24x7 operations while troubleshooting production issues promptly.",
+          "Collaborated with marketing and content teams to ensure career pages are SEO-friendly and mobile-optimized."
+        ],
+        "job_type": "Full-time"
+      },
       {
         "company": "OneTouchGrade",
         "title": "Software Engineer",
