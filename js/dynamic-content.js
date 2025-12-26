@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         renderFAQ(faqData);
 
         // 9. Testimonials Section
-        renderTestimonials(contentData.testimonials);
+        // renderTestimonials(contentData.testimonials);
 
         // 10. Contact Section
         renderContact(contentData.contact);
