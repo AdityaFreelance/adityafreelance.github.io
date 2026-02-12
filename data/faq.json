@@ -4,31 +4,39 @@
   "faqs": [
     {
       "question": "What services do you offer?",
-      "answer": "I offer a range of services including Web Development, UI/UX Implementation, Email Marketing, and ensuring Accessibility (ADA Compliance)."
+      "answer": "I offer comprehensive web development services, ranging from Full Stack application development to UI/UX Implementation, Technical SEO, Backend & API Integration, and Database Management."
     },
     {
       "question": "What are your proficient technologies?",
-      "answer": "I am proficient in HTML, CSS, Scss, Bootstrap, Media Query, Figma to HTML, PSD to HTML, AI to HTML, JavaScript, Litmus, Mailchimp, and ADA Compliance."
+      "answer": "I am proficient in modern JavaScript frameworks like React.js and Next.js, backend technologies including Node.js and Python, as well as HTML, CSS, Scss, Bootstrap, MySQL, MongoDB, Technical SEO, Schema Markup, and ADA Compliance."
     },
     {
       "question": "What are you familiar with?",
-      "answer": "I am familiar with Advance JavaScript."
+      "answer": "I am familiar with Advanced JavaScript, PHP, and integrating third-party systems like ATS, CRM, and VMS platforms."
     },
     {
       "question": "What tools do you use?",
-      "answer": "I use Git & GitHub for version control and VS Code as my primary code editor."
+      "answer": "I use Git & GitHub for version control, VS Code and Visual Studio Code as my primary editors, and Postman for API testing."
     },
     {
       "question": "What are your soft skills?",
       "answer": "My soft skills include Problem Solving, Communication, Teamwork & Collaboration, Time Management & Organization, and Adaptability & Learning."
     },
     {
-      "question": "What is your experience as a Software Engineer?",
-      "answer": "I am currently a Software Engineer at Funex, where I develop, test, and maintain web pages and applications. I collaborate with designers and developers to ensure our products are responsive, accessible, and optimized."
+      "question": "What is your current role?",
+      "answer": "I am currently a Software Engineer - Full Stack Developer at United Health Care Staffing, where I build scalable web applications using React.js, Next.js, Node.js, and Python. I also handle database management and API integrations."
     },
     {
       "question": "What kind of projects have you worked on?",
-      "answer": "I have worked on a variety of web development projects, including Byzfunder, ThePhix, Gloria Agency, Green Light Finance, and Taxi Transfer."
+      "answer": "I have worked on a variety of web development projects, ranging from e-commerce platforms to healthcare staffing portals and lead generation tools. Examples include Byzfunder, ThePhix, and internal dashboards for staffing operations."
+    },
+    {
+      "question": "Do you have experience with Backend Development?",
+      "answer": "Yes, I develop secure backend APIs using Node.js and Python and manage databases like MySQL and MongoDB to ensure efficient data storage and retrieval."
+    },
+    {
+      "question": "Do you work with Technical SEO?",
+      "answer": "Yes, I implement technical SEO best practices, schema markup, and performance optimizations to enhance search engine visibility and drive organic traffic."
     },
     {
       "question": "Are you available for freelance projects?",
@@ -47,20 +55,16 @@
       "answer": "Yes, I have experience in ensuring that web pages and web applications are accessible to people with disabilities by adhering to ADA Compliance Standards."
     },
     {
-      "question": "What is your role at Funex?",
-      "answer": "As a Software Engineer at Funex, I develop, test, and maintain web pages and applications, ensuring they are responsive, accessible, and optimized. I also collaborate with designers and other developers on project requirements."
-    },
-    {
       "question": "Can you describe your experience with front-end development?",
-      "answer": "I am a proficient HTML Developer and Front End Developer with strong skills in HTML, CSS, Bootstrap, and JavaScript. I specialize in creating responsive and accessible web applications and have experience with Figma to HTML conversions."
+      "answer": "I am a proficient Full Stack Developer with strong skills in React.js, Next.js, HTML, CSS, and JavaScript. I specialize in creating responsive and accessible user interfaces."
     },
     {
       "question": "What is your experience with UI development?",
-      "answer": "As a UI Developer, I focus on creating user-friendly interfaces and transforming project requirements into high-quality web pages. I have a strong understanding of UI principles and work to ensure a seamless user experience."
+      "answer": "As a UI Developer, I focus on creating user-friendly interfaces and transforming Figma/PSD designs into pixel-perfect, interactive web pages. I ensure a seamless user experience across all devices."
     },
     {
       "question": "Have you worked with any content management systems (CMS)?",
-      "answer": "While my primary focus is on front-end development, I have collaborated with teams working on various platforms, including WordPress and Shopify, by providing high-quality HTML and SCSS."
+      "answer": "Yes, I have collaborated with teams working on various platforms, including WordPress and Shopify, providing high-quality HTML and SCSS to build modern and responsive websites."
     },
     {
       "question": "What is your experience with email marketing?",
@@ -68,39 +72,39 @@
     },
     {
       "question": "Can you provide examples of your freelance work?",
-      "answer": "Yes, I have worked on freelance projects such as Job Crafter, an education and job placement consultation service. You can find more details in the projects section of my portfolio."
+      "answer": "Yes, I have worked on freelance projects such as OneTouchGrade and Job Crafter. You can find more details in the projects section of my portfolio."
     },
     {
       "question": "What is your approach to teamwork and collaboration?",
-      "answer": "I am a collaborative team player and believe in open communication. I have experience working with designers, developers (including React, WordPress, and Shopify developers), and other stakeholders to deliver high-quality web applications."
+      "answer": "I am a collaborative team player and believe in open communication. I have experience working with designers, developers, and stakeholders to deliver high-quality web applications."
     },
     {
       "question": "How do you stay updated with new technologies?",
-      "answer": "I am committed to continuous learning and staying up-to-date with industry trends and best practices. I am always eager to learn and adapt to new technologies to improve my skills and drive innovation."
+      "answer": "I am committed to continuous learning and staying up-to-date with industry trends. I actively learn new technologies like Python, Node.js, and Next.js to drive innovation."
     },
     {
       "question": "What is your experience with design tools?",
-      "answer": "I am familiar with design tools like Figma and have experience converting Figma designs into pixel-perfect HTML, ensuring that the final product matches the design specifications."
+      "answer": "I am familiar with design tools like Figma and have experience converting Figma designs into clean, semantic, and responsive HTML code."
     },
     {
       "question": "What is your experience with version control?",
-      "answer": "I use Git and GitHub for version control to manage my code, collaborate with team members, and track changes in my projects."
+      "answer": "I use Git and GitHub for version control to manage my code, collaborate with team members, and track changes effectively."
     },
     {
       "question": "What is your experience with React?",
-      "answer": "I have experience building responsive and user-friendly web applications with React.js. I am responsible for developing reusable UI components, optimizing website performance, and ensuring SEO-friendly structures."
+      "answer": "I have extensive experience building responsive and user-friendly web applications with React.js and Next.js. I develop reusable UI components, manage state, and optimize performance."
     },
     {
       "question": "How do you ensure your websites are responsive and mobile-friendly?",
-      "answer": "I have a strong focus on responsive web design for both desktop and mobile. I use modern CSS techniques like Flexbox and Bootstrap to create layouts that adapt to different screen sizes."
+      "answer": "I have a strong focus on responsive web design for both desktop and mobile. I use modern CSS techniques like Flexbox, Grid, and Bootstrap to create layouts that adapt to any screen size."
     },
     {
       "question": "What is your approach to website optimization and performance?",
-      "answer": "I am experienced in optimizing website performance by writing clean and maintainable code, and implementing best practices to ensure fast loading times and a smooth user experience."
+      "answer": "I optimize website performance by writing clean code, implementing lazy loading, optimizing images, and using best practices to ensure fast loading times and a smooth user experience."
     },
     {
       "question": "Can you work with APIs?",
-      "answer": "Yes, I have experience collaborating with teams to implement JSON-based APIs to fetch and display data in web applications."
+      "answer": "Yes, I have extensive experience developing and integrating secure APIs. I work with JSON-based APIs to fetch and display data and integrate third-party services like ATS and CRM systems."
     }
   ]
 }
