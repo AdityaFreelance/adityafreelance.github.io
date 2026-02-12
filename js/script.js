@@ -29,22 +29,6 @@ if (projectTabs) {
     });
 }
 
-// Preloader timing: show for at least 5 seconds
-// const PRELOADER_MIN_MS = 3500;
-// const preloaderStart = performance.now();
 
-// window.addEventListener('load', function() {
-//     const preloader = document.getElementById('preloader');
-//     if (!preloader) return;
-//     const elapsed = performance.now() - preloaderStart;
-//     const remaining = Math.max(0, PRELOADER_MIN_MS - elapsed);
-//     setTimeout(function(){ preloader.classList.add('hidden'); }, remaining);
-// });
-
-// // Fallback: hide after 5s even if 'load' never fires
-// setTimeout(function(){
-//     const preloader = document.getElementById('preloader');
-//     if (preloader) preloader.classList.add('hidden');
-// }, PRELOADER_MIN_MS);
 
 // Typed.js initialization has been moved to js/dynamic-content.js to use data from content.json

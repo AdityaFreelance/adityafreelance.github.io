@@ -230,6 +230,19 @@
         "job_type": "Full-time"
       },
       {
+        "company": "Mind Manthan IT Solutions",
+        "title": "Software Engineer",
+        "duration": "Jan 2023 - Present",
+        "location": "Noida, Uttar Pradesh, India",
+        "responsibilities": [
+          "Developed and maintained web applications and software solutions.",
+          "Collaborated with clients to understand requirements and deliver tailored solutions.",
+          "Utilized various technologies to build robust and scalable systems.",
+          "Provided technical expertise and support for freelance projects."
+        ],
+        "job_type": "Freelance"
+      },
+      {
         "company": "Q2A Media",
         "title": "HTML Developer",
         "duration": "Apr 2022 - May 2023",
@@ -307,7 +320,7 @@
   },
   "footer": {
     "_comment": "Footer content.",
-    "text": "Copyright © 2025 By Aditya",
+    "text": "Copyright © 2026 By Aditya. All rights reserved.",
     "social_links": [
       {
         "icon": "fas fa-envelope",
