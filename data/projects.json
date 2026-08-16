@@ -10,7 +10,7 @@
     {
       "title": "ThePhix",
       "description": "Thephix.co sells organic, vegan, cruelty-free, and pH-balanced skincare products. The website features various products like cleansers, serums, eye creams, moisturizers, toners, and SPF.",
-      "image": "https://thephix.co/cdn/shop/files/logo_1.png?v=1745564245&width=270",
+      "image": "images/the-phix-logo.png",
       "link": "https://thephix.co/",
       "company": "Xenelsoft"
     },
@@ -40,7 +40,7 @@
     {
       "title": "Lift Learning",
       "description": "LiFT Learning offers a project-based learning and skills assessment platform designed to help schools and districts implement learner-centered systems.",
-      "image": "https://liftlearning.com/wp-content/uploads/2020/09/LiFT-Learning-Logo-300.svg",
+      "image": "images/Lift-Learning-logo.png",
       "link": "https://liftlearning.com/",
       "company": "Q2A"
     },
@@ -95,6 +95,20 @@
       "description": "Siya Jain is an aspiring UX designer and a student at SCAD, passionate about crafting user-centered experiences that resonate with niche audiences, foster community, and create lasting impact. Her portfolio includes projects like SETU (helping young artists), LOOP (empowering rural India), PORSCHE (shaping electric experiences), and LOWE'S (improving garden center checkout). She possesses skills in UI Design, UX Research, Interaction Design, Illustration, Product Design, Accessibility Design, and Empathy.",
       "image": "images/Siya-Jain.png",
       "link": "https://siya-jain.com/",
+      "company": "Freelancing"
+    },
+    {
+      "title": "Learn Medicine by Dr. Nikita",
+      "description": "Learn Medicine by Dr. Nikita is an educational platform created to make medical learning simpler, clearer, and more accessible. The website presents structured medical resources and guidance in a user-friendly format, helping learners understand important concepts and build their knowledge with confidence.",
+      "image": "images/learnmedicinebydrnikita-logo.png",
+      "link": "https://learnmedicinebydrnikita.in/",
+      "company": "Freelancing"
+    },
+    {
+      "title": "Samsara Studio",
+      "description": "Samsara Studio is a creative studio website designed to showcase the studio's work, services, and unique creative approach. The website provides visitors with an engaging overview of the brand, its creative capabilities, and the visual style behind its projects, while maintaining a clean and modern browsing experience.",
+      "image": "images/Samsara-logo.png",
+      "link": "https://samsarastudio.co.in/",
       "company": "Freelancing"
     }
   ]
