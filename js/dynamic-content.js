@@ -30,13 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // 8. FAQ Section
         renderFAQ(faqData);
 
-        // 9. Testimonials Section
-        // renderTestimonials(contentData.testimonials);
-
-        // 10. Contact Section
+        // 9. Contact Section
         renderContact(contentData.contact);
 
-        // 11. Footer
+        // 10. Footer
         renderFooter(contentData.footer);
 
         // Re-initialize AOS to catch new elements
@@ -60,6 +57,11 @@ function renderNavigation(navData) {
         navList.innerHTML = navData.links.map(link => 
             `<li class="nav-item"><a class="nav-link" href="${link.href}">${link.text}</a></li>`
         ).join('');
+        navList.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                window.trackEvent?.('navigation_click', { section: link.getAttribute('href') });
+            });
+        });
     }
 }
 
@@ -91,10 +93,27 @@ function renderAbout(aboutData) {
     const pTag = aboutSection.querySelector('p');
     if (pTag) pTag.textContent = aboutData.text;
 
-    const btn = aboutSection.querySelector('.btn-primary');
-    if (btn) {
-        btn.textContent = aboutData.resume.button_text;
-        btn.href = aboutData.resume.download_url;
+    const resume = aboutData.resume || {};
+    const previewButton = aboutSection.querySelector('#resume-preview');
+    const downloadButton = aboutSection.querySelector('#resume-download');
+    const trackResumeEvent = (eventName) => {
+        if (typeof window.gtag === 'function') {
+            window.gtag('event', eventName, {
+                file_name: resume.download_filename || 'Aditya-Kumar-Singh-Resume.pdf'
+            });
+        }
+    };
+
+    if (previewButton) {
+        previewButton.textContent = resume.preview_button_text || 'View Resume';
+        previewButton.href = resume.preview_url || resume.download_url || '#';
+        previewButton.addEventListener('click', () => trackResumeEvent('resume_preview'));
+    }
+    if (downloadButton) {
+        downloadButton.textContent = resume.button_text || 'Download Resume';
+        downloadButton.href = resume.download_url || '#';
+        downloadButton.download = resume.download_filename || 'Aditya-Kumar-Singh-Resume.pdf';
+        downloadButton.addEventListener('click', () => trackResumeEvent('resume_download'));
     }
 }
 
@@ -201,15 +220,57 @@ function renderProjectsSection(projectsInfo, projectsData) {
                 </button>
             </li>
         `).join('');
+        tabsContainer.querySelectorAll('.nav-link').forEach(tab => {
+            tab.addEventListener('click', () => {
+                window.trackEvent?.('company_filter', { company: tab.dataset.company });
+            });
+        });
     }
 
     window.allProjectsData = projectsData;
+    populateTechnologyFilter(projectsData);
+
+    const searchInput = document.getElementById('project-search');
+    const technologyFilter = document.getElementById('technology-filter');
+    if (searchInput) {
+        searchInput.addEventListener('input', () => filterProjects(window.activeProjectCategory || 'all'));
+        searchInput.addEventListener('change', () => {
+            if (searchInput.value.trim()) {
+                window.trackEvent?.('project_search', { search_term: searchInput.value.trim() });
+            }
+        });
+    }
+    if (technologyFilter) {
+        technologyFilter.addEventListener('change', () => {
+            filterProjects(window.activeProjectCategory || 'all');
+            if (technologyFilter.value !== 'all') {
+                window.trackEvent?.('technology_filter', { technology: technologyFilter.value });
+            }
+        });
+    }
+
     filterProjects('all');
+}
+
+function populateTechnologyFilter(projectsData) {
+    const select = document.getElementById('technology-filter');
+    if (!select) return;
+
+    const technologies = [...new Set(Object.values(projectsData)
+        .flat()
+        .flatMap(project => project.technologies || []))]
+        .sort((a, b) => a.localeCompare(b));
+
+    select.innerHTML = '<option value="all">All Technologies</option>' + technologies
+        .map(technology => `<option value="${technology}">${technology}</option>`)
+        .join('');
 }
 
 window.filterProjects = function(category) {
     const container = document.getElementById('projects-container');
     if (!container || !window.allProjectsData) return;
+
+    window.activeProjectCategory = category;
 
     let projectsToShow = [];
     if (category === 'all') {
@@ -220,6 +281,17 @@ window.filterProjects = function(category) {
         projectsToShow = window.allProjectsData[category] || [];
     }
 
+    const searchTerm = (document.getElementById('project-search')?.value || '').trim().toLowerCase();
+    const selectedTechnology = document.getElementById('technology-filter')?.value || 'all';
+    projectsToShow = projectsToShow.filter(project => {
+        const searchableText = [project.title, project.description, project.company,
+            ...(project.technologies || [])].join(' ').toLowerCase();
+        const matchesSearch = !searchTerm || searchableText.includes(searchTerm);
+        const matchesTechnology = selectedTechnology === 'all' ||
+            (project.technologies || []).includes(selectedTechnology);
+        return matchesSearch && matchesTechnology;
+    });
+
     container.innerHTML = projectsToShow.map(project => `
         <div class="col-md-4 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="card h-100">
@@ -227,15 +299,91 @@ window.filterProjects = function(category) {
                 <div class="card-body d-flex flex-column">
                     <h3 class="card-title">${project.title}</h3>
                     <p class="card-text flex-grow-1">${project.description}</p>
-                    <a href="${project.link}" class="btn btn-primary mt-auto" target="_blank" rel="noopener noreferrer" title="View the ${project.title} project">View Project</a>
+                    <div class="project-technologies mb-3">${(project.technologies || [])
+                        .map(technology => `<span class="technology-badge">${technology}</span>`).join('')}</div>
+                    <button type="button" class="btn btn-outline-primary mb-2 project-details-button"
+                        data-project-title="${project.title}">View Details</button>
+                    <a href="${project.link}" class="btn btn-primary mt-auto project-live-link" data-project-title="${project.title}" target="_blank" rel="noopener noreferrer" title="View the ${project.title} project">View Project</a>
                 </div>
             </div>
         </div>
     `).join('');
 
+    const noProjectsMessage = document.getElementById('no-projects-message');
+    if (noProjectsMessage) noProjectsMessage.hidden = projectsToShow.length > 0;
+
+    container.querySelectorAll('.project-details-button').forEach(button => {
+        button.addEventListener('click', () => showProjectDetails(button.dataset.projectTitle));
+    });
+    container.querySelectorAll('.project-live-link').forEach(link => {
+        link.addEventListener('click', () => {
+            window.trackEvent?.('project_click', { project_name: link.dataset.projectTitle });
+        });
+    });
+
     const loadMoreBtn = document.getElementById('load-more-btn');
     if (loadMoreBtn) loadMoreBtn.style.display = 'none'; 
 };
+
+function showProjectDetails(projectTitle) {
+    const project = Object.values(window.allProjectsData || {}).flat()
+        .find(item => item.title === projectTitle);
+    const modalElement = document.getElementById('project-details-modal');
+    if (!project || !modalElement || typeof bootstrap === 'undefined') return;
+
+    document.getElementById('project-details-title').textContent = project.title;
+    document.getElementById('project-details-description').textContent = project.description;
+    document.getElementById('project-details-company').textContent = project.company;
+    document.getElementById('project-details-link').href = project.link;
+    window.trackEvent?.('project_view', { project_name: project.title });
+    document.getElementById('project-details-technologies').innerHTML = (project.technologies || [])
+        .map(technology => `<span class="technology-badge">${technology}</span>`).join('');
+
+    const featuresWrapper = document.getElementById('project-details-features-wrapper');
+    const featuresList = document.getElementById('project-details-features');
+    const features = project.features || [];
+    if (featuresWrapper && featuresList) {
+        featuresWrapper.hidden = features.length === 0;
+        featuresList.innerHTML = features.map(feature => `<li>${feature}</li>`).join('');
+    }
+
+    const responsibilitiesWrapper = document.getElementById('project-details-responsibilities-wrapper');
+    const responsibilitiesList = document.getElementById('project-details-responsibilities');
+    const responsibilities = project.responsibilities || [];
+    if (responsibilitiesWrapper && responsibilitiesList) {
+        responsibilitiesWrapper.hidden = responsibilities.length === 0;
+        responsibilitiesList.innerHTML = responsibilities
+            .map(responsibility => `<li>${responsibility}</li>`).join('');
+    }
+
+    const challengesWrapper = document.getElementById('project-details-challenges-wrapper');
+    const challengesContainer = document.getElementById('project-details-challenges');
+    const challenges = project.challenges || [];
+    if (challengesWrapper && challengesContainer) {
+        challengesWrapper.hidden = challenges.length === 0;
+        challengesContainer.innerHTML = challenges.map(item => `
+            <div class="project-challenge mb-3">
+                <p class="mb-1"><strong>Challenge:</strong> ${item.challenge}</p>
+                <p class="mb-0"><strong>Solution:</strong> ${item.solution}</p>
+            </div>
+        `).join('');
+    }
+
+    bootstrap.Modal.getOrCreateInstance(modalElement).show();
+}
+
+const projectDetailsModal = document.getElementById('project-details-modal');
+if (projectDetailsModal) {
+    projectDetailsModal.addEventListener('show.bs.modal', () => {
+        document.documentElement.classList.add('modal-open');
+        document.body.classList.add('modal-open');
+    });
+
+    projectDetailsModal.addEventListener('hidden.bs.modal', () => {
+        document.documentElement.classList.remove('modal-open');
+        document.body.classList.remove('modal-open');
+    });
+}
 
 function renderFAQ(faqData) {
     const container = document.querySelector('#faq .container');
@@ -265,37 +413,6 @@ function renderFAQ(faqData) {
     }
 }
 
-function renderTestimonials(testimonialsData) {
-    const section = document.getElementById('testimonials');
-    if (!section) return;
-
-    section.querySelector('h2').textContent = testimonialsData.title;
-
-    const slider = section.querySelector('.testimonial-slider');
-    if (slider) {
-        slider.innerHTML = testimonialsData.items.map(item => `
-            <div class="testimonial-item">
-                <img src="${item.image}" alt="${item.author}" class="rounded-circle mb-3">
-                <p class="mb-3">"${item.text}"</p>
-                <h4 class="mb-1">${item.author}</h4>
-                <small class="text-muted">${item.company}</small>
-            </div>
-        `).join('');
-
-        // Initialize Slick Carousel after content is injected
-        $(slider).slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            adaptiveHeight: true,
-            autoplay: true,
-            autoplaySpeed: 3000,
-             arrows: true 
-        });
-    }
-}
-
 function renderContact(contactData) {
     const contactSection = document.getElementById('contact');
     if (!contactSection) return;
@@ -310,6 +427,12 @@ function renderContact(contactData) {
     
     const btn = contactSection.querySelector('button[type="submit"]');
     if (btn) btn.textContent = contactData.form.submit_button;
+
+    const form = contactSection.querySelector('#contact-form');
+    if (form && !form.dataset.analyticsBound) {
+        form.addEventListener('submit', () => window.trackEvent?.('contact_form_submit'));
+        form.dataset.analyticsBound = 'true';
+    }
 }
 
 function renderFooter(footerData) {
@@ -328,7 +451,13 @@ function renderFooter(footerData) {
             } else if (link.svg_icon) {
                 iconHtml = `<img src="${link.svg_icon}" style="width: 24px; height: 24px;">`;
             }
-            return `<li><a href="${link.href}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Social Link" title="${link.title || ''}">${iconHtml}</a></li>`;
+            const accessibleLabel = link.title || link.text || 'Social Link';
+            return `<li><a href="${link.href}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="${accessibleLabel}" title="${accessibleLabel}">${iconHtml}</a></li>`;
         }).join('');
+        socialList.querySelectorAll('.social-link').forEach(link => {
+            link.addEventListener('click', () => {
+                window.trackEvent?.('social_link_click', { social_network: link.title });
+            });
+        });
     }
 }

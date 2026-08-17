@@ -269,3 +269,77 @@ section {
     display: block;
     object-fit: contain;
 }
+
+.project-filters {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.technology-badge {
+    display: inline-block;
+    padding: 0.25rem 0.6rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 999px;
+    color: var(--heading-color);
+    font-size: 0.75rem;
+    line-height: 1.2;
+}
+
+.project-features {
+    margin-bottom: 0;
+    padding-left: 1.25rem;
+}
+
+.project-challenge {
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--box-shadow-color);
+
+    &:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+    }
+}
+
+#no-projects-message {
+    color: var(--text-color);
+}
+
+#project-details-modal .modal-content {
+    background-color: var(--section-background-color);
+    color: var(--text-color);
+}
+
+#project-details-modal .modal-header,
+#project-details-modal .modal-footer {
+    border-color: var(--box-shadow-color);
+}
+
+#project-details-modal .btn-close {
+    filter: var(--modal-close-filter, none);
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+#project-details-modal .modal-dialog {
+    max-height: calc(100vh - 2rem);
+}
+
+#project-details-modal .modal-body {
+    overflow-y: auto;
+}
+
+.form-field-error {
+    display: block;
+    min-height: 1.25rem;
+    color: #dc3545;
+    font-size: 0.875rem;
+}

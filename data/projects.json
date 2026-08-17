@@ -3,6 +3,10 @@
     {
       "title": "Byzfunder",
       "description": "ByzFunder offers fast, simple, and secure short-term financing for small businesses in the US, providing up to $500,000 within 24 hours of application.",
+      "technologies": ["HTML", "SCSS", "JavaScript", "Responsive Web Design", "Bootstrap", "WordPress"],
+      "features": ["Responsive web design", "Business financing information", "Clear call-to-action sections", "Mobile-friendly interface"],
+      "challenges": [{"challenge": "Financial information needed to remain clear across different screen sizes.", "solution": "Created structured responsive sections using Bootstrap and SCSS."}, {"challenge": "The website needed a clear path for business enquiries.", "solution": "Organized call-to-action sections and improved the page navigation flow."}],
+      "responsibilities": ["Understood the project requirements and planned the website structure", "Converted the design into responsive HTML and SCSS sections", "Implemented reusable components and layouts using Bootstrap", "Developed WordPress pages and organized website content", "Optimized the layout for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO best practices", "Tested the website across browsers and screen sizes", "Fixed UI issues and implemented project revisions", "Optimized the website for usability and performance", "Prepared the website for final deployment and updates"],
       "image": "images/byzfunder.svg",
       "link": "http://byzfunder.com/",
       "company": "Xenelsoft"
@@ -10,6 +14,10 @@
     {
       "title": "ThePhix",
       "description": "Thephix.co sells organic, vegan, cruelty-free, and pH-balanced skincare products. The website features various products like cleansers, serums, eye creams, moisturizers, toners, and SPF.",
+      "technologies": ["Shopify", "HTML", "CSS", "JavaScript"],
+      "features": ["Product-focused layout", "Responsive product browsing", "Clear product categories", "Mobile-friendly shopping experience"],
+      "challenges": [{"challenge": "Product information needed to remain easy to browse on desktop and mobile devices.", "solution": "Created responsive product sections with clear categories and consistent spacing."}, {"challenge": "The storefront needed a smooth and consistent shopping experience.", "solution": "Customized Shopify sections and optimized product-focused layouts."}],
+      "responsibilities": ["Understood the e-commerce requirements and planned the storefront structure", "Customized Shopify sections and implemented the product-focused layout", "Developed responsive HTML, CSS, and JavaScript components", "Organized product categories, content, and visual assets", "Optimized the shopping experience for desktop, tablet, and mobile devices", "Improved page structure, navigation, and product discoverability", "Applied on-page SEO and technical SEO best practices", "Tested product pages, links, layouts, and responsive behavior", "Resolved UI issues and implemented feedback-based revisions", "Prepared the storefront for launch and post-launch updates"],
       "image": "images/the-phix-logo.png",
       "link": "https://thephix.co/",
       "company": "Xenelsoft"
@@ -17,6 +25,10 @@
     {
       "title": "Gloria Agency",
       "description": "The Gloria Agency provides assistance with Medicare options, supplemental insurance, health insurance, and Social Security planning in Rockford, IL.",
+      "technologies": ["HTML", "SCSS", "JavaScript", "Responsive Web Design", "Bootstrap", "WordPress"],
+      "features": ["Healthcare service information", "Responsive layout", "Clear service sections", "User-friendly navigation"],
+      "challenges": [{"challenge": "Healthcare services needed to be presented in a simple and trustworthy format.", "solution": "Structured the content into clear service sections with easy navigation."}, {"challenge": "The website needed to work consistently across mobile devices.", "solution": "Implemented responsive layouts using Bootstrap, SCSS, and JavaScript."}],
+      "responsibilities": ["Understood the healthcare service requirements and planned the content structure", "Implemented responsive HTML and SCSS website sections", "Built reusable layouts using Bootstrap and JavaScript", "Organized service information, navigation, and call-to-action sections", "Optimized the website for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO improvements", "Tested the website across browsers and screen sizes", "Fixed layout issues and implemented content revisions", "Improved usability, accessibility, and page performance", "Prepared the website for deployment and future updates"],
       "image": "images/Gloriya.png",
       "link": "https://thegloriaagency1.com/",
       "company": "Xenelsoft"
@@ -24,6 +36,10 @@
     {
       "title": "Green Light Finance",
       "description": "Greenlight Financial is a Miami-based accounting firm offering bookkeeping, tax preparation, tax planning, international business, company registration, and business management services.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Responsive Web Design", "Bootstrap", "WordPress"],
+      "features": ["Financial service information", "Responsive business website", "Service overview sections", "Clear contact call-to-actions"],
+      "challenges": [{"challenge": "Multiple financial services needed to be organized without overwhelming visitors.", "solution": "Created structured service sections with clear headings and content hierarchy."}, {"challenge": "The business website needed a consistent responsive experience.", "solution": "Built reusable Bootstrap-based layouts and tested them across screen sizes."}],
+      "responsibilities": ["Understood the business requirements and planned the website structure", "Implemented responsive HTML and CSS website sections", "Built reusable layouts using Bootstrap and JavaScript", "Organized financial services, content, and call-to-action sections", "Optimized the interface for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO best practices", "Tested navigation, links, layouts, and responsive behavior", "Resolved UI issues and implemented project revisions", "Improved usability, accessibility, and performance", "Prepared the website for final deployment and maintenance"],
       "image": "https://greenlightfinancial.net/wp-content/uploads/2024/09/greenlight_logo_white-2.png",
       "link": "https://greenlightfinancial.net/",
       "company": "Xenelsoft"
@@ -31,6 +47,10 @@
     {
       "title": "Taxi Transfer",
       "description": "Taxi Transfer Solutions offers 24-hour taxi and minicab services, including airport transfers to major UK airports, corporate transfers, and private hire.",
+      "technologies": ["HTML", "SCSS", "JavaScript", "Responsive Web Design", "Bootstrap", "WordPress"],
+      "features": ["Airport transfer service information", "Responsive booking-focused layout", "Service location sections", "Mobile-friendly navigation"],
+      "challenges": [{"challenge": "Transfer services and locations needed to be easy to find.", "solution": "Organized service information with clear navigation and booking-focused sections."}, {"challenge": "The website needed to remain usable for customers on mobile devices.", "solution": "Implemented responsive SCSS and Bootstrap layouts across key pages."}],
+      "responsibilities": ["Understood the transportation service requirements and planned the page structure", "Converted the design into responsive HTML and SCSS sections", "Implemented reusable layouts using Bootstrap and JavaScript", "Organized transfer services, airport information, and contact sections", "Optimized the website for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO improvements", "Tested navigation, forms, links, and layouts across browsers", "Fixed UI issues and implemented feedback-based revisions", "Improved usability, accessibility, and page performance", "Prepared the website for deployment and future content updates"],
       "image": "https://taxitransfersolutions.co.uk/wp-content/uploads/2023/12/logo-6.png",
       "link": "https://taxitransfersolutions.co.uk/",
       "company": "Xenelsoft"
@@ -40,6 +60,10 @@
     {
       "title": "Lift Learning",
       "description": "LiFT Learning offers a project-based learning and skills assessment platform designed to help schools and districts implement learner-centered systems.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React.js"],
+      "features": ["Project-based learning content", "Skills assessment information", "Responsive interface", "Clear educational navigation"],
+      "challenges": [{"challenge": "Learning and assessment content needed a clear application structure.", "solution": "Organized the content into reusable React.js components and logical sections."}, {"challenge": "The interface needed consistent behavior across screen sizes.", "solution": "Implemented responsive React.js layouts and tested component behavior on multiple devices."}],
+      "responsibilities": ["Understood the education platform requirements and planned the application structure", "Developed responsive React.js components and page sections", "Organized learning content and skills assessment information", "Implemented reusable UI components and consistent navigation", "Optimized the interface for desktop, tablet, and mobile devices", "Integrated content sections into the React.js application flow", "Tested components, navigation, and layouts across browsers", "Fixed UI issues and improved component behavior", "Applied accessibility and usability improvements", "Prepared the application for deployment and future updates"],
       "image": "images/Lift-Learning-logo.png",
       "link": "https://liftlearning.com/",
       "company": "Q2A"
@@ -47,6 +71,10 @@
     {
       "title": "Speki",
       "description": "Speki.org is an AI-powered technology platform that focuses on personalized education, corporate training, and workforce development. It aims to upskill and place veterans into rewarding careers.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React.js"],
+      "features": ["Personalized learning information", "Training and workforce development sections", "Responsive interface", "Clear calls to action"],
+      "challenges": [{"challenge": "Multiple learning and workforce sections needed to feel consistent.", "solution": "Created reusable React.js components and shared interface patterns."}, {"challenge": "The platform needed clear actions for different visitor groups.", "solution": "Structured content and call-to-action sections around the user journey."}],
+      "responsibilities": ["Understood the platform requirements and planned the React.js application structure", "Developed reusable React.js components for learning and training sections", "Implemented responsive layouts for desktop, tablet, and mobile devices", "Organized personalized learning and workforce development content", "Built consistent navigation and clear call-to-action sections", "Integrated reusable UI patterns across the application", "Tested components, interactions, and responsive behavior", "Resolved UI issues and improved application usability", "Applied accessibility-focused interface improvements", "Prepared the application for deployment and ongoing updates"],
       "image": "https://cdn.durable.co/blocks/3akMNuz2In6w6tFtrudB6t9BZKgRd3vNGhbJ5yZc3oqszimEwdTjNj8auc5C5vt8.jpg",
       "link": "https://www.speki.org/",
       "company": "Q2A"
@@ -54,6 +82,10 @@
     {
       "title": "Naylor",
       "description": "Naylor Association Solutions helps associations increase engagement and non-dues revenue through various services like member communications, content creation, and event management.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React.js"],
+      "features": ["Association service information", "Content and event service sections", "Responsive layout", "Structured navigation"],
+      "challenges": [{"challenge": "Several association services needed to be presented in an organized way.", "solution": "Built reusable React.js sections with consistent content hierarchy."}, {"challenge": "The interface needed to remain easy to navigate on smaller screens.", "solution": "Implemented responsive components and tested navigation across devices."}],
+      "responsibilities": ["Understood the business requirements and planned the React.js page structure", "Developed reusable React.js components for service and content sections", "Implemented responsive layouts across desktop, tablet, and mobile devices", "Organized association, communication, content, and event information", "Built structured navigation and consistent user interface patterns", "Maintained reusable styling and component behavior", "Tested page layouts, interactions, and navigation across browsers", "Fixed UI issues and improved the overall user experience", "Applied accessibility and responsive design improvements", "Prepared the application for deployment and future enhancements"],
       "image": "https://www.naylor.com/wp-content/uploads/2023/04/Naylor-Association-Solutions-Logo-4C.svg",
       "link": "https://www.naylor.com/",
       "company": "Q2A"
@@ -63,6 +95,10 @@
     {
       "title": "Funex",
       "description": "Funex.com offers discount tickets for various attractions, theme parks, movies, hotels, rental cars, cruises, and shopping deals.",
+      "technologies": ["HTML", "SCSS", "JavaScript", "C#", ".NET"],
+      "features": ["Attraction and ticket listings", "Travel deal information", "Responsive booking-focused interface", "User-friendly navigation"],
+      "challenges": [{"challenge": "Many travel products and deals needed to remain easy to explore.", "solution": "Organized the content into clear categories and booking-focused sections."}, {"challenge": "The website needed to support a consistent experience across devices.", "solution": "Implemented responsive layouts using Bootstrap and SCSS."}],
+      "responsibilities": ["Understood the travel booking requirements and planned the website structure", "Developed responsive HTML and SCSS website sections", "Implemented reusable layouts using Bootstrap and JavaScript", "Organized attraction, ticket, hotel, and travel deal content", "Optimized the interface for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO best practices", "Tested navigation, links, content sections, and responsive layouts", "Fixed UI issues and implemented project revisions", "Improved usability, accessibility, and website performance", "Prepared the website for deployment and ongoing updates"],
       "image": "https://res.cloudinary.com/funex/image/upload/v1716864847/funex-Logo_ljcp1u.svg?v=funexpress",
       "link": "http://funex.com/",
       "company": "Funex"
@@ -70,6 +106,10 @@
     {
       "title": "Great Work Perks",
       "description": "Great Work Perks offers an employee discount program used by over 20,000 companies, providing exclusive deals on shopping, travel, entertainment, and more.",
+      "technologies": ["HTML", "CSS", "JavaScript", "C#", ".NET"],
+      "features": ["Employee discount information", "Shopping and travel deal sections", "Responsive layout", "Clear partner-focused content"],
+      "challenges": [{"challenge": "Discount content needed to be presented clearly for different partner categories.", "solution": "Created structured sections with clear labels and content grouping."}, {"challenge": "The website needed to remain responsive and easy to use.", "solution": "Implemented responsive CSS layouts and tested the interface across screen sizes."}],
+      "responsibilities": ["Understood the employee benefits requirements and planned the website structure", "Implemented responsive HTML and CSS website sections", "Built reusable layouts using JavaScript and Bootstrap patterns", "Organized shopping, travel, entertainment, and partner content", "Optimized the interface for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO improvements", "Tested navigation, links, layouts, and responsive behavior", "Resolved UI issues and implemented feedback-based revisions", "Improved accessibility, usability, and performance", "Prepared the website for deployment and future content updates"],
       "image": "https://www.greatworkperks.com/static/images/icons/GWP-logo.svg",
       "link": "https://greatworkperks.com/",
       "company": "Funex"
@@ -77,6 +117,10 @@
     {
       "title": "Travel Agency Outlet",
       "description": "A global travel distribution platform for travel agents and tour operators, offering discounted tickets to theme parks and city passes. It provides access to global attractions, flexible cancellations, exclusive agent discounts, and dedicated customer support.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": ["Travel distribution information", "Attraction and city pass content", "Agent-focused service sections", "Responsive interface"],
+      "challenges": [{"challenge": "Travel distribution information needed to be clear for professional users.", "solution": "Organized agent-focused content into structured sections with clear navigation."}, {"challenge": "The website needed to present detailed information without creating a complex interface.", "solution": "Used clean layouts, consistent styling, and responsive JavaScript sections."}],
+      "responsibilities": ["Understood the travel distribution requirements and planned the page structure", "Implemented responsive HTML and CSS website sections", "Developed reusable layouts using JavaScript", "Organized attraction, city pass, agent, and support information", "Optimized the website for desktop, tablet, and mobile devices", "Applied on-page SEO and technical SEO best practices", "Tested navigation, links, content sections, and responsive layouts", "Fixed UI issues and implemented project revisions", "Improved usability, accessibility, and performance", "Prepared the website for deployment and future updates"],
       "image": "https://res.cloudinary.com/greatperks/image/upload/v1742822814/Logo_hjfbyv.png",
       "link": "https://www.travelagencyoutlet.com/",
       "company": "Funex"
@@ -86,6 +130,10 @@
     {
       "title": "Job Crafters",
       "description": "Job Crafter is an education and job placement consultation service that aims to make individuals competent and employable by securing 100% job placement in their dream country.",
+      "technologies": ["HTML", "SCSS", "JavaScript", "Responsive Web Design", "Bootstrap", "WordPress"],
+      "features": ["Education and job placement information", "Consultation service sections", "Responsive layout", "Clear enquiry call-to-actions"],
+      "challenges": [{"challenge": "Education and placement services needed to be easy for visitors to understand.", "solution": "Structured the content into clear consultation and service sections."}, {"challenge": "The website needed to generate enquiries across desktop and mobile devices.", "solution": "Implemented responsive call-to-action areas and optimized the navigation flow."}],
+      "responsibilities": ["Understood the project requirements and planned the website structure", "Converted the approved design into a responsive WordPress website", "Built reusable sections using HTML, SCSS, Bootstrap, and JavaScript", "Implemented responsive layouts for desktop, tablet, and mobile devices", "Added and organized website content, images, and enquiry call-to-actions", "Applied on-page SEO and technical SEO best practices", "Tested the website across major browsers and screen sizes", "Fixed UI issues and implemented client feedback", "Optimized the website for usability, accessibility, and performance", "Managed the final deployment and post-launch updates"],
       "image": "https://jobcrafters.in/wp-content/uploads/2024/02/logo-Jobcrafter-2-1.png",
       "link": "https://jobcrafters.in/",
       "company": "Freelancing"
@@ -93,6 +141,10 @@
     {
       "title": "Siya Jain",
       "description": "Siya Jain is an aspiring UX designer and a student at SCAD, passionate about crafting user-centered experiences that resonate with niche audiences, foster community, and create lasting impact. Her portfolio includes projects like SETU (helping young artists), LOOP (empowering rural India), PORSCHE (shaping electric experiences), and LOWE'S (improving garden center checkout). She possesses skills in UI Design, UX Research, Interaction Design, Illustration, Product Design, Accessibility Design, and Empathy.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": ["UX design portfolio presentation", "Case study sections", "Responsive project gallery", "Accessible user interface"],
+      "challenges": [{"challenge": "Multiple UX case studies needed a consistent visual presentation.", "solution": "Created structured project sections with reusable HTML and CSS patterns."}, {"challenge": "The portfolio needed to remain accessible and easy to browse.", "solution": "Used semantic structure, clear navigation, and responsive JavaScript interactions."}],
+      "responsibilities": ["Understood the portfolio goals and planned the page structure", "Implemented the UX portfolio layout using HTML, CSS, and JavaScript", "Created structured case study and project presentation sections", "Built responsive layouts for desktop, tablet, and mobile devices", "Organized project content, visual assets, and portfolio navigation", "Applied accessibility-focused UI practices and semantic markup", "Optimized page structure, content presentation, and user experience", "Tested interactions and layouts across different browsers and screen sizes", "Implemented revisions and refinements based on project feedback", "Handled the final website preparation and deployment updates"],
       "image": "images/Siya-Jain.png",
       "link": "https://siya-jain.com/",
       "company": "Freelancing"
@@ -100,6 +152,10 @@
     {
       "title": "Learn Medicine by Dr. Nikita",
       "description": "Learn Medicine by Dr. Nikita is an educational platform created to make medical learning simpler, clearer, and more accessible. The website presents structured medical resources and guidance in a user-friendly format, helping learners understand important concepts and build their knowledge with confidence.",
+      "technologies": ["HTML", "CSS", "JavaScript", "PHP"],
+      "features": ["Medical learning resources", "Educational content sections", "Responsive interface", "User-friendly navigation"],
+      "challenges": [{"challenge": "Medical learning content needed to be organized for quick understanding.", "solution": "Created clear educational sections and structured PHP-based content areas."}, {"challenge": "The website needed to remain usable across devices and screen sizes.", "solution": "Implemented responsive layouts and tested pages, navigation, and forms."}],
+      "responsibilities": ["Understood the educational objectives and planned the website structure", "Developed and maintained PHP-based website sections", "Implemented responsive pages for desktop, tablet, and mobile devices", "Organized medical learning content into clear and user-friendly sections", "Added website content, images, navigation, and relevant call-to-actions", "Implemented on-page SEO and technical SEO improvements", "Tested forms, links, layouts, and page functionality across browsers", "Resolved layout, content, and functionality issues during development", "Optimized the website for usability, accessibility, and performance", "Managed deployment, revisions, and post-launch content updates"],
       "image": "images/learnmedicinebydrnikita-logo.png",
       "link": "https://learnmedicinebydrnikita.in/",
       "company": "Freelancing"
@@ -107,6 +163,10 @@
     {
       "title": "Samsara Studio",
       "description": "Samsara Studio is a creative studio website designed to showcase the studio's work, services, and unique creative approach. The website provides visitors with an engaging overview of the brand, its creative capabilities, and the visual style behind its projects, while maintaining a clean and modern browsing experience.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": ["Creative services showcase", "Project portfolio sections", "Modern responsive layout", "Brand-focused visual presentation"],
+      "challenges": [{"challenge": "The studio's creative identity needed to remain consistent throughout the website.", "solution": "Applied a consistent visual system for typography, spacing, colors, and layouts."}, {"challenge": "Project and service information needed to remain engaging on mobile devices.", "solution": "Built responsive sections using HTML, CSS, and JavaScript and tested them across screen sizes."}],
+      "responsibilities": ["Understood the studio's brand direction and planned the website structure", "Implemented the creative studio website using HTML, CSS, and JavaScript", "Created responsive sections for services, projects, and brand information", "Maintained consistent typography, spacing, colors, and visual presentation", "Optimized the layout for desktop, tablet, and mobile devices", "Added and organized website content, images, and project information", "Applied on-page SEO, technical SEO, and semantic HTML practices", "Tested navigation, layouts, links, and interactions across browsers", "Implemented feedback, fixed UI issues, and refined the user experience", "Handled final deployment preparation and post-launch updates"],
       "image": "images/Samsara-logo.png",
       "link": "https://samsarastudio.co.in/",
       "company": "Freelancing"
