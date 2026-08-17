@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Practical articles by Aditya Kumar Singh about React.js, responsive web design, WordPress, PHP, SEO, accessibility, and frontend development.">
+    <meta name="author" content="Aditya Kumar Singh">
+    <link rel="canonical" href="https://adityafreelance.github.io/blog.html">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Web Development Blog | Aditya Kumar Singh</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar-dark bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">Aditya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#blogNav"
+                    aria-controls="blogNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="blogNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="blog.html" aria-current="page">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="blog-page-header">
+            <div class="container text-center">
+                <p class="blog-category">Insights and Practical Guides</p>
+                <h1>Web Development Blog</h1>
+                <p class="lead">Practical lessons from frontend development, SEO, accessibility, performance, and building maintainable websites.</p>
+            </div>
+        </section>
+
+        <section id="blog-listing">
+            <div class="container">
+                <div class="row g-3 justify-content-center mb-4">
+                    <div class="col-12 col-md-7">
+                        <label class="visually-hidden" for="blog-search">Search articles</label>
+                        <input id="blog-search" class="form-control" type="search" placeholder="Search articles..." autocomplete="off">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label class="visually-hidden" for="blog-category-filter">Filter by category</label>
+                        <select id="blog-category-filter" class="form-select">
+                            <option value="all">All Categories</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="blog-list-container" class="row g-4" aria-live="polite"></div>
+                <p id="blog-empty-state" class="text-center mt-4" hidden>No articles found.</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="theme-switcher">
+        <button id="theme-toggle" type="button" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script defer src="js/blog.js"></script>
+    <script defer src="js/theme.js"></script>
+</body>
+
+</html>

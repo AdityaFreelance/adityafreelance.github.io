@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.">
+    <meta name="keywords" content="JSON-driven website, static portfolio, dynamic content, GitHub Pages">
+    <meta name="author" content="Aditya Kumar Singh">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://adityafreelance.github.io/blog/using-json-driven-content-in-a-static-portfolio.html">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Using JSON-Driven Content in a Static Portfolio">
+    <meta property="og:description" content="A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.">
+    <meta property="og:url" content="https://adityafreelance.github.io/blog/using-json-driven-content-in-a-static-portfolio.html">
+    <meta property="og:site_name" content="Aditya Kumar Singh">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Using JSON-Driven Content in a Static Portfolio">
+    <meta name="twitter:description" content="A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.">
+    <title>Using JSON-Driven Content in a Static Portfolio | Aditya Kumar Singh</title>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://adityafreelance.github.io/blog/using-json-driven-content-in-a-static-portfolio.html#article","mainEntityOfPage":"https://adityafreelance.github.io/blog/using-json-driven-content-in-a-static-portfolio.html","headline":"Using JSON-Driven Content in a Static Portfolio","description":"A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.","keywords":"JSON-driven website, static portfolio, dynamic content, GitHub Pages","articleSection":"Web Architecture","articleBody":"A portfolio often contains repeated structures: project cards, skills, experience entries, FAQs, and articles. Writing the same markup for every item makes updates slow and increases the chance of inconsistent content. A JSON data source separates the information from the layout that presents it.\n\nWith this approach, a developer can add a project or blog entry by updating structured data rather than editing multiple sections of HTML. The rendering code controls the design, while the content file controls titles, descriptions, dates, categories, and other fields.\n\nStatic hosting remains useful because the finished pages can be served quickly without a database. For SEO-friendly detail pages, a build script can read the same JSON and generate individual HTML pages, metadata, Article schema, and sitemap entries.\n\nThe important requirement is validation. Every item should have a unique slug, a meaningful title, a valid date, and complete content. A simple content model can make a static portfolio feel as manageable as a small content system.\n\nThe build process should also fail clearly when a required field is missing. It is better to discover an invalid article during development than to publish a page with an empty title, broken canonical URL, or missing structured data.\n\nThis approach keeps publishing lightweight while preserving control. Content remains readable in one JSON file, pages remain fast on static hosting, and the generated output can be reviewed before it reaches production.","datePublished":"2026-08-03","dateModified":"2026-08-03","author":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"},"publisher":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"}}</script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="navbar-dark bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="../index.html">Aditya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#blogDetailNav"
+                    aria-controls="blogDetailNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="blogDetailNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../blog.html">All Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <article class="blog-detail-page">
+            <div class="container blog-detail-container">
+                <a class="blog-back-link" href="../blog.html">&larr; Back to all articles</a>
+                <p class="blog-category mt-4 mb-2">Web Architecture</p>
+                <h1>Using JSON-Driven Content in a Static Portfolio</h1>
+                <div class="blog-detail-meta">
+                    <span>By Aditya Kumar Singh</span>
+                    <span aria-hidden="true">&middot;</span>
+                    <time datetime="2026-08-03">August 3, 2026</time>
+                </div>
+                <p class="blog-detail-intro">A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.</p>
+                <div class="blog-article-content">
+                    <p class="blog-lead">A portfolio often contains repeated structures: project cards, skills, experience entries, FAQs, and articles. Writing the same markup for every item makes updates slow and increases the chance of inconsistent content. A JSON data source separates the information from the layout that presents it.</p>
+<p>With this approach, a developer can add a project or blog entry by updating structured data rather than editing multiple sections of HTML. The rendering code controls the design, while the content file controls titles, descriptions, dates, categories, and other fields.</p>
+<p>Static hosting remains useful because the finished pages can be served quickly without a database. For SEO-friendly detail pages, a build script can read the same JSON and generate individual HTML pages, metadata, Article schema, and sitemap entries.</p>
+<p>The important requirement is validation. Every item should have a unique slug, a meaningful title, a valid date, and complete content. A simple content model can make a static portfolio feel as manageable as a small content system.</p>
+<p>The build process should also fail clearly when a required field is missing. It is better to discover an invalid article during development than to publish a page with an empty title, broken canonical URL, or missing structured data.</p>
+<p>This approach keeps publishing lightweight while preserving control. Content remains readable in one JSON file, pages remain fast on static hosting, and the generated output can be reviewed before it reaches production.</p>
+                </div>
+                <div class="blog-keywords mt-4" aria-label="Article topics">
+                    <span class="technology-badge">JSON-driven website</span><span class="technology-badge">static portfolio</span><span class="technology-badge">dynamic content</span><span class="technology-badge">GitHub Pages</span>
+                </div>
+            </div>
+        </article>
+    </main>
+    <div class="theme-switcher">
+        <button id="theme-toggle" type="button" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script defer src="../js/theme.js"></script>
+</body>
+</html>
