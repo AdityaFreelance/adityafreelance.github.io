@@ -424,10 +424,27 @@ function renderContact(contactData) {
     contactSection.querySelector('h2').textContent = contactData.title;
     contactSection.querySelector('p').textContent = contactData.contact_summary;
 
-    const labels = contactSection.querySelectorAll('label');
-    if (labels[0]) labels[0].textContent = contactData.form.name_label;
-    if (labels[1]) labels[1].textContent = contactData.form.email_label;
-    if (labels[2]) labels[2].textContent = contactData.form.message_label;
+    const formLabels = {
+        name: contactData.form.name_label,
+        email: contactData.form.email_label,
+        service: contactData.form.service_label,
+        'project-type': contactData.form.project_type_label,
+        technology: contactData.form.technology_label,
+        backend: contactData.form.backend_label,
+        database: contactData.form.database_label,
+        budget: contactData.form.budget_label,
+        timeline: contactData.form.timeline_label,
+        'website-url': contactData.form.website_url_label,
+        message: contactData.form.message_label
+    };
+    Object.entries(formLabels).forEach(([fieldId, labelText]) => {
+        const label = contactSection.querySelector(`label[for="${fieldId}"]`);
+        if (label && labelText) {
+            const optionalText = label.querySelector('.text-muted');
+            label.textContent = labelText;
+            if (optionalText) label.appendChild(optionalText);
+        }
+    });
     
     const btn = contactSection.querySelector('button[type="submit"]');
     if (btn) btn.textContent = contactData.form.submit_button;
