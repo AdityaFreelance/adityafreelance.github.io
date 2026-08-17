@@ -42,10 +42,7 @@
     "_comment": "Hero section with the typed text.",
     "typed_text": [
       "a Software Engineer",
-      "a Front End Developer",
-      "a Full Stack Developer",
-      "an UI Developer",
-      "a HTML Developer"
+      "a Full Stack Developer"
     ]
   },
   "about": {
@@ -64,7 +61,7 @@
   "skills": {
     "_comment": "Skills section content.",
     "title": "My Skills",
-    "skills_summary": "With a strong foundation in Full Stack development, I am proficient in modern JavaScript frameworks like React.js and Next.js, as well as backend technologies including Node.js and Python. I have extensive experience in database management, API integrations, and Technical SEO, ensuring robust and scalable web solutions.",
+    "skills_summary": "I work across the full software development lifecycle, from responsive interfaces and mobile applications to APIs, databases, integrations, deployment, SEO, accessibility, and ongoing maintenance. My skills are organized across practical frontend, backend, CMS, cloud, quality, and software engineering areas.",
     "proficient_technologies": [
       "HTML",
       "CSS",
@@ -84,20 +81,88 @@
       "C#",
       ".NET",
       "SEO",
-      "On-Page SEO"
+                                    "On-Page SEO",
+                                    "TypeScript",
+                                    "Tailwind CSS",
+                                    "Material UI",
+                                    "REST API",
+                                    "JSON",
+                                    "AJAX",
+                                    "Git",
+                                    "GitHub",
+                                    "Responsive Web Design",
+                                    "Website Performance Optimization",
+                                    "Web Accessibility",
+                                    "Debugging",
+                                    "Object-Oriented Programming"
     ],
     "familiar_technologies": [
-      "Advance JavaScript",
-      "PHP",
+                                  "Advanced JavaScript",
       "ATS Integrations",
       "CRM Integrations",
-      "VMS Systems"
+                                  "VMS Systems",
+                                  "Angular",
+                                  "Vue.js",
+                                  "Svelte",
+                                  "Laravel",
+                                  "ASP.NET Core",
+                                  "Java",
+                                  "Spring Boot",
+                                  "Dart",
+                                  "Flutter",
+                                  "React Native",
+                                  "Django",
+                                  "Flask",
+                                  "Ruby on Rails",
+                                  "Express.js",
+                                  "GraphQL",
+                                  "PostgreSQL",
+                                  "SQL Server",
+                                  "SQLite",
+                                  "Firebase",
+                                  "Redis",
+                                  "WooCommerce",
+                                  "Shopify",
+                                  "Elementor",
+                                  "Webflow",
+                                  "Wix",
+                                  "Docker",
+                                  "CI/CD",
+                                  "AWS",
+                                  "Microsoft Azure",
+                                  "Google Cloud",
+                                  "Linux Server Management",
+                                  "Unit Testing",
+                                  "Integration Testing",
+                                  "Jest",
+                                  "Cypress",
+                                  "Selenium",
+                                  "OAuth",
+                                  "JWT",
+                                  "Web Security",
+                                  "Core Web Vitals",
+                                  "XML Sitemap",
+                                  "Keyword Optimization",
+                                  "System Design",
+                                  "Data Structures and Algorithms",
+                                  "Agile Development",
+                                  "Technical Documentation"
     ],
     "tools": [
       "Git & GitHub",
       "VS Code",
       "Visual Studio Code",
-      "Postman"
+                  "Postman",
+                  "Figma",
+                  "Adobe XD",
+                  "Visual Studio",
+                  "npm",
+                  "Chrome DevTools",
+                  "Lighthouse",
+                  "GitLab",
+                  "Netlify",
+                  "Vercel",
+                  "GitHub Pages"
     ],
     "soft_skills": [
       "Problem Solving",
@@ -167,11 +232,46 @@
         "title": "Website Optimization",
         "text": "Improving website performance, speed optimization, and user experience through code optimization and best practices."
       },
-      {
-        "icon": "fab fa-git-alt",
-        "title": "Version Control with Git",
-        "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects."
-      }
+                  {
+                      "icon": "fab fa-git-alt",
+                      "title": "Version Control with Git",
+                      "text": "Managing and tracking code changes effectively using Git and GitHub for collaborative projects."
+                  },
+                  {
+                      "icon": "fas fa-mobile-screen-button",
+                      "title": "Mobile App Development",
+                      "text": "Building cross-platform mobile experiences with Flutter, Dart, and React Native for Android and iOS use cases."
+                  },
+                  {
+                      "icon": "fab fa-wordpress",
+                      "title": "WordPress and Elementor",
+                      "text": "Creating, customizing, and maintaining responsive WordPress websites with Elementor and WooCommerce."
+                  },
+                  {
+                      "icon": "fas fa-cart-shopping",
+                      "title": "E-commerce Development",
+                      "text": "Developing conversion-focused online stores with Shopify, WooCommerce, product structures, and payment integrations."
+                  },
+                  {
+                      "icon": "fas fa-cloud-arrow-up",
+                      "title": "Cloud and Deployment",
+                      "text": "Preparing websites and applications for deployment using GitHub Pages, Netlify, Vercel, AWS, Azure, Docker, and CI/CD workflows."
+                  },
+                  {
+                      "icon": "fas fa-shield-halved",
+                      "title": "Application Security",
+                      "text": "Applying secure form handling, input validation, authentication, authorization, HTTPS, CORS, XSS, and CSRF protection practices."
+                  },
+                  {
+                      "icon": "fas fa-vial-circle-check",
+                      "title": "Testing and Quality Assurance",
+                      "text": "Testing interfaces, APIs, forms, responsive layouts, browser compatibility, performance, and accessibility before release."
+                  },
+                  {
+                      "icon": "fas fa-screwdriver-wrench",
+                      "title": "Maintenance and Technical Support",
+                      "text": "Fixing bugs, updating content, improving existing applications, monitoring issues, and providing ongoing technical support."
+                  }
     ]
   },
   "experience": {
@@ -300,7 +400,15 @@
     "contact_summary": "I am always open to new opportunities and collaborations. If you have a project in mind or would like to connect, please feel free to reach out to me. I look forward to hearing from you.",
     "form": {
       "name_label": "Name",
-      "email_label": "Email",
+                 "email_label": "Email",
+                 "service_label": "Required Service",
+                 "project_type_label": "Project Type",
+                 "technology_label": "Preferred Technology",
+                 "backend_label": "Backend Technology",
+                 "database_label": "Database Requirement",
+      "budget_label": "Estimated Budget",
+      "timeline_label": "Expected Timeline",
+      "website_url_label": "Existing Website URL",
       "message_label": "Message",
       "submit_button": "Send Message"
     }

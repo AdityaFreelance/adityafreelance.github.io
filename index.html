@@ -409,9 +409,117 @@
                             data-fs-field required>
                         <span class="form-field-error" data-fs-error="email"></span>
                     </div>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label for="service" class="form-label">Required Service</label>
+                            <select class="form-select" id="service" name="service" data-fs-field required>
+                                <option value="" selected disabled>Select required service</option>
+                                <option value="Full Stack Web Development">Full Stack Web Development</option>
+                                <option value="Software Application Development">Software Application Development</option>
+                                <option value="Mobile App Development">Mobile App Development</option>
+                                <option value="React.js Development">React.js Development</option>
+                                <option value="PHP and Laravel Development">PHP and Laravel Development</option>
+                                <option value="C Sharp and .NET Development">C Sharp and .NET Development</option>
+                                <option value="WordPress and Elementor Development">WordPress and Elementor Development</option>
+                                <option value="Shopify or WooCommerce Development">Shopify or WooCommerce Development</option>
+                                <option value="API and Database Integration">API and Database Integration</option>
+                                <option value="Website Redesign or Maintenance">Website Redesign or Maintenance</option>
+                                <option value="SEO and Performance Optimization">SEO and Performance Optimization</option>
+                                <option value="Accessibility Improvement">Accessibility Improvement</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="form-field-error" data-fs-error="service"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="project-type" class="form-label">Project Type</label>
+                            <select class="form-select" id="project-type" name="project_type" data-fs-field required>
+                                <option value="" selected disabled>Select project type</option>
+                                <option value="Business Website">Business Website</option>
+                                <option value="Portfolio Website">Portfolio Website</option>
+                                <option value="React Application">React Application</option>
+                                <option value="WordPress Website">WordPress Website</option>
+                                <option value="Website Improvement">Website Improvement</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="form-field-error" data-fs-error="project_type"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="technology" class="form-label">Preferred Technology</label>
+                            <select class="form-select" id="technology" name="technology" data-fs-field>
+                                <option value="Not sure yet" selected>Not sure yet</option>
+                                <option value="HTML, CSS and JavaScript">HTML, CSS and JavaScript</option>
+                                <option value="TypeScript">TypeScript</option>
+                                <option value="React.js">React.js</option>
+                                <option value="Next.js">Next.js</option>
+                                <option value="Angular">Angular</option>
+                                <option value="Vue.js">Vue.js</option>
+                                <option value="Node.js and Express.js">Node.js and Express.js</option>
+                                <option value="WordPress">WordPress</option>
+                                <option value="Elementor">Elementor</option>
+                                <option value="Shopify and WooCommerce">Shopify and WooCommerce</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Laravel">Laravel</option>
+                                <option value="C Sharp and .NET">C Sharp and .NET</option>
+                                <option value="Java and Spring Boot">Java and Spring Boot</option>
+                                <option value="Python and Django">Python and Django</option>
+                                <option value="Flutter and Dart">Flutter and Dart</option>
+                                <option value="React Native">React Native</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="backend" class="form-label">Backend Technology</label>
+                            <select class="form-select" id="backend" name="backend" data-fs-field>
+                                <option value="Not sure yet" selected>Not sure yet</option>
+                                <option value="Node.js">Node.js</option>
+                                <option value="PHP">PHP</option>
+                                <option value="Laravel">Laravel</option>
+                                <option value="C Sharp and ASP.NET Core">C Sharp and ASP.NET Core</option>
+                                <option value="Java and Spring Boot">Java and Spring Boot</option>
+                                <option value="Python, Django, or Flask">Python, Django, or Flask</option>
+                                <option value="No backend required">No backend required</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="database" class="form-label">Database Requirement</label>
+                            <select class="form-select" id="database" name="database" data-fs-field>
+                                <option value="Not sure yet" selected>Not sure yet</option>
+                                <option value="MySQL">MySQL</option>
+                                <option value="PostgreSQL">PostgreSQL</option>
+                                <option value="SQL Server">SQL Server</option>
+                                <option value="MongoDB">MongoDB</option>
+                                <option value="Firebase">Firebase</option>
+                                <option value="SQLite">SQLite</option>
+                                <option value="No database required">No database required</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="budget" class="form-label">Estimated Budget</label>
+                            <select class="form-select" id="budget" name="budget" data-fs-field>
+                                <option value="Not decided yet" selected>Not decided yet</option>
+                                <option value="Below $500">Below $500</option>
+                                <option value="$500 - $1,000">$500 - $1,000</option>
+                                <option value="$1,000 - $2,500">$1,000 - $2,500</option>
+                                <option value="Above $2,500">Above $2,500</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="timeline" class="form-label">Expected Timeline</label>
+                            <select class="form-select" id="timeline" name="timeline" data-fs-field>
+                                <option value="Flexible" selected>Flexible</option>
+                                <option value="Within 1 week">Within 1 week</option>
+                                <option value="1 - 2 weeks">1 - 2 weeks</option>
+                                <option value="2 - 4 weeks">2 - 4 weeks</option>
+                                <option value="More than 1 month">More than 1 month</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="website-url" class="form-label">Existing Website URL <span class="text-muted">(Optional)</span></label>
+                        <input type="url" class="form-control" id="website-url" name="website_url" placeholder="https://example.com">
+                    </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="3" name="message" placeholder="Your Message"
+                        <textarea class="form-control" id="message" rows="5" name="message" placeholder="Tell me about your project, goals, and required features"
                             data-fs-field required></textarea>
                         <span class="form-field-error" data-fs-error="message"></span>
                     </div>
