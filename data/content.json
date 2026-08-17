@@ -50,8 +50,11 @@
     "text": "A passionate and proficient Software Engineer and Full Stack Developer with a strong foundation in both front-end and back-end technologies. I specialize in creating scalable, responsive, and optimized web applications using React.js, Next.js, Node.js, and Python. My expertise extends to database management with MySQL and MongoDB, as well as Technical SEO and API integrations. I excel at transforming design requirements into high-quality, user-friendly interfaces and streamlining business workflows through secure backend solutions. I am always eager to learn and adapt to new technologies to drive innovation and efficiency.",
     "image": "images/Profile1.jpg",
     "resume": {
-      "button_text": "Download CV",
-      "download_url": "https://drive.google.com/uc?export=download&id=1jWMHdkCIE7QPU1WQjUjz28xwxNyPjqtU"
+      "preview_button_text": "View Resume",
+      "button_text": "Download Resume",
+      "preview_url": "Resume/Aditya%20Kumar%20Singh-Updated.pdf",
+      "download_url": "Resume/Aditya%20Kumar%20Singh-Updated.pdf",
+      "download_filename": "Aditya-Kumar-Singh-Resume.pdf"
     }
   },
   "skills": {
@@ -73,7 +76,11 @@
       "Technical SEO",
       "Schema Markup",
       "Figma to HTML",
-      "ADA Compliance"
+      "ADA Compliance",
+      "C#",
+      ".NET",
+      "SEO",
+      "On-Page SEO"
     ],
     "familiar_technologies": [
       "Advance JavaScript",
@@ -282,30 +289,6 @@
       }
     ],
     "data_file": "js/projects.json"
-  },
-  "testimonials": {
-    "_comment": "Testimonials section content.",
-    "title": "Testimonials",
-    "items": [
-      {
-        "image": "https://picsum.photos/150/150?random=5",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
-        "author": "John Doe",
-        "company": "Company"
-      },
-      {
-        "image": "https://picsum.photos/150/150?random=6",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
-        "author": "Jane Smith",
-        "company": "Another Company"
-      },
-      {
-        "image": "https://picsum.photos/150/150?random=7",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.",
-        "author": "Peter Jones",
-        "company": "Third Company"
-      }
-    ]
   },
   "contact": {
     "_comment": "Contact Me section content.",

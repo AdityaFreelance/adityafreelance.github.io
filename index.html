@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Welcome to the portfolio of Aditya Kumar Singh, a skilled Software Engineer, React Developer, HTML Developer, Front End Developer, and UI Developer based in India. Specializing in Figma to HTML, responsive web design, web optimization, API integration, and creating beautiful user interfaces.">
+        content="Explore the portfolio of Aditya Kumar Singh, a Full Stack, React, Front End, and UI Developer specializing in responsive web design, API integration, technical SEO, and modern web applications.">
     <meta name="keywords"
         content="HTML Developer in India, Front End Developer in India, UI Developer in India, Software Engineer in India, React Developer in India, Figma to HTML, Web Developer in India, Portfolio, Responsive Web Design, Web Optimization, API integration">
     <link rel="icon" href="images/favicon.png" type="image/png">
@@ -14,13 +14,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
     <!-- Title of the page -->
-    <title>Aditya Kumar Singh | Software Engineer, React, HTML, UI Developer</title>
+    <title>Aditya Kumar Singh | Full Stack, React &amp; UI Developer</title>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@graph": [
         {
           "@type": "WebSite",
+          "@id": "https://adityafreelance.github.io/#website",
           "name": "Aditya Kumar Singh's Portfolio",
           "url": "https://adityafreelance.github.io/",
           "author": { "@id": "#person" },
@@ -58,6 +59,21 @@
             "Web Development",
             "UI/UX"
           ]
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://adityafreelance.github.io/#profile",
+          "url": "https://adityafreelance.github.io/",
+          "name": "Aditya Kumar Singh - Developer Portfolio",
+          "isPartOf": { "@id": "https://adityafreelance.github.io/#website" },
+          "mainEntity": { "@id": "#person" }
+        },
+        {
+          "@type": "Organization",
+          "@id": "#organization",
+          "name": "Aditya Kumar Singh",
+          "url": "https://adityafreelance.github.io/",
+          "logo": "https://adityafreelance.github.io/images/favicon.png"
         },
         {
           "@type": "BreadcrumbList",
@@ -117,11 +133,12 @@
     </script>
 
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Aditya Kumar Singh - Web Developer Portfolio">
+    <meta property="og:title" content="Aditya Kumar Singh | Full Stack, React &amp; UI Developer">
     <meta property="og:description"
-        content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
+        content="Explore projects, skills, and experience in Full Stack development, React, responsive web design, API integration, and technical SEO.">
     <meta property="og:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
     <meta property="og:image:alt" content="Aditya Kumar Singh - Profile image">
+    <meta property="og:image:type" content="image/jpeg">
     <meta property="og:url" content="https://adityafreelance.github.io/">
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:type" content="website">
@@ -133,9 +150,9 @@
     <meta name="author" content="Aditya Kumar Singh">
     <meta name="theme-color" content="#121212">
     <meta property="og:site_name" content="Aditya Kumar Singh">
-    <meta name="twitter:title" content="Aditya Kumar Singh - Web Developer Portfolio">
+    <meta name="twitter:title" content="Aditya Kumar Singh | Full Stack, React &amp; UI Developer">
     <meta name="twitter:description"
-        content="The portfolio of Aditya Kumar Singh, a passionate web developer showcasing projects and skills in web design, development, and more.">
+        content="Explore projects, skills, and experience in Full Stack development, React, responsive web design, API integration, and technical SEO.">
     <meta name="twitter:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
     <meta name="twitter:image:alt" content="Aditya Kumar Singh - Profile image">
     <!-- Resource Hints -->
@@ -149,18 +166,10 @@
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="dns-prefetch" href="https://unpkg.com">
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
-    <link rel="dns-prefetch" href="https://code.jquery.com">
-    <link rel="preconnect" href="https://code.jquery.com" crossorigin>
-    <link rel="dns-prefetch" href="https://source.unsplash.com">
-    <link rel="preconnect" href="https://source.unsplash.com" crossorigin>
 
     <!-- External stylesheets for Bootstrap and AOS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Slick Carousel CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- Custom stylesheet -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome CDN -->
@@ -176,7 +185,7 @@
         <div class="container">
             <nav class="navbar navbar-expand-lg sticky-top">
                 <a class="navbar-brand" href="index.html" title="Aditya Kumar Singh - Homepage">
-                    <!-- Dynamic -->
+                    Aditya
                 </a>
                 <!-- Navbar toggler for mobile devices -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -211,16 +220,21 @@
                         <h2></h2> <!-- Title from JSON -->
                         <div class="mobile-view">
                             <img id="about-image-mobile" src=""
-                                alt=""
+                                alt="Aditya Kumar Singh profile photo"
                                 class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
                         </div>
                         <p></p> <!-- Text from JSON -->
-                        <a href="" class="btn btn-primary" download="" title="Download Resume"></a> <!-- Button from JSON -->
+                        <div class="resume-actions d-flex flex-wrap gap-2">
+                            <a id="resume-preview" href="" class="btn btn-outline-primary" target="_blank"
+                                rel="noopener noreferrer" title="View Resume">View Resume</a>
+                            <a id="resume-download" href="" class="btn btn-primary" download=""
+                                title="Download Resume">Download Resume</a>
+                        </div>
                     </div>
                     <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000">
                         <div class="desktop-view">
                             <img id="about-image" src=""
-                                alt=""
+                                alt="Aditya Kumar Singh profile photo"
                                 class="img-fluid about-image" width="300" height="300" decoding="async" loading="eager">
                         </div>
                     </div>
@@ -281,15 +295,63 @@
                 <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="tablist">
                     <!-- Dynamic Tabs -->
                 </ul>
+                <div class="project-filters row g-3 justify-content-center mt-3" aria-label="Project filters">
+                    <div class="col-12 col-md-7">
+                        <label class="visually-hidden" for="project-search">Search projects</label>
+                        <input type="search" id="project-search" class="form-control"
+                            placeholder="Search projects..." autocomplete="off">
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <label class="visually-hidden" for="technology-filter">Filter by technology</label>
+                        <select id="technology-filter" class="form-select">
+                            <option value="all">All Technologies</option>
+                        </select>
+                    </div>
+                </div>
                 <!-- Projects Container -->
                 <div id="projects-container" class="row mt-4">
                     <!-- Dynamic Projects -->
                 </div>
+                <p id="no-projects-message" class="text-center mt-4" hidden>No projects found.</p>
                 <div id="load-more-container" class="text-center d-flex justify-content-center">
                     <button id="load-more-btn" class="btn btn-primary" style="display: none;">Load More</button>
                 </div>
             </div>
         </section>
+
+        <div class="modal fade" id="project-details-modal" tabindex="-1" aria-labelledby="project-details-title"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title h4" id="project-details-title"></h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="project-details-description"></p>
+                        <div id="project-details-technologies" class="project-technologies mb-3"></div>
+                        <div id="project-details-features-wrapper" class="mb-3">
+                            <h3 class="h5">Key Features</h3>
+                            <ul id="project-details-features" class="project-features"></ul>
+                        </div>
+                        <div id="project-details-responsibilities-wrapper" class="mb-3">
+                            <h3 class="h5">My Responsibilities</h3>
+                            <ul id="project-details-responsibilities" class="project-features"></ul>
+                        </div>
+                        <div id="project-details-challenges-wrapper" class="mb-3">
+                            <h3 class="h5">Challenges and Solutions</h3>
+                            <div id="project-details-challenges"></div>
+                        </div>
+                        <p class="mb-0"><strong>Company:</strong> <span id="project-details-company"></span></p>
+                    </div>
+                    <div class="modal-footer">
+                        <a id="project-details-link" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            Visit Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- FAQ section -->
         <section id="faq" class="mb-0">
@@ -309,25 +371,32 @@
             <div class="container">
                 <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2> <!-- Title -->
                 <p class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></p> <!-- Summary -->
-                <div id="error-message" class="text-danger mb-3"></div>
+                <div id="contact-success" class="text-success mb-3" data-fs-success role="status"
+                    aria-live="polite"></div>
+                <div id="error-message" class="text-danger mb-3" data-fs-error role="alert" aria-live="assertive"></div>
                 <!-- Contact form -->
-                <form id="contact-form" method="post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <form id="contact-form" action="https://formspree.io/f/mqpzyepj" method="POST" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-delay="200">
                     <div class="mb-3">
-                        <label for="name" class="form-label"></label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name"
+                            data-fs-field required>
+                        <span class="form-field-error" data-fs-error="name"></span>
                     </div>
                     <div class="mb-3">
-                        <label for="email" class="form-label"></label>
+                        <label for="email" class="form-label">Email</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Your Email"
-                            required>
+                            data-fs-field required>
+                        <span class="form-field-error" data-fs-error="email"></span>
                     </div>
                     <div class="mb-3">
-                        <label for="message" class="form-label"></label>
+                        <label for="message" class="form-label">Message</label>
                         <textarea class="form-control" id="message" rows="3" name="message" placeholder="Your Message"
-                            required></textarea>
+                            data-fs-field required></textarea>
+                        <span class="form-field-error" data-fs-error="message"></span>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn btn-primary"></button>
+                        <button type="submit" class="btn btn-primary" data-fs-submit-btn></button>
                     </div>
                 </form>
             </div>
@@ -349,16 +418,23 @@
     </div>
 
     <!-- External scripts for Bootstrap and AOS -->
-    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script defer type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- Custom script -->
     <script defer src="js/dynamic-content.js"></script>
     <script defer src="js/script.js"></script>
     <script defer src="js/theme.js"></script>
+    <script>
+        window.formspree = window.formspree || function () {
+            (formspree.q = formspree.q || []).push(arguments);
+        };
+        formspree('initForm', {
+            formElement: '#contact-form',
+            formId: 'mqpzyepj'
+        });
+    </script>
+    <script defer src="https://unpkg.com/@formspree/ajax@1"></script>
     <script>
         window.Tawk_API = window.Tawk_API || {};
         window.Tawk_API.onLoad = function () {
@@ -414,7 +490,7 @@
 
     <!-- Google tag (gtag.js) -->
     <!-- TODO: Replace with your own Google Analytics Measurement ID -->
-    <script async src="https.www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVRPDW970Z"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }

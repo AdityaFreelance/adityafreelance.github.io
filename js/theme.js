@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newTheme = isLightMode ? 'dark' : 'light';
         applyTheme(newTheme);
         localStorage.setItem('theme', newTheme);
+        window.trackEvent?.('theme_toggle', { theme: newTheme });
     });
 
     const savedTheme = htmlElement.getAttribute('data-theme') || localStorage.getItem('theme') || 'dark';

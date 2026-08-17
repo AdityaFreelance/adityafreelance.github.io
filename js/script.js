@@ -1,3 +1,9 @@
+window.trackEvent = function (eventName, eventParameters = {}) {
+    if (typeof window.gtag === 'function') {
+        window.gtag('event', eventName, eventParameters);
+    }
+};
+
 // This script initializes the AOS library, which provides animations on scroll.
 
 AOS.init({
