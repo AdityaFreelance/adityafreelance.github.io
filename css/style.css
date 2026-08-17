@@ -450,6 +450,102 @@ body.modal-open {
     margin-top: 1rem;
 }
 
+.blog-card {
+    border-top: 3px solid var(--primary-color);
+}
+
+.blog-category {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.blog-date {
+    color: var(--text-color);
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.blog-card .card-title {
+    font-size: 1.35rem;
+}
+
+#blog-details-modal .modal-content {
+    background-color: var(--section-background-color);
+    color: var(--text-color);
+}
+
+#blog-details-modal .modal-header {
+    border-color: var(--box-shadow-color);
+}
+
+#blog-details-content p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.blog-page-header,
+.blog-detail-page {
+    padding: 5rem 0;
+}
+
+.blog-page-header .lead {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.blog-detail-container {
+    max-width: 900px !important;
+}
+
+.blog-back-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.blog-back-link:hover {
+    text-decoration: underline;
+}
+
+.blog-detail-page h1 {
+    max-width: 850px;
+    margin-bottom: 1rem;
+    text-shadow: none;
+}
+
+.blog-detail-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+.blog-detail-intro {
+    max-width: 800px;
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+
+.blog-article-content {
+    max-width: 800px;
+    font-size: 1.08rem;
+    line-height: 1.85;
+}
+
+.blog-article-content .blog-lead {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .mobile-view {
     display: none;
 }
@@ -593,6 +689,37 @@ body.modal-open {
     .about-image {
         width: 200px;
         height: 200px;
+    }
+
+    /* Keep blog detail pages readable on small screens. */
+    .blog-detail-page {
+        padding: 2.5rem 0;
+    }
+
+    .blog-detail-page h1 {
+        font-size: 1.75rem;
+        line-height: 1.25;
+    }
+
+    .blog-detail-intro {
+        margin: 1.25rem 0;
+        font-size: 1rem;
+        line-height: 1.65;
+    }
+
+    .blog-article-content {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+
+    .blog-article-content .blog-lead {
+        font-size: 1.08rem;
+        line-height: 1.65;
+    }
+
+    .blog-detail-meta,
+    .blog-back-link {
+        font-size: 0.9rem;
     }
 }
 

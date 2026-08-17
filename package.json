@@ -4,7 +4,8 @@
   "description": "A personal portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass-watch": "sass --watch scss:css"
+    "sass-watch": "sass --watch scss:css",
+    "generate-sitemap": "node scripts/generate-sitemap.js"
   },
   "keywords": [],
   "author": "Aditya Kumar Singh",

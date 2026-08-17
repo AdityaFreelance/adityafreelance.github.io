@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     Promise.all([
         fetch('data/content.json').then(res => res.json()),
         fetch('data/projects.json').then(res => res.json()),
-        fetch('data/faq.json').then(res => res.json())
-    ]).then(([contentData, projectsData, faqData]) => {
+        fetch('data/faq.json').then(res => res.json()),
+        fetch('data/blogs.json').then(res => res.json())
+    ]).then(([contentData, projectsData, faqData, blogsData]) => {
         
         // 1. Navigation
         renderNavigation(contentData.navigation);
@@ -33,7 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // 9. Contact Section
         renderContact(contentData.contact);
 
-        // 10. Footer
+        // 10. Blog Section
+        renderBlogs(blogsData);
+
+        // 11. Footer
         renderFooter(contentData.footer);
 
         // Re-initialize AOS to catch new elements
@@ -460,4 +464,38 @@ function renderFooter(footerData) {
             });
         });
     }
+}
+
+function renderBlogs(blogsData) {
+    const container = document.getElementById('blog-container');
+    if (!container || !Array.isArray(blogsData)) return;
+
+    const latestBlogs = [...blogsData]
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .slice(0, 6);
+
+    window.blogsData = blogsData;
+
+    container.innerHTML = latestBlogs.map(blog => `
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+            <article class="card blog-card h-100">
+                <div class="card-body d-flex flex-column">
+                    <p class="blog-category mb-2">${blog.category}</p>
+                    <h3 class="card-title">${blog.title}</h3>
+                    <time class="blog-date mb-3" datetime="${blog.date}">${formatBlogDate(blog.date)}</time>
+                    <p class="card-text flex-grow-1">${blog.excerpt}</p>
+                    <a href="blog/${blog.slug}.html" class="btn btn-primary mt-auto">Read Article</a>
+                </div>
+            </article>
+        </div>
+    `).join('');
+
+}
+
+function formatBlogDate(dateString) {
+    return new Intl.DateTimeFormat('en-US', {
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric'
+    }).format(new Date(`${dateString}T00:00:00`));
 }

@@ -25,6 +25,10 @@
         "href": "#projects"
       },
       {
+        "text": "Blog",
+        "href": "blog.html"
+      },
+      {
         "text": "FAQ",
         "href": "#faq"
       },
