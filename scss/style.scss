@@ -28,6 +28,20 @@ body {
     background-color: var(--background-color);
 }
 
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.card,
+.card-body,
+.blog-article-content,
+.project-challenge {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -377,6 +391,16 @@ section {
     gap: 0.4rem;
 }
 
+#projectTabs {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#projectTabs .nav-item {
+    flex: 0 0 auto;
+}
+
 .technology-badge {
     display: inline-block;
     padding: 0.25rem 0.6rem;
@@ -437,4 +461,18 @@ body.modal-open {
     min-height: 1.25rem;
     color: #dc3545;
     font-size: 0.875rem;
+}
+
+@media (max-width: 576px) {
+    #projectTabs {
+        justify-content: flex-start !important;
+    }
+
+    #projectTabs .nav-link {
+        white-space: normal;
+    }
+
+    .card:hover {
+        transform: none;
+    }
 }
