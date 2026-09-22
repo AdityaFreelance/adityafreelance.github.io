@@ -14,15 +14,20 @@
     <meta property="og:description" content="Bootstrap can speed up development, while custom CSS ensures the final interface still feels unique and intentional.">
     <meta property="og:url" content="https://adityafreelance.github.io/blog/using-bootstrap-with-custom-css-the-right-way.html">
     <meta property="og:site_name" content="Aditya Kumar Singh">
+    <meta property="og:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <meta property="og:image:alt" content="Aditya Kumar Singh - Profile image">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Using Bootstrap with Custom CSS the Right Way">
     <meta name="twitter:description" content="Bootstrap can speed up development, while custom CSS ensures the final interface still feels unique and intentional.">
-    <title>Using Bootstrap with Custom CSS the Right Way | Aditya Kumar Singh</title>
+    <meta name="twitter:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <meta name="twitter:image:alt" content="Aditya Kumar Singh - Profile image">
+    <title>Using Bootstrap with Custom CSS the… | Aditya Kumar Singh</title>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://adityafreelance.github.io/blog/using-bootstrap-with-custom-css-the-right-way.html#article","mainEntityOfPage":"https://adityafreelance.github.io/blog/using-bootstrap-with-custom-css-the-right-way.html","headline":"Using Bootstrap with Custom CSS the Right Way","description":"Bootstrap can speed up development, while custom CSS ensures the final interface still feels unique and intentional.","keywords":"Bootstrap, custom CSS, responsive layout, frontend styling","articleSection":"Bootstrap and CSS","articleBody":"Bootstrap is useful because it provides a tested foundation for grids, spacing, forms, buttons, and responsive behavior. It helps a project move quickly without requiring every common pattern to be built from scratch.\n\nThe strongest results come from using Bootstrap as a foundation rather than a finished design. Custom CSS and SCSS can refine colors, typography, spacing, card layouts, and responsive details so the website reflects its brand and content.\n\nA disciplined approach keeps overrides understandable. Reusable utility classes, clear naming, and a small design system prevent the stylesheet from becoming a collection of one-off fixes.\n\nBefore adding a custom rule, check whether the existing layout utilities already solve the problem. When an override is needed, keep it close to the component it belongs to and document unusual behavior rather than stacking increasingly specific selectors.\n\nBootstrap and custom CSS work well together when each has a role. The framework handles common structure, while the project stylesheet expresses the product’s visual identity and special interaction details.","datePublished":"2026-07-28","dateModified":"2026-07-28","author":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"},"publisher":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"}}</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link" title="Skip to main content">Skip to main content</a>
     <header class="navbar-dark bg-dark">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
@@ -60,9 +65,25 @@
 <p>Before adding a custom rule, check whether the existing layout utilities already solve the problem. When an override is needed, keep it close to the component it belongs to and document unusual behavior rather than stacking increasingly specific selectors.</p>
 <p>Bootstrap and custom CSS work well together when each has a role. The framework handles common structure, while the project stylesheet expresses the product’s visual identity and special interaction details.</p>
                 </div>
+                
                 <div class="blog-keywords mt-4" aria-label="Article topics">
                     <span class="technology-badge">Bootstrap</span><span class="technology-badge">custom CSS</span><span class="technology-badge">responsive layout</span><span class="technology-badge">frontend styling</span>
                 </div>
+                <section class="blog-comment-section" aria-labelledby="comment-title">
+                    <h2 id="comment-title">Have a Question About This Article?</h2>
+                    <p id="comment-help" class="blog-comment-intro">Did this guide answer your question? Share your experience, feedback, or follow-up question. Your comment may help other readers understand this topic more clearly.</p>
+                    <form class="blog-comment-form" action="https://formspree.io/f/mqpzyepj" method="POST">
+                        <input type="hidden" name="article" value="Using Bootstrap with Custom CSS the Right Way">
+                        <input type="hidden" name="_subject" value="Comment on Using Bootstrap with Custom CSS the Right Way">
+                        <div class="blog-comment-grid">
+                        <div><label for="comment-name">Your name</label><input id="comment-name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required></div>
+                        <div><label for="comment-email">Email address</label><input id="comment-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+                    </div>
+                        <div><label for="comment-subject">Subject</label><input id="comment-subject" name="subject" type="text" autocomplete="off" placeholder="What would you like to discuss?" required></div>
+                        <div><label for="comment-message">Your comment</label><textarea id="comment-message" name="comment" rows="5" aria-describedby="comment-help" placeholder="Share your thoughts or question..." required></textarea></div>
+                        <button class="btn btn-primary" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i> Send Comment</button>
+                    </form>
+                </section>
             </div>
         </article>
     </main>

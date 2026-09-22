@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Explore the portfolio of Aditya Kumar Singh, a Full Stack, React, Front End, and UI Developer specializing in responsive web design, API integration, technical SEO, and modern web applications.">
+        content="Portfolio of Aditya Kumar Singh, a Full Stack, React, Front End, and UI Developer specializing in responsive websites, API integration, SEO, and modern web applications.">
     <meta name="keywords"
         content="HTML Developer in India, Front End Developer in India, UI Developer in India, Software Engineer in India, React Developer in India, Figma to HTML, Web Developer in India, Portfolio, Responsive Web Design, Web Optimization, API integration">
     <link rel="icon" href="images/favicon.png" type="image/png">
@@ -216,6 +216,15 @@
         </div>
     </section>
 
+    <noscript>
+        <section class="container py-4" aria-labelledby="javascript-required-title">
+            <h2 id="javascript-required-title">Aditya Kumar Singh - Software Engineer Portfolio</h2>
+            <p>This portfolio includes frontend development, React, PHP, API integration, responsive web design, technical SEO, accessibility, and performance work.</p>
+            <p>Please enable JavaScript to view the complete interactive portfolio, projects, FAQ, and latest articles.</p>
+            <p><a href="blog.html">Read the web development blog</a> or <a href="#contact">contact Aditya Kumar Singh</a>.</p>
+        </section>
+    </noscript>
+
     <!-- Main content of the page -->
     <main id="main-content">
         <!-- About Me section -->
@@ -298,10 +307,10 @@
                 <h2 class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></h2> <!-- Title -->
                 <p class="text-center mb-4" data-aos="fade-up" data-aos-duration="1000"></p> <!-- Summary -->
                 <!-- Tabs Navigation -->
-                <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="tablist">
+                <ul class="nav nav-tabs justify-content-center" id="projectTabs" role="group" aria-label="Filter projects by company">
                     <!-- Dynamic Tabs -->
                 </ul>
-                <div class="project-filters row g-3 justify-content-center mt-3" aria-label="Project filters">
+                <div class="project-filters row g-3 justify-content-center mt-3" role="group" aria-label="Project filters">
                     <div class="col-12 col-md-7">
                         <label class="visually-hidden" for="project-search">Search projects</label>
                         <input type="search" id="project-search" class="form-control"
@@ -540,8 +549,8 @@
     </footer>
 
     <div class="theme-switcher">
-        <button id="theme-toggle" title="Toggle light/dark mode">
-            <i class="fas fa-moon"></i>
+        <button id="theme-toggle" type="button" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
         </button>
     </div>
 

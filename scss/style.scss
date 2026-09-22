@@ -53,6 +53,15 @@ p {
     color: var(--white-color) !important;
 }
 
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid var(--primary-color);
+    outline-offset: 3px;
+}
+
 h1 {
     font-size: 2.5rem;
     color: var(--white-color) !important;
@@ -461,6 +470,93 @@ body.modal-open {
     min-height: 1.25rem;
     color: #dc3545;
     font-size: 0.875rem;
+}
+
+.blog-faq,
+.blog-comment-section {
+    max-width: 800px;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-top: 1px solid var(--box-shadow-color);
+    border-radius: 14px;
+    background: var(--section-background-color);
+    box-shadow: 0 0.5rem 1.5rem var(--box-shadow-color);
+}
+
+.blog-faq h2,
+.blog-comment-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.blog-faq-item + .blog-faq-item {
+    margin-top: 1.25rem;
+}
+
+.blog-faq-item h3 {
+    font-size: 1rem;
+}
+
+.blog-faq-item p,
+.blog-comment-intro {
+    max-width: 680px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+.blog-comment-form {
+    display: grid;
+    gap: 1rem;
+}
+
+.blog-comment-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.blog-comment-form label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--heading-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.blog-comment-form input,
+.blog-comment-form textarea {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    border: 1px solid var(--box-shadow-color);
+    border-radius: 8px;
+    background: var(--section-background-color);
+    color: var(--text-color);
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-comment-form input::placeholder,
+.blog-comment-form textarea::placeholder {
+    color: var(--text-color);
+    opacity: 0.65;
+}
+
+.blog-comment-form input:focus,
+.blog-comment-form textarea:focus {
+    border-color: var(--primary-color);
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.14);
+}
+
+@media (max-width: 576px) {
+    .blog-comment-section {
+        padding: 1.25rem;
+    }
+
+    .blog-comment-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 576px) {

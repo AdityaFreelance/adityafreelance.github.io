@@ -211,12 +211,8 @@ function renderProjectsSection(projectsInfo, projectsData) {
             <li class="nav-item" role="presentation">
                 <button class="nav-link ${index === 0 ? 'active' : ''}" 
                     id="${tab.id}-tab" 
-                    data-bs-toggle="tab" 
-                    data-bs-target="#${tab.id}" 
                     type="button" 
-                    role="tab" 
-                    aria-controls="${tab.id}" 
-                    aria-selected="${index === 0}"
+                    aria-pressed="${index === 0}"
                     data-company="${tab.id}"
                     onclick="filterProjects('${tab.id}')"
                 >
@@ -276,6 +272,12 @@ window.filterProjects = function(category) {
 
     window.activeProjectCategory = category;
 
+    document.querySelectorAll('#projectTabs .nav-link').forEach(tab => {
+        const isActive = tab.dataset.company === category;
+        tab.classList.toggle('active', isActive);
+        tab.setAttribute('aria-pressed', String(isActive));
+    });
+
     let projectsToShow = [];
     if (category === 'all') {
         Object.values(window.allProjectsData).forEach(group => {
@@ -306,8 +308,8 @@ window.filterProjects = function(category) {
                     <div class="project-technologies mb-3">${(project.technologies || [])
                         .map(technology => `<span class="technology-badge">${technology}</span>`).join('')}</div>
                     <button type="button" class="btn btn-outline-primary mb-2 project-details-button"
-                        data-project-title="${project.title}">View Details</button>
-                    <a href="${project.link}" class="btn btn-primary mt-auto project-live-link" data-project-title="${project.title}" target="_blank" rel="noopener noreferrer" title="View the ${project.title} project">View Project</a>
+                        data-project-title="${project.title}" aria-label="View details for ${project.title}">View Details</button>
+                    <a href="${project.link}" class="btn btn-primary mt-auto project-live-link" data-project-title="${project.title}" target="_blank" rel="noopener noreferrer" aria-label="View the ${project.title} project">View Project</a>
                 </div>
             </div>
         </div>
@@ -470,7 +472,7 @@ function renderFooter(footerData) {
             if (link.icon) {
                 iconHtml = `<i class="${link.icon}"></i>`;
             } else if (link.svg_icon) {
-                iconHtml = `<img src="${link.svg_icon}" style="width: 24px; height: 24px;">`;
+                iconHtml = `<img src="${link.svg_icon}" alt="" aria-hidden="true" style="width: 24px; height: 24px;">`;
             }
             const accessibleLabel = link.title || link.text || 'Social Link';
             return `<li><a href="${link.href}" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="${accessibleLabel}" title="${accessibleLabel}">${iconHtml}</a></li>`;
@@ -501,7 +503,7 @@ function renderBlogs(blogsData) {
                     <h3 class="card-title">${blog.title}</h3>
                     <time class="blog-date mb-3" datetime="${blog.date}">${formatBlogDate(blog.date)}</time>
                     <p class="card-text flex-grow-1">${blog.excerpt}</p>
-                    <a href="blog/${blog.slug}.html" class="btn btn-primary mt-auto">Read Article</a>
+            <a href="blog/${blog.slug}.html" class="btn btn-primary mt-auto" aria-label="Read article: ${blog.title}">Read Article</a>
                 </div>
             </article>
         </div>

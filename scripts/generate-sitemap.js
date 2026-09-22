@@ -22,9 +22,18 @@ const formatDate = date => new Intl.DateTimeFormat('en-US', {
     year: 'numeric'
 }).format(new Date(`${date}T00:00:00`));
 
+const truncateForSearchSnippet = (value, maxLength) => {
+    const text = String(value).trim();
+    if (text.length <= maxLength) return text;
+    const shortened = text.slice(0, maxLength - 1).replace(/\s+\S*$/, '');
+    return `${shortened}…`;
+};
+
 const createBlogPage = blog => {
     const canonicalUrl = `${siteUrl}/blog/${blog.slug}.html`;
     const articleBody = blog.content.join('\n\n');
+    const seoTitle = truncateForSearchSnippet(blog.title, 39);
+    const seoDescription = truncateForSearchSnippet(blog.excerpt, 155);
     const articleSchema = {
         '@context': 'https://schema.org',
         '@type': 'BlogPosting',
@@ -54,7 +63,7 @@ const createBlogPage = blog => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="${escapeHtml(blog.excerpt)}">
+    <meta name="description" content="${escapeHtml(seoDescription)}">
     <meta name="keywords" content="${escapeHtml(blog.keywords.join(', '))}">
     <meta name="author" content="Aditya Kumar Singh">
     <meta name="robots" content="index, follow">
@@ -65,15 +74,20 @@ const createBlogPage = blog => {
     <meta property="og:description" content="${escapeHtml(blog.excerpt)}">
     <meta property="og:url" content="${canonicalUrl}">
     <meta property="og:site_name" content="Aditya Kumar Singh">
+    <meta property="og:image" content="${siteUrl}/images/Profile1.jpg">
+    <meta property="og:image:alt" content="Aditya Kumar Singh - Profile image">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="${escapeHtml(blog.title)}">
     <meta name="twitter:description" content="${escapeHtml(blog.excerpt)}">
-    <title>${escapeHtml(blog.title)} | Aditya Kumar Singh</title>
+    <meta name="twitter:image" content="${siteUrl}/images/Profile1.jpg">
+    <meta name="twitter:image:alt" content="Aditya Kumar Singh - Profile image">
+    <title>${escapeHtml(seoTitle)} | Aditya Kumar Singh</title>
     <script type="application/ld+json">${escapeJsonForHtml(articleSchema)}</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link" title="Skip to main content">Skip to main content</a>
     <header class="navbar-dark bg-dark">
         <div class="container">
             <nav class="navbar navbar-expand-lg">
@@ -109,9 +123,28 @@ const createBlogPage = blog => {
                         ? `<p class="blog-lead">${escapeHtml(paragraph)}</p>`
                         : `<p>${escapeHtml(paragraph)}</p>`).join('\n')}
                 </div>
+                ${blog.faq && blog.faq.length ? `<section class="blog-faq" aria-labelledby="blog-faq-title">
+                    <h2 id="blog-faq-title">Frequently Asked Questions</h2>
+                    ${blog.faq.map((item, index) => `<div class="blog-faq-item"><h3>${index + 1}. ${escapeHtml(item[0])}</h3><p>${escapeHtml(item[1])}</p></div>`).join('')}
+                </section>` : ''}
                 <div class="blog-keywords mt-4" aria-label="Article topics">
                     ${blog.keywords.map(keyword => `<span class="technology-badge">${escapeHtml(keyword)}</span>`).join('')}
                 </div>
+                <section class="blog-comment-section" aria-labelledby="comment-title">
+                    <h2 id="comment-title">Have a Question About This Article?</h2>
+                    <p id="comment-help" class="blog-comment-intro">Did this guide answer your question? Share your experience, feedback, or follow-up question. Your comment may help other readers understand this topic more clearly.</p>
+                    <form class="blog-comment-form" action="https://formspree.io/f/mqpzyepj" method="POST">
+                        <input type="hidden" name="article" value="${escapeHtml(blog.title)}">
+                        <input type="hidden" name="_subject" value="Comment on ${escapeHtml(blog.title)}">
+                        <div class="blog-comment-grid">
+                        <div><label for="comment-name">Your name</label><input id="comment-name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required></div>
+                        <div><label for="comment-email">Email address</label><input id="comment-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+                    </div>
+                        <div><label for="comment-subject">Subject</label><input id="comment-subject" name="subject" type="text" autocomplete="off" placeholder="What would you like to discuss?" required></div>
+                        <div><label for="comment-message">Your comment</label><textarea id="comment-message" name="comment" rows="5" aria-describedby="comment-help" placeholder="Share your thoughts or question..." required></textarea></div>
+                        <button class="btn btn-primary" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i> Send Comment</button>
+                    </form>
+                </section>
             </div>
         </article>
     </main>
