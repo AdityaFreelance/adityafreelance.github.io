@@ -96,6 +96,21 @@ body {
     line-height: 1.5;
     color: var(--text-color);
     background-color: var(--background-color);
+    overflow-x: hidden;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.card,
+.card-body,
+.blog-article-content,
+.project-challenge {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 /* Typography */
@@ -370,6 +385,16 @@ section:last-of-type {
     gap: 0.4rem;
 }
 
+#projectTabs {
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#projectTabs .nav-item {
+    flex: 0 0 auto;
+}
+
 .technology-badge {
     display: inline-block;
     padding: 0.25rem 0.6rem;
@@ -431,6 +456,20 @@ body.modal-open {
     min-height: 1.25rem;
     color: #dc3545;
     font-size: 0.875rem;
+}
+
+@media (max-width: 576px) {
+    #projectTabs {
+        justify-content: flex-start !important;
+    }
+
+    #projectTabs .nav-link {
+        white-space: normal;
+    }
+
+    .card:hover {
+        transform: none;
+    }
 }
 
 #experience-container .card-body ul li {
