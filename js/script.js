@@ -15,22 +15,30 @@ AOS.init({
     once: true,
 });
 
-// Keyboard navigation for project tabs
+// Keyboard navigation for project filters.
 const projectTabs = document.getElementById('projectTabs');
 if (projectTabs) {
     projectTabs.addEventListener('keydown', function(event) {
-        const tabs = Array.from(projectTabs.querySelectorAll('.nav-link'));
+        const tabs = Array.from(projectTabs.querySelectorAll('button.nav-link'));
+        if (!tabs.length) return;
         const focusedTab = document.activeElement;
         const focusedTabIndex = tabs.indexOf(focusedTab);
+        if (focusedTabIndex < 0) return;
 
-        if (event.key === 'ArrowRight') {
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') {
             event.preventDefault();
             const nextTabIndex = (focusedTabIndex + 1) % tabs.length;
             tabs[nextTabIndex].focus();
-        } else if (event.key === 'ArrowLeft') {
+        } else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') {
             event.preventDefault();
             const prevTabIndex = (focusedTabIndex - 1 + tabs.length) % tabs.length;
             tabs[prevTabIndex].focus();
+        } else if (event.key === 'Home') {
+            event.preventDefault();
+            tabs[0].focus();
+        } else if (event.key === 'End') {
+            event.preventDefault();
+            tabs[tabs.length - 1].focus();
         }
     });
 }

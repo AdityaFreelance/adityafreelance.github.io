@@ -2,67 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://adityafreelance.github.io/</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://adityafreelance.github.io/blog.html</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-09-22</lastmod>
     <priority>0.90</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/responsive-web-design-principles-for-modern-business-websites.html</loc>
-    <lastmod>2026-07-03</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/how-technical-seo-supports-long-term-website-growth.html</loc>
-    <lastmod>2026-07-07</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/building-maintainable-react-components.html</loc>
-    <lastmod>2026-07-10</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/wordpress-websites-that-are-easy-to-manage.html</loc>
-    <lastmod>2026-07-13</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/php-and-dynamic-content-for-education-websites.html</loc>
-    <lastmod>2026-07-16</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/what-makes-a-website-accessible-and-inclusive.html</loc>
-    <lastmod>2026-07-19</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/improving-website-performance-with-practical-frontend-choices.html</loc>
-    <lastmod>2026-07-22</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/why-semantic-html-still-matters.html</loc>
-    <lastmod>2026-07-25</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/using-bootstrap-with-custom-css-the-right-way.html</loc>
-    <lastmod>2026-07-28</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://adityafreelance.github.io/blog/a-practical-guide-to-on-page-seo-for-service-pages.html</loc>
-    <lastmod>2026-07-31</lastmod>
-    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://adityafreelance.github.io/blog/how-to-plan-a-website-before-writing-code.html</loc>
     <lastmod>2026-07-02</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/responsive-web-design-principles-for-modern-business-websites.html</loc>
+    <lastmod>2026-07-03</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
@@ -71,8 +26,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://adityafreelance.github.io/blog/how-technical-seo-supports-long-term-website-growth.html</loc>
+    <lastmod>2026-07-07</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://adityafreelance.github.io/blog/react-or-traditional-html-choosing-the-right-approach.html</loc>
     <lastmod>2026-07-09</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/building-maintainable-react-components.html</loc>
+    <lastmod>2026-07-10</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
@@ -81,8 +46,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://adityafreelance.github.io/blog/wordpress-websites-that-are-easy-to-manage.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://adityafreelance.github.io/blog/wordpress-performance-and-maintenance-basics.html</loc>
     <lastmod>2026-07-15</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/php-and-dynamic-content-for-education-websites.html</loc>
+    <lastmod>2026-07-16</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
@@ -91,8 +66,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://adityafreelance.github.io/blog/what-makes-a-website-accessible-and-inclusive.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://adityafreelance.github.io/blog/technical-seo-checklist-for-a-new-website.html</loc>
     <lastmod>2026-07-21</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/improving-website-performance-with-practical-frontend-choices.html</loc>
+    <lastmod>2026-07-22</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
@@ -101,13 +86,28 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://adityafreelance.github.io/blog/why-semantic-html-still-matters.html</loc>
+    <lastmod>2026-07-25</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://adityafreelance.github.io/blog/a-practical-guide-to-website-accessibility-testing.html</loc>
     <lastmod>2026-07-27</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://adityafreelance.github.io/blog/using-bootstrap-with-custom-css-the-right-way.html</loc>
+    <lastmod>2026-07-28</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://adityafreelance.github.io/blog/choosing-a-maintainable-content-structure-for-static-sites.html</loc>
     <lastmod>2026-07-30</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/a-practical-guide-to-on-page-seo-for-service-pages.html</loc>
+    <lastmod>2026-07-31</lastmod>
     <priority>0.70</priority>
   </url>
   <url>
@@ -158,6 +158,186 @@
   <url>
     <loc>https://adityafreelance.github.io/blog/how-to-keep-seo-content-natural-and-useful.html</loc>
     <lastmod>2026-08-17</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/software-engineering-vs-web-development.html</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/choosing-a-frontend-stack-for-a-business-website.html</loc>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/ssr-ssg-csr-which-rendering-strategy-to-use.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/designing-api-contracts-before-frontend-development.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/rest-api-error-responses-users-can-understand.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/jwt-oauth-api-authentication-explained.html</loc>
+    <lastmod>2026-08-23</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/api-pagination-filtering-and-sorting-best-practices.html</loc>
+    <lastmod>2026-08-24</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/designing-database-schema-before-building-features.html</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/mysql-vs-mongodb-choosing-a-database.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/database-indexes-and-slow-query-debugging.html</loc>
+    <lastmod>2026-08-27</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/database-backups-security-and-recovery-planning.html</loc>
+    <lastmod>2026-08-28</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/planning-third-party-api-integrations.html</loc>
+    <lastmod>2026-08-29</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/webhooks-vs-polling-for-real-time-integrations.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/safe-data-import-and-export-for-business-applications.html</loc>
+    <lastmod>2026-08-31</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/debugging-production-issues-without-guesswork.html</loc>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/logging-and-observability-for-small-web-applications.html</loc>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/unit-integration-and-end-to-end-testing-explained.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/practical-code-review-checklist-for-frontend-and-backend.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/git-branching-strategy-for-small-development-teams.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/ci-cd-basics-for-static-and-full-stack-projects.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/environment-variables-and-secrets-in-web-development.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/staging-vs-production-environments.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/caching-strategies-for-faster-websites.html</loc>
+    <lastmod>2026-09-09</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/accessible-form-design-for-business-websites.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/keyboard-accessible-navigation-and-interactions.html</loc>
+    <lastmod>2026-09-11</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/image-optimization-vs-javascript-performance.html</loc>
+    <lastmod>2026-09-12</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/lazy-loading-pitfalls-and-better-loading-strategies.html</loc>
+    <lastmod>2026-09-13</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/how-to-write-content-that-answers-ai-search-questions.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/article-profile-and-breadcrumb-structured-data.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/internal-linking-architecture-for-service-and-blog-pages.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/service-page-vs-blog-post-search-intent.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/measuring-seo-without-vanity-metrics.html</loc>
+    <lastmod>2026-09-18</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/secure-contact-forms-and-spam-prevention.html</loc>
+    <lastmod>2026-09-19</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/website-redesign-migration-without-losing-seo.html</loc>
+    <lastmod>2026-09-20</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/website-maintenance-plan-for-small-businesses.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://adityafreelance.github.io/blog/technical-discovery-questions-before-building-a-website.html</loc>
+    <lastmod>2026-09-22</lastmod>
     <priority>0.70</priority>
   </url>
 </urlset>

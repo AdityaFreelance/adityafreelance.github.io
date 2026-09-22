@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.">
+    <meta name="keywords" content="code review checklist, frontend code review, backend code review, maintainable code">
+    <meta name="author" content="Aditya Kumar Singh">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://adityafreelance.github.io/blog/practical-code-review-checklist-for-frontend-and-backend.html">
+    <link rel="icon" href="../images/favicon.png" type="image/png">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="A Practical Code Review Checklist for Frontend and Backend Work">
+    <meta property="og:description" content="A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.">
+    <meta property="og:url" content="https://adityafreelance.github.io/blog/practical-code-review-checklist-for-frontend-and-backend.html">
+    <meta property="og:site_name" content="Aditya Kumar Singh">
+    <meta property="og:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <meta property="og:image:alt" content="Aditya Kumar Singh - Profile image">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="A Practical Code Review Checklist for Frontend and Backend Work">
+    <meta name="twitter:description" content="A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.">
+    <meta name="twitter:image" content="https://adityafreelance.github.io/images/Profile1.jpg">
+    <meta name="twitter:image:alt" content="Aditya Kumar Singh - Profile image">
+    <title>A Practical Code Review Checklist for… | Aditya Kumar Singh</title>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://adityafreelance.github.io/blog/practical-code-review-checklist-for-frontend-and-backend.html#article","mainEntityOfPage":"https://adityafreelance.github.io/blog/practical-code-review-checklist-for-frontend-and-backend.html","headline":"A Practical Code Review Checklist for Frontend and Backend Work","description":"A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.","keywords":"code review checklist, frontend code review, backend code review, maintainable code","articleSection":"Engineering Workflow","articleBody":"Review the purpose of the change first, then inspect behavior, edge cases, data handling, tests, accessibility, performance, and whether the implementation fits the existing architecture. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.\n\nReview comments should explain a risk or improvement clearly instead of turning personal preferences into blockers. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.\n\nA frontend review may check keyboard behavior and loading states, while a backend review may check validation, authorization, error responses, and query cost. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.\n\nThe best review makes the code and the team stronger without turning collaboration into a contest. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.\n\nBefore publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears.","datePublished":"2026-09-04","dateModified":"2026-09-04","author":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"},"publisher":{"@type":"Person","name":"Aditya Kumar Singh","url":"https://adityafreelance.github.io"}}</script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link" title="Skip to main content">Skip to main content</a>
+    <header class="navbar-dark bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="../index.html">Aditya</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#blogDetailNav"
+                    aria-controls="blogDetailNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="blogDetailNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../blog.html">All Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <article class="blog-detail-page">
+            <div class="container blog-detail-container">
+                <a class="blog-back-link" href="../blog.html">&larr; Back to all articles</a>
+                <p class="blog-category mt-4 mb-2">Engineering Workflow</p>
+                <h1>A Practical Code Review Checklist for Frontend and Backend Work</h1>
+                <div class="blog-detail-meta">
+                    <span>By Aditya Kumar Singh</span>
+                    <span aria-hidden="true">&middot;</span>
+                    <time datetime="2026-09-04">September 4, 2026</time>
+                </div>
+                <p class="blog-detail-intro">A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.</p>
+                <div class="blog-article-content">
+                    <p class="blog-lead">Review the purpose of the change first, then inspect behavior, edge cases, data handling, tests, accessibility, performance, and whether the implementation fits the existing architecture. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.</p>
+<p>Review comments should explain a risk or improvement clearly instead of turning personal preferences into blockers. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.</p>
+<p>A frontend review may check keyboard behavior and loading states, while a backend review may check validation, authorization, error responses, and query cost. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.</p>
+<p>The best review makes the code and the team stronger without turning collaboration into a contest. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.</p>
+<p>Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears.</p>
+                </div>
+                <section class="blog-faq" aria-labelledby="blog-faq-title">
+                    <h2 id="blog-faq-title">Frequently Asked Questions</h2>
+                    <div class="blog-faq-item"><h3>1. What should a reviewer check first?</h3><p>Start with the requirement and user behavior, then inspect whether the implementation actually satisfies it.</p></div><div class="blog-faq-item"><h3>2. Should every review include style comments?</h3><p>Only when style affects readability, consistency, tooling, or an agreed project standard.</p></div>
+                </section>
+                <div class="blog-keywords mt-4" aria-label="Article topics">
+                    <span class="technology-badge">code review checklist</span><span class="technology-badge">frontend code review</span><span class="technology-badge">backend code review</span><span class="technology-badge">maintainable code</span>
+                </div>
+                <section class="blog-comment-section" aria-labelledby="comment-title">
+                    <h2 id="comment-title">Have a Question About This Article?</h2>
+                    <p id="comment-help" class="blog-comment-intro">Did this guide answer your question? Share your experience, feedback, or follow-up question. Your comment may help other readers understand this topic more clearly.</p>
+                    <form class="blog-comment-form" action="https://formspree.io/f/mqpzyepj" method="POST">
+                        <input type="hidden" name="article" value="A Practical Code Review Checklist for Frontend and Backend Work">
+                        <input type="hidden" name="_subject" value="Comment on A Practical Code Review Checklist for Frontend and Backend Work">
+                        <div class="blog-comment-grid">
+                        <div><label for="comment-name">Your name</label><input id="comment-name" name="name" type="text" autocomplete="name" placeholder="Enter your name" required></div>
+                        <div><label for="comment-email">Email address</label><input id="comment-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required></div>
+                    </div>
+                        <div><label for="comment-subject">Subject</label><input id="comment-subject" name="subject" type="text" autocomplete="off" placeholder="What would you like to discuss?" required></div>
+                        <div><label for="comment-message">Your comment</label><textarea id="comment-message" name="comment" rows="5" aria-describedby="comment-help" placeholder="Share your thoughts or question..." required></textarea></div>
+                        <button class="btn btn-primary" type="submit"><i class="fas fa-paper-plane" aria-hidden="true"></i> Send Comment</button>
+                    </form>
+                </section>
+            </div>
+        </article>
+    </main>
+    <div class="theme-switcher">
+        <button id="theme-toggle" type="button" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script defer src="../js/theme.js"></script>
+</body>
+</html>

@@ -1,10 +1,35 @@
 [
   {
+    "slug": "how-to-plan-a-website-before-writing-code",
+    "title": "How to Plan a Website Before Writing Code",
+    "date": "2026-07-02",
+    "category": "Web Development",
+    "keywords": [
+      "website planning",
+      "web development process",
+      "website structure",
+      "UI planning"
+    ],
+    "excerpt": "A clear plan turns a collection of pages into a focused digital experience with a purpose behind every section.",
+    "content": [
+      "Strong websites usually begin before the first line of HTML or JavaScript is written. Planning gives the project a chance to answer important questions early: Who is the audience? What action should visitors take? Which information deserves priority? These questions prevent the layout from becoming a collection of attractive but disconnected sections.",
+      "A useful planning process starts with content and user journeys. Map the primary pages, group related information, and decide how a visitor will move from an introduction to an enquiry, purchase, booking, or other meaningful action. This structure also makes responsive decisions easier because the content hierarchy is already clear.",
+      "The next step is to define the visual system. Typography, spacing, colors, buttons, forms, and card patterns should work together. A small component inventory helps the developer build consistently and helps the client review the direction before detailed implementation begins.",
+      "Planning is not about making every decision permanent. It is about creating enough clarity to build efficiently, test the right things, and make changes without losing the purpose of the website.",
+      "A short written brief is often enough to preserve that clarity. Record the audience, primary goal, important pages, content responsibilities, technical limits, and launch checks so later decisions can be measured against the original purpose."
+    ]
+  },
+  {
     "slug": "responsive-web-design-principles-for-modern-business-websites",
     "title": "Responsive Web Design Principles for Modern Business Websites",
     "date": "2026-07-03",
     "category": "Responsive Web Design",
-    "keywords": ["responsive web design", "mobile-first website", "Bootstrap", "website usability"],
+    "keywords": [
+      "responsive web design",
+      "mobile-first website",
+      "Bootstrap",
+      "website usability"
+    ],
     "excerpt": "A practical look at the layout decisions that help business websites feel clear, fast, and dependable on every screen.",
     "content": [
       "A business website has one job before anything else: make the next step obvious. That becomes difficult when a layout looks polished on a desktop but feels crowded on a phone. Responsive web design solves this by treating the layout as a flexible system rather than a fixed canvas.",
@@ -16,11 +41,36 @@
     ]
   },
   {
+    "slug": "frontend-development-workflow-from-design-to-launch",
+    "title": "A Frontend Development Workflow from Design to Launch",
+    "date": "2026-07-05",
+    "category": "Frontend Development",
+    "keywords": [
+      "frontend development workflow",
+      "Figma to HTML",
+      "web development process",
+      "website launch"
+    ],
+    "excerpt": "A reliable frontend workflow connects design decisions, implementation, testing, and deployment into one clear process.",
+    "content": [
+      "Frontend development is more than translating a design into pixels. The developer has to understand the intention behind the design, identify reusable patterns, and turn static screens into an experience that works with real content and real interactions.",
+      "The implementation usually begins with semantic HTML and a responsive layout foundation. From there, CSS or SCSS establishes the visual system, while JavaScript adds interactions such as navigation, filters, forms, or dynamic content. Reusable patterns reduce inconsistency and make later revisions safer.",
+      "Testing should happen throughout the workflow rather than only at the end. Check the layout at common breakpoints, test long titles and empty states, verify keyboard behavior, and open the page in multiple browsers. These checks reveal issues that a single desktop screenshot cannot show.",
+      "Before launch, review metadata, image sizes, links, forms, loading behavior, and analytics. A polished deployment is the result of connecting visual quality with technical reliability.",
+      "A final review should include the real content rather than placeholder text. Long headings, missing images, empty states, validation messages, and slow connections often reveal the last issues that need attention before visitors arrive."
+    ]
+  },
+  {
     "slug": "how-technical-seo-supports-long-term-website-growth",
     "title": "How Technical SEO Supports Long-Term Website Growth",
     "date": "2026-07-07",
     "category": "Technical SEO",
-    "keywords": ["technical SEO", "on-page SEO", "website crawlability", "SEO-friendly website"],
+    "keywords": [
+      "technical SEO",
+      "on-page SEO",
+      "website crawlability",
+      "SEO-friendly website"
+    ],
     "excerpt": "Technical SEO is the foundation that helps search engines discover, understand, and trust a website’s content.",
     "content": [
       "Technical SEO is often described as a list of checks, but its real purpose is much simpler: remove obstacles between a useful page and the person searching for it. A clear site structure, descriptive titles, accessible links, and a reliable sitemap all contribute to that goal.",
@@ -32,11 +82,36 @@
     ]
   },
   {
+    "slug": "react-or-traditional-html-choosing-the-right-approach",
+    "title": "React or Traditional HTML: Choosing the Right Approach",
+    "date": "2026-07-09",
+    "category": "React.js",
+    "keywords": [
+      "React vs HTML",
+      "React.js development",
+      "static website",
+      "frontend architecture"
+    ],
+    "excerpt": "The right frontend technology depends on the product, the content, and the kind of maintenance the project will need.",
+    "content": [
+      "React is an excellent choice when an interface contains reusable components, changing application state, or rich interactions. Dashboards, portals, complex forms, and product experiences often benefit from a component-based architecture that keeps behavior organized.",
+      "Traditional HTML, CSS, and JavaScript can be the better choice for a focused marketing website, portfolio, or content-led page. A simpler stack can reduce the amount of JavaScript shipped to the browser and make deployment easier on static hosting such as GitHub Pages.",
+      "The decision should not be based on popularity. Consider how often the content changes, whether users need application-like interactions, how the website will be deployed, and who will maintain it later. A small website does not become better simply because it uses a larger framework.",
+      "Good frontend development is about choosing the smallest reliable solution that supports the product. Both React and traditional HTML can produce excellent results when the architecture matches the real requirements.",
+      "The choice can also change over time. Start with a focused solution, document its boundaries, and introduce a framework when the product has a genuine need for shared state, repeated application behavior, or a larger development team."
+    ]
+  },
+  {
     "slug": "building-maintainable-react-components",
     "title": "Building Maintainable React Components",
     "date": "2026-07-10",
     "category": "React.js",
-    "keywords": ["React.js", "reusable components", "frontend development", "React best practices"],
+    "keywords": [
+      "React.js",
+      "reusable components",
+      "frontend development",
+      "React best practices"
+    ],
     "excerpt": "Reusable React components are not only about reducing code; they are about creating a consistent and maintainable product experience.",
     "content": [
       "A good React component has a clear responsibility. It should be easy to understand, simple to reuse, and predictable when its data changes. When components try to manage unrelated concerns, small updates become harder and visual consistency starts to drift.",
@@ -48,11 +123,36 @@
     ]
   },
   {
+    "slug": "designing-conversion-focused-contact-forms",
+    "title": "Designing Contact Forms That Encourage Real Enquiries",
+    "date": "2026-07-12",
+    "category": "UI and Forms",
+    "keywords": [
+      "contact form design",
+      "lead generation form",
+      "form accessibility",
+      "conversion optimization"
+    ],
+    "excerpt": "A contact form should feel easy, trustworthy, and clear enough that visitors know exactly what will happen after submission.",
+    "content": [
+      "A form is often the final step between interest and a business conversation. When it asks for too much information, uses unclear labels, or provides poor feedback, visitors may leave before completing it. Good form design respects the user’s time and explains the purpose of each field.",
+      "Use visible labels instead of relying only on placeholders. Keep the number of required fields reasonable, use the correct input types, and provide useful error messages near the field that needs attention. Keyboard users and screen-reader users should be able to understand the form without guessing.",
+      "Trust also matters. Tell visitors what happens after they submit the form and make sure the success state is visible. A service such as Formspree can handle delivery for a static GitHub Pages website, while analytics can record the submission event without recording private message content.",
+      "The best contact form is not the longest one. It is the one that captures the information needed for a useful reply while making the visitor feel confident that their enquiry has been received.",
+      "After launch, review completion rates and the questions people include in their messages. That feedback can show whether a field should be clarified, removed, or replaced with better information elsewhere on the page."
+    ]
+  },
+  {
     "slug": "wordpress-websites-that-are-easy-to-manage",
     "title": "Creating WordPress Websites That Are Easy to Manage",
     "date": "2026-07-13",
     "category": "WordPress",
-    "keywords": ["WordPress development", "WordPress website", "responsive WordPress", "WordPress SEO"],
+    "keywords": [
+      "WordPress development",
+      "WordPress website",
+      "responsive WordPress",
+      "WordPress SEO"
+    ],
     "excerpt": "A successful WordPress website should be visually strong for visitors and practical for the team managing it after launch.",
     "content": [
       "WordPress gives businesses the ability to update their content without depending on a developer for every small change. That advantage is strongest when the initial website structure is clear, the content areas are well organized, and the editing experience matches the team’s workflow.",
@@ -64,11 +164,36 @@
     ]
   },
   {
+    "slug": "wordpress-performance-and-maintenance-basics",
+    "title": "WordPress Performance and Maintenance Basics",
+    "date": "2026-07-15",
+    "category": "WordPress",
+    "keywords": [
+      "WordPress performance",
+      "WordPress maintenance",
+      "website speed",
+      "WordPress SEO"
+    ],
+    "excerpt": "A WordPress website remains healthy when performance, updates, content quality, and security are treated as an ongoing process.",
+    "content": [
+      "Launching a WordPress website is not the end of the project. Themes, plugins, content, images, and integrations continue to change, so a maintenance routine is important. Small issues are easier to solve when they are found before they affect visitors or search visibility.",
+      "Performance begins with the page itself. Use appropriately sized images, remove unnecessary plugins, avoid loading scripts on pages that do not need them, and keep the visual design focused. A fast website is easier to use on mobile networks and creates a stronger first impression.",
+      "Updates should be handled carefully. Keep backups, review compatibility, and test important forms and navigation after changes. Content maintenance is equally important: outdated service information, broken links, and inconsistent headings reduce trust even when the code is working correctly.",
+      "A practical WordPress workflow balances flexibility with discipline. The goal is not to avoid every future problem; it is to make the website easy to monitor, update, and improve.",
+      "Keep a simple record of updates, backups, important integrations, and known issues. This gives the owner or support developer enough context to investigate a problem quickly instead of making changes without understanding the website history."
+    ]
+  },
+  {
     "slug": "php-and-dynamic-content-for-education-websites",
     "title": "Using PHP to Build Clear Dynamic Content Experiences",
     "date": "2026-07-16",
     "category": "PHP",
-    "keywords": ["PHP development", "dynamic website", "PHP forms", "education website"],
+    "keywords": [
+      "PHP development",
+      "dynamic website",
+      "PHP forms",
+      "education website"
+    ],
     "excerpt": "Dynamic content becomes valuable when it makes information easier to organize, maintain, and use.",
     "content": [
       "Educational websites often contain a large amount of information. PHP can help organize that content into reusable page structures, shared components, and dynamic sections that are easier to maintain than repeated static markup.",
@@ -80,11 +205,36 @@
     ]
   },
   {
+    "slug": "api-integration-principles-for-business-websites",
+    "title": "API Integration Principles for Business Websites",
+    "date": "2026-07-18",
+    "category": "API Integration",
+    "keywords": [
+      "API integration",
+      "web application development",
+      "CRM integration",
+      "secure API"
+    ],
+    "excerpt": "Thoughtful API integration connects a website to business workflows without making the user experience feel complicated.",
+    "content": [
+      "Many business websites need to communicate with another system: a CRM, ATS, booking service, payment provider, or internal application. An API provides that connection, but the technical integration should always support a clear user journey.",
+      "Before integrating an API, define the data that must move between systems, the events that trigger a request, and the response the user should receive. Clear contracts make it easier to handle success, validation errors, timeouts, and unexpected responses without leaving visitors confused.",
+      "Security is part of the design. Sensitive credentials should not be exposed in frontend code, user input should be validated, and error messages should avoid revealing internal implementation details. Logging and monitoring help identify failures without collecting unnecessary personal information.",
+      "A successful integration feels invisible to the visitor. They complete a form or action naturally, while the connected systems receive accurate data and the business workflow continues with less manual effort.",
+      "Always test the integration with realistic success and failure cases. A useful fallback message, retry strategy, or alternative contact method can protect the user experience when an external service is unavailable."
+    ]
+  },
+  {
     "slug": "what-makes-a-website-accessible-and-inclusive",
     "title": "What Makes a Website Accessible and Inclusive",
     "date": "2026-07-19",
     "category": "Accessibility",
-    "keywords": ["web accessibility", "ADA compliance", "WCAG", "accessible website"],
+    "keywords": [
+      "web accessibility",
+      "ADA compliance",
+      "WCAG",
+      "accessible website"
+    ],
     "excerpt": "Accessibility is a practical part of quality web development, not an optional layer added at the end of a project.",
     "content": [
       "An accessible website gives more people the ability to understand content, navigate pages, complete forms, and use interactive features. Small decisions such as visible focus states, useful labels, readable contrast, and descriptive alternative text make a meaningful difference.",
@@ -96,11 +246,36 @@
     ]
   },
   {
+    "slug": "technical-seo-checklist-for-a-new-website",
+    "title": "A Technical SEO Checklist for a New Website",
+    "date": "2026-07-21",
+    "category": "Technical SEO",
+    "keywords": [
+      "technical SEO checklist",
+      "website launch SEO",
+      "robots.txt",
+      "XML sitemap"
+    ],
+    "excerpt": "A launch-ready technical SEO checklist helps search engines crawl the website and helps visitors receive a useful search result.",
+    "content": [
+      "Technical SEO should be part of a website launch checklist, not a last-minute repair. Start by confirming that the site uses a consistent HTTPS URL, has one clear canonical version, and does not accidentally include noindex directives on pages that should be discoverable.",
+      "Review titles, meta descriptions, headings, image alternative text, internal links, and the sitemap. The sitemap should contain the canonical URLs that you want search engines to crawl. Robots.txt should support crawling rather than blocking important assets or pages by mistake.",
+      "Structured data can help search engines understand people, organizations, articles, breadcrumbs, and other content types. It must describe visible and accurate information. Validate it before launch, then use Search Console URL Inspection after deployment to see how the page is rendered.",
+      "Finally, test the experience itself. Search visibility is connected to page quality, so performance, mobile usability, accessibility, and helpful content belong in the same review as technical tags.",
+      "Keep the checklist focused on pages that matter to the audience. A technically valid website still needs accurate service information, useful page copy, working calls to action, and a clear path for visitors who are ready to continue."
+    ]
+  },
+  {
     "slug": "improving-website-performance-with-practical-frontend-choices",
     "title": "Improving Website Performance with Practical Frontend Choices",
     "date": "2026-07-22",
     "category": "Web Performance",
-    "keywords": ["website performance", "frontend optimization", "Core Web Vitals", "fast website"],
+    "keywords": [
+      "website performance",
+      "frontend optimization",
+      "Core Web Vitals",
+      "fast website"
+    ],
     "excerpt": "Performance improvements often come from a series of thoughtful frontend decisions rather than one dramatic change.",
     "content": [
       "A fast website respects the visitor’s time. Large images, unnecessary libraries, blocking scripts, and repeated work in the browser can all make an interface feel slower than it needs to be.",
@@ -112,11 +287,36 @@
     ]
   },
   {
+    "slug": "how-to-build-a-useful-faq-section",
+    "title": "How to Build a Useful FAQ Section",
+    "date": "2026-07-24",
+    "category": "Content and SEO",
+    "keywords": [
+      "FAQ section",
+      "FAQ SEO",
+      "content structure",
+      "user experience"
+    ],
+    "excerpt": "A useful FAQ section answers real questions, reduces hesitation, and gives a website a clearer content structure.",
+    "content": [
+      "A good FAQ section is not a place to repeat every sentence from the rest of the website. It should answer questions visitors genuinely ask before contacting you, choosing a service, or starting a project. The strongest questions usually come from conversations, support requests, and sales discussions.",
+      "Write each answer in plain language and put the most useful information first. Avoid hiding essential details inside an accordion if users need that information to make a decision. Use a clear heading structure and ensure the interactive controls work with a keyboard.",
+      "FAQs can support on-page SEO by covering relevant language naturally and connecting users to deeper sections of the website. They should not be created only to place keywords or chase a rich result. The answer should be complete enough to help someone without forcing another search.",
+      "Review the section regularly. As services change and new questions appear, update the answers so the FAQ remains accurate, useful, and aligned with the current website.",
+      "A well-maintained FAQ can also reduce repetitive enquiries for the team. It gives visitors a quick answer while leaving the contact channel available for questions that genuinely need a personal response."
+    ]
+  },
+  {
     "slug": "why-semantic-html-still-matters",
     "title": "Why Semantic HTML Still Matters in Modern Web Development",
     "date": "2026-07-25",
     "category": "HTML and UI Development",
-    "keywords": ["semantic HTML", "HTML development", "SEO-friendly HTML", "accessible UI"],
+    "keywords": [
+      "semantic HTML",
+      "HTML development",
+      "SEO-friendly HTML",
+      "accessible UI"
+    ],
     "excerpt": "Semantic HTML gives a website a stronger foundation for accessibility, SEO, maintenance, and long-term growth.",
     "content": [
       "Modern JavaScript frameworks are powerful, but the browser still benefits from meaningful HTML. Headings, navigation, sections, forms, buttons, and links each communicate a different purpose. Using the right element makes the interface easier to understand and maintain.",
@@ -128,11 +328,36 @@
     ]
   },
   {
+    "slug": "a-practical-guide-to-website-accessibility-testing",
+    "title": "A Practical Guide to Website Accessibility Testing",
+    "date": "2026-07-27",
+    "category": "Accessibility",
+    "keywords": [
+      "accessibility testing",
+      "keyboard testing",
+      "WCAG testing",
+      "ADA compliance"
+    ],
+    "excerpt": "Accessibility testing becomes more effective when it combines automated checks with real keyboard and content testing.",
+    "content": [
+      "Automated accessibility tools are useful, but they cannot understand every experience. They can find missing attributes, contrast problems, and structural issues, while manual testing reveals whether a person can actually navigate and complete tasks comfortably.",
+      "Start with the keyboard. Move through navigation, forms, filters, dialogs, accordions, and buttons without a mouse. Focus should remain visible, the order should make sense, and a modal should return focus to the control that opened it when it closes.",
+      "Then test content and semantics. Check heading levels, labels, alternative text, error messages, link purpose, and dynamic status updates. A screen reader review can reveal when visual context has not been communicated in the DOM.",
+      "Accessibility is a continuous quality practice. Testing early and after every major interaction change is more reliable than attempting a large repair at the end of development.",
+      "Document the issues you find with the affected page, user journey, expected behavior, and priority. Clear notes help developers fix the underlying pattern instead of patching only one visible instance."
+    ]
+  },
+  {
     "slug": "using-bootstrap-with-custom-css-the-right-way",
     "title": "Using Bootstrap with Custom CSS the Right Way",
     "date": "2026-07-28",
     "category": "Bootstrap and CSS",
-    "keywords": ["Bootstrap", "custom CSS", "responsive layout", "frontend styling"],
+    "keywords": [
+      "Bootstrap",
+      "custom CSS",
+      "responsive layout",
+      "frontend styling"
+    ],
     "excerpt": "Bootstrap can speed up development, while custom CSS ensures the final interface still feels unique and intentional.",
     "content": [
       "Bootstrap is useful because it provides a tested foundation for grids, spacing, forms, buttons, and responsive behavior. It helps a project move quickly without requiring every common pattern to be built from scratch.",
@@ -143,11 +368,36 @@
     ]
   },
   {
+    "slug": "choosing-a-maintainable-content-structure-for-static-sites",
+    "title": "Choosing a Maintainable Content Structure for Static Sites",
+    "date": "2026-07-30",
+    "category": "Web Architecture",
+    "keywords": [
+      "static website",
+      "JSON content",
+      "content architecture",
+      "GitHub Pages"
+    ],
+    "excerpt": "A JSON-driven content structure can keep a static website flexible while preserving the speed and simplicity of static hosting.",
+    "content": [
+      "Static hosting is attractive because it is fast, reliable, and easy to deploy. The challenge is keeping content maintainable when there is no database or server-side CMS. A clear JSON content model can provide a practical middle ground for portfolios, documentation, and small business websites.",
+      "The content source should separate data from presentation. Titles, dates, categories, keywords, and article sections belong in JSON, while the page templates control the layout. This makes it possible to add a new article without rewriting the interface.",
+      "A build step can generate detail pages and sitemaps from the same source. That preserves dynamic content management for the developer while giving search engines real HTML pages with unique URLs, metadata, and Article structured data.",
+      "The important part is consistency. Validate the JSON, require fields such as slug and date, escape content when generating HTML, and keep the generated output predictable. A simple content pipeline can provide many of the benefits of a CMS without the operational overhead.",
+      "This structure is especially useful for a portfolio that evolves gradually. New projects and articles can follow the same fields, the interface stays consistent, and future improvements to the template can benefit every generated page at once."
+    ]
+  },
+  {
     "slug": "a-practical-guide-to-on-page-seo-for-service-pages",
     "title": "A Practical Guide to On-Page SEO for Service Pages",
     "date": "2026-07-31",
     "category": "On-Page SEO",
-    "keywords": ["on-page SEO", "service page SEO", "SEO content", "keyword research"],
+    "keywords": [
+      "on-page SEO",
+      "service page SEO",
+      "SEO content",
+      "keyword research"
+    ],
     "excerpt": "Service pages perform better when they answer real questions clearly and make the next action easy to take.",
     "content": [
       "On-page SEO begins with understanding what a visitor needs from a service page. The page title, main heading, introduction, supporting sections, and call to action should work together instead of repeating the same keyword without purpose.",
@@ -159,161 +409,16 @@
     ]
   },
   {
-    "slug": "how-to-plan-a-website-before-writing-code",
-    "title": "How to Plan a Website Before Writing Code",
-    "date": "2026-07-02",
-    "category": "Web Development",
-    "keywords": ["website planning", "web development process", "website structure", "UI planning"],
-    "excerpt": "A clear plan turns a collection of pages into a focused digital experience with a purpose behind every section.",
-    "content": [
-      "Strong websites usually begin before the first line of HTML or JavaScript is written. Planning gives the project a chance to answer important questions early: Who is the audience? What action should visitors take? Which information deserves priority? These questions prevent the layout from becoming a collection of attractive but disconnected sections.",
-      "A useful planning process starts with content and user journeys. Map the primary pages, group related information, and decide how a visitor will move from an introduction to an enquiry, purchase, booking, or other meaningful action. This structure also makes responsive decisions easier because the content hierarchy is already clear.",
-      "The next step is to define the visual system. Typography, spacing, colors, buttons, forms, and card patterns should work together. A small component inventory helps the developer build consistently and helps the client review the direction before detailed implementation begins.",
-      "Planning is not about making every decision permanent. It is about creating enough clarity to build efficiently, test the right things, and make changes without losing the purpose of the website.",
-      "A short written brief is often enough to preserve that clarity. Record the audience, primary goal, important pages, content responsibilities, technical limits, and launch checks so later decisions can be measured against the original purpose."
-    ]
-  },
-  {
-    "slug": "frontend-development-workflow-from-design-to-launch",
-    "title": "A Frontend Development Workflow from Design to Launch",
-    "date": "2026-07-05",
-    "category": "Frontend Development",
-    "keywords": ["frontend development workflow", "Figma to HTML", "web development process", "website launch"],
-    "excerpt": "A reliable frontend workflow connects design decisions, implementation, testing, and deployment into one clear process.",
-    "content": [
-      "Frontend development is more than translating a design into pixels. The developer has to understand the intention behind the design, identify reusable patterns, and turn static screens into an experience that works with real content and real interactions.",
-      "The implementation usually begins with semantic HTML and a responsive layout foundation. From there, CSS or SCSS establishes the visual system, while JavaScript adds interactions such as navigation, filters, forms, or dynamic content. Reusable patterns reduce inconsistency and make later revisions safer.",
-      "Testing should happen throughout the workflow rather than only at the end. Check the layout at common breakpoints, test long titles and empty states, verify keyboard behavior, and open the page in multiple browsers. These checks reveal issues that a single desktop screenshot cannot show.",
-      "Before launch, review metadata, image sizes, links, forms, loading behavior, and analytics. A polished deployment is the result of connecting visual quality with technical reliability.",
-      "A final review should include the real content rather than placeholder text. Long headings, missing images, empty states, validation messages, and slow connections often reveal the last issues that need attention before visitors arrive."
-    ]
-  },
-  {
-    "slug": "react-or-traditional-html-choosing-the-right-approach",
-    "title": "React or Traditional HTML: Choosing the Right Approach",
-    "date": "2026-07-09",
-    "category": "React.js",
-    "keywords": ["React vs HTML", "React.js development", "static website", "frontend architecture"],
-    "excerpt": "The right frontend technology depends on the product, the content, and the kind of maintenance the project will need.",
-    "content": [
-      "React is an excellent choice when an interface contains reusable components, changing application state, or rich interactions. Dashboards, portals, complex forms, and product experiences often benefit from a component-based architecture that keeps behavior organized.",
-      "Traditional HTML, CSS, and JavaScript can be the better choice for a focused marketing website, portfolio, or content-led page. A simpler stack can reduce the amount of JavaScript shipped to the browser and make deployment easier on static hosting such as GitHub Pages.",
-      "The decision should not be based on popularity. Consider how often the content changes, whether users need application-like interactions, how the website will be deployed, and who will maintain it later. A small website does not become better simply because it uses a larger framework.",
-      "Good frontend development is about choosing the smallest reliable solution that supports the product. Both React and traditional HTML can produce excellent results when the architecture matches the real requirements.",
-      "The choice can also change over time. Start with a focused solution, document its boundaries, and introduce a framework when the product has a genuine need for shared state, repeated application behavior, or a larger development team."
-    ]
-  },
-  {
-    "slug": "designing-conversion-focused-contact-forms",
-    "title": "Designing Contact Forms That Encourage Real Enquiries",
-    "date": "2026-07-12",
-    "category": "UI and Forms",
-    "keywords": ["contact form design", "lead generation form", "form accessibility", "conversion optimization"],
-    "excerpt": "A contact form should feel easy, trustworthy, and clear enough that visitors know exactly what will happen after submission.",
-    "content": [
-      "A form is often the final step between interest and a business conversation. When it asks for too much information, uses unclear labels, or provides poor feedback, visitors may leave before completing it. Good form design respects the user’s time and explains the purpose of each field.",
-      "Use visible labels instead of relying only on placeholders. Keep the number of required fields reasonable, use the correct input types, and provide useful error messages near the field that needs attention. Keyboard users and screen-reader users should be able to understand the form without guessing.",
-      "Trust also matters. Tell visitors what happens after they submit the form and make sure the success state is visible. A service such as Formspree can handle delivery for a static GitHub Pages website, while analytics can record the submission event without recording private message content.",
-      "The best contact form is not the longest one. It is the one that captures the information needed for a useful reply while making the visitor feel confident that their enquiry has been received.",
-      "After launch, review completion rates and the questions people include in their messages. That feedback can show whether a field should be clarified, removed, or replaced with better information elsewhere on the page."
-    ]
-  },
-  {
-    "slug": "wordpress-performance-and-maintenance-basics",
-    "title": "WordPress Performance and Maintenance Basics",
-    "date": "2026-07-15",
-    "category": "WordPress",
-    "keywords": ["WordPress performance", "WordPress maintenance", "website speed", "WordPress SEO"],
-    "excerpt": "A WordPress website remains healthy when performance, updates, content quality, and security are treated as an ongoing process.",
-    "content": [
-      "Launching a WordPress website is not the end of the project. Themes, plugins, content, images, and integrations continue to change, so a maintenance routine is important. Small issues are easier to solve when they are found before they affect visitors or search visibility.",
-      "Performance begins with the page itself. Use appropriately sized images, remove unnecessary plugins, avoid loading scripts on pages that do not need them, and keep the visual design focused. A fast website is easier to use on mobile networks and creates a stronger first impression.",
-      "Updates should be handled carefully. Keep backups, review compatibility, and test important forms and navigation after changes. Content maintenance is equally important: outdated service information, broken links, and inconsistent headings reduce trust even when the code is working correctly.",
-      "A practical WordPress workflow balances flexibility with discipline. The goal is not to avoid every future problem; it is to make the website easy to monitor, update, and improve.",
-      "Keep a simple record of updates, backups, important integrations, and known issues. This gives the owner or support developer enough context to investigate a problem quickly instead of making changes without understanding the website history."
-    ]
-  },
-  {
-    "slug": "api-integration-principles-for-business-websites",
-    "title": "API Integration Principles for Business Websites",
-    "date": "2026-07-18",
-    "category": "API Integration",
-    "keywords": ["API integration", "web application development", "CRM integration", "secure API"],
-    "excerpt": "Thoughtful API integration connects a website to business workflows without making the user experience feel complicated.",
-    "content": [
-      "Many business websites need to communicate with another system: a CRM, ATS, booking service, payment provider, or internal application. An API provides that connection, but the technical integration should always support a clear user journey.",
-      "Before integrating an API, define the data that must move between systems, the events that trigger a request, and the response the user should receive. Clear contracts make it easier to handle success, validation errors, timeouts, and unexpected responses without leaving visitors confused.",
-      "Security is part of the design. Sensitive credentials should not be exposed in frontend code, user input should be validated, and error messages should avoid revealing internal implementation details. Logging and monitoring help identify failures without collecting unnecessary personal information.",
-      "A successful integration feels invisible to the visitor. They complete a form or action naturally, while the connected systems receive accurate data and the business workflow continues with less manual effort.",
-      "Always test the integration with realistic success and failure cases. A useful fallback message, retry strategy, or alternative contact method can protect the user experience when an external service is unavailable."
-    ]
-  },
-  {
-    "slug": "technical-seo-checklist-for-a-new-website",
-    "title": "A Technical SEO Checklist for a New Website",
-    "date": "2026-07-21",
-    "category": "Technical SEO",
-    "keywords": ["technical SEO checklist", "website launch SEO", "robots.txt", "XML sitemap"],
-    "excerpt": "A launch-ready technical SEO checklist helps search engines crawl the website and helps visitors receive a useful search result.",
-    "content": [
-      "Technical SEO should be part of a website launch checklist, not a last-minute repair. Start by confirming that the site uses a consistent HTTPS URL, has one clear canonical version, and does not accidentally include noindex directives on pages that should be discoverable.",
-      "Review titles, meta descriptions, headings, image alternative text, internal links, and the sitemap. The sitemap should contain the canonical URLs that you want search engines to crawl. Robots.txt should support crawling rather than blocking important assets or pages by mistake.",
-      "Structured data can help search engines understand people, organizations, articles, breadcrumbs, and other content types. It must describe visible and accurate information. Validate it before launch, then use Search Console URL Inspection after deployment to see how the page is rendered.",
-      "Finally, test the experience itself. Search visibility is connected to page quality, so performance, mobile usability, accessibility, and helpful content belong in the same review as technical tags.",
-      "Keep the checklist focused on pages that matter to the audience. A technically valid website still needs accurate service information, useful page copy, working calls to action, and a clear path for visitors who are ready to continue."
-    ]
-  },
-  {
-    "slug": "how-to-build-a-useful-faq-section",
-    "title": "How to Build a Useful FAQ Section",
-    "date": "2026-07-24",
-    "category": "Content and SEO",
-    "keywords": ["FAQ section", "FAQ SEO", "content structure", "user experience"],
-    "excerpt": "A useful FAQ section answers real questions, reduces hesitation, and gives a website a clearer content structure.",
-    "content": [
-      "A good FAQ section is not a place to repeat every sentence from the rest of the website. It should answer questions visitors genuinely ask before contacting you, choosing a service, or starting a project. The strongest questions usually come from conversations, support requests, and sales discussions.",
-      "Write each answer in plain language and put the most useful information first. Avoid hiding essential details inside an accordion if users need that information to make a decision. Use a clear heading structure and ensure the interactive controls work with a keyboard.",
-      "FAQs can support on-page SEO by covering relevant language naturally and connecting users to deeper sections of the website. They should not be created only to place keywords or chase a rich result. The answer should be complete enough to help someone without forcing another search.",
-      "Review the section regularly. As services change and new questions appear, update the answers so the FAQ remains accurate, useful, and aligned with the current website.",
-      "A well-maintained FAQ can also reduce repetitive enquiries for the team. It gives visitors a quick answer while leaving the contact channel available for questions that genuinely need a personal response."
-    ]
-  },
-  {
-    "slug": "a-practical-guide-to-website-accessibility-testing",
-    "title": "A Practical Guide to Website Accessibility Testing",
-    "date": "2026-07-27",
-    "category": "Accessibility",
-    "keywords": ["accessibility testing", "keyboard testing", "WCAG testing", "ADA compliance"],
-    "excerpt": "Accessibility testing becomes more effective when it combines automated checks with real keyboard and content testing.",
-    "content": [
-      "Automated accessibility tools are useful, but they cannot understand every experience. They can find missing attributes, contrast problems, and structural issues, while manual testing reveals whether a person can actually navigate and complete tasks comfortably.",
-      "Start with the keyboard. Move through navigation, forms, filters, dialogs, accordions, and buttons without a mouse. Focus should remain visible, the order should make sense, and a modal should return focus to the control that opened it when it closes.",
-      "Then test content and semantics. Check heading levels, labels, alternative text, error messages, link purpose, and dynamic status updates. A screen reader review can reveal when visual context has not been communicated in the DOM.",
-      "Accessibility is a continuous quality practice. Testing early and after every major interaction change is more reliable than attempting a large repair at the end of development.",
-      "Document the issues you find with the affected page, user journey, expected behavior, and priority. Clear notes help developers fix the underlying pattern instead of patching only one visible instance."
-    ]
-  },
-  {
-    "slug": "choosing-a-maintainable-content-structure-for-static-sites",
-    "title": "Choosing a Maintainable Content Structure for Static Sites",
-    "date": "2026-07-30",
-    "category": "Web Architecture",
-    "keywords": ["static website", "JSON content", "content architecture", "GitHub Pages"],
-    "excerpt": "A JSON-driven content structure can keep a static website flexible while preserving the speed and simplicity of static hosting.",
-    "content": [
-      "Static hosting is attractive because it is fast, reliable, and easy to deploy. The challenge is keeping content maintainable when there is no database or server-side CMS. A clear JSON content model can provide a practical middle ground for portfolios, documentation, and small business websites.",
-      "The content source should separate data from presentation. Titles, dates, categories, keywords, and article sections belong in JSON, while the page templates control the layout. This makes it possible to add a new article without rewriting the interface.",
-      "A build step can generate detail pages and sitemaps from the same source. That preserves dynamic content management for the developer while giving search engines real HTML pages with unique URLs, metadata, and Article structured data.",
-      "The important part is consistency. Validate the JSON, require fields such as slug and date, escape content when generating HTML, and keep the generated output predictable. A simple content pipeline can provide many of the benefits of a CMS without the operational overhead.",
-      "This structure is especially useful for a portfolio that evolves gradually. New projects and articles can follow the same fields, the interface stays consistent, and future improvements to the template can benefit every generated page at once."
-    ]
-  },
-  {
     "slug": "how-to-write-frontend-code-that-is-easy-to-review",
     "title": "How to Write Frontend Code That Is Easy to Review",
     "date": "2026-08-01",
     "category": "Frontend Development",
-    "keywords": ["frontend code quality", "code review", "HTML CSS JavaScript", "maintainable code"],
+    "keywords": [
+      "frontend code quality",
+      "code review",
+      "HTML CSS JavaScript",
+      "maintainable code"
+    ],
     "excerpt": "Readable frontend code makes collaboration faster, debugging calmer, and future changes safer.",
     "content": [
       "A code review is not only a search for mistakes. It is an opportunity to confirm that the implementation is understandable, consistent, and aligned with the experience the product needs to provide. Frontend code is easier to review when its structure reflects the structure of the interface.",
@@ -329,7 +434,12 @@
     "title": "Using JSON-Driven Content in a Static Portfolio",
     "date": "2026-08-03",
     "category": "Web Architecture",
-    "keywords": ["JSON-driven website", "static portfolio", "dynamic content", "GitHub Pages"],
+    "keywords": [
+      "JSON-driven website",
+      "static portfolio",
+      "dynamic content",
+      "GitHub Pages"
+    ],
     "excerpt": "A JSON-driven portfolio keeps content organized while allowing a static website to remain fast and easy to deploy.",
     "content": [
       "A portfolio often contains repeated structures: project cards, skills, experience entries, FAQs, and articles. Writing the same markup for every item makes updates slow and increases the chance of inconsistent content. A JSON data source separates the information from the layout that presents it.",
@@ -345,7 +455,13 @@
     "title": "Improving Core Web Vitals with Real User Thinking",
     "date": "2026-08-05",
     "category": "Web Performance",
-    "keywords": ["Core Web Vitals", "LCP", "CLS", "INP", "website optimization"],
+    "keywords": [
+      "Core Web Vitals",
+      "LCP",
+      "CLS",
+      "INP",
+      "website optimization"
+    ],
     "excerpt": "Performance metrics are most useful when they are connected to the moments that matter to real visitors.",
     "content": [
       "Core Web Vitals give developers useful signals about loading, visual stability, and interaction responsiveness. The numbers matter, but they are most valuable when connected to an actual user journey: seeing the main content, reading without layout movement, and completing an action without delay.",
@@ -361,7 +477,12 @@
     "title": "Creating SEO-Friendly Project Case Studies",
     "date": "2026-08-07",
     "category": "SEO and Portfolio Strategy",
-    "keywords": ["project case study", "portfolio SEO", "web development portfolio", "case study structure"],
+    "keywords": [
+      "project case study",
+      "portfolio SEO",
+      "web development portfolio",
+      "case study structure"
+    ],
     "excerpt": "A detailed project case study can show both the final result and the thinking that made the result possible.",
     "content": [
       "A project card tells a visitor that work exists. A case study explains why the work mattered and what was done to deliver it. This difference is important for clients and recruiters who want to understand more than a logo and a live link.",
@@ -377,7 +498,12 @@
     "title": "Building Mobile-First Navigation That Feels Natural",
     "date": "2026-08-09",
     "category": "Responsive Web Design",
-    "keywords": ["mobile-first navigation", "responsive menu", "mobile UX", "Bootstrap navigation"],
+    "keywords": [
+      "mobile-first navigation",
+      "responsive menu",
+      "mobile UX",
+      "Bootstrap navigation"
+    ],
     "excerpt": "Mobile navigation should make the most important destinations easy to find without making the interface feel crowded.",
     "content": [
       "Navigation is one of the first interactions a visitor has with a website. On a large screen, several links can sit comfortably in a row. On a phone, the same navigation needs a clear collapse behavior, a large enough touch target, and a predictable way to open and close.",
@@ -393,7 +519,12 @@
     "title": "Why Image Optimization Is More Than Compression",
     "date": "2026-08-11",
     "category": "Web Performance",
-    "keywords": ["image optimization", "WebP images", "responsive images", "image SEO"],
+    "keywords": [
+      "image optimization",
+      "WebP images",
+      "responsive images",
+      "image SEO"
+    ],
     "excerpt": "Optimized images improve loading speed, visual stability, accessibility, and the overall quality of a web page.",
     "content": [
       "Image optimization is often reduced to lowering file size, but a good implementation considers the entire delivery experience. The image should be the right dimensions, use a suitable format, load at the right time, and communicate its purpose to people using assistive technology.",
@@ -409,7 +540,12 @@
     "title": "Understanding the Role of Analytics in a Portfolio",
     "date": "2026-08-13",
     "category": "Analytics",
-    "keywords": ["Google Analytics", "portfolio analytics", "event tracking", "website insights"],
+    "keywords": [
+      "Google Analytics",
+      "portfolio analytics",
+      "event tracking",
+      "website insights"
+    ],
     "excerpt": "Analytics can help a portfolio improve when it measures useful interactions without collecting unnecessary personal information.",
     "content": [
       "A portfolio does not need to track everything. It needs to answer practical questions: Which projects receive attention? Do visitors open the resume? Are contact forms being submitted? Which topics make people continue reading? Event tracking can answer these questions without recording private form content.",
@@ -425,7 +561,12 @@
     "title": "Writing Technical Content for Business Owners",
     "date": "2026-08-14",
     "category": "Content Writing",
-    "keywords": ["technical content writing", "web development services", "client communication", "SEO content"],
+    "keywords": [
+      "technical content writing",
+      "web development services",
+      "client communication",
+      "SEO content"
+    ],
     "excerpt": "Technical content becomes more useful when it explains business impact instead of hiding the reader behind jargon.",
     "content": [
       "Business owners usually care about the result a technical decision creates. They may not need a long explanation of every implementation detail, but they do need to understand how the work improves reliability, usability, speed, visibility, or workflow.",
@@ -441,7 +582,12 @@
     "title": "Safe Form Handling on Static GitHub Pages Websites",
     "date": "2026-08-15",
     "category": "Forms and Security",
-    "keywords": ["GitHub Pages contact form", "Formspree", "static website forms", "form security"],
+    "keywords": [
+      "GitHub Pages contact form",
+      "Formspree",
+      "static website forms",
+      "form security"
+    ],
     "excerpt": "Static hosting can still support professional contact forms when submission handling is delegated to a reliable form service.",
     "content": [
       "GitHub Pages is excellent for static websites, but it does not execute a custom PHP or Node.js backend. That does not mean a portfolio has to give up contact forms. A service such as Formspree can receive the submission, apply its delivery workflow, and send the message to the configured inbox.",
@@ -457,7 +603,12 @@
     "title": "How to Keep SEO Content Natural and Useful",
     "date": "2026-08-17",
     "category": "On-Page SEO",
-    "keywords": ["natural SEO writing", "helpful content", "keyword strategy", "people-first SEO"],
+    "keywords": [
+      "natural SEO writing",
+      "helpful content",
+      "keyword strategy",
+      "people-first SEO"
+    ],
     "excerpt": "The most effective SEO content starts with a useful answer and uses keywords as context, not as a substitute for substance.",
     "content": [
       "A keyword can tell you what people are looking for, but it cannot write a useful answer by itself. Good SEO content starts by understanding the reader’s question, level of knowledge, and next decision. The article should be worth reading even if the visitor arrived directly rather than through a search result.",
@@ -466,6 +617,1086 @@
       "People-first SEO is a quality standard. Write from real experience, make the author clear, keep the information accurate, and review whether a reader would feel satisfied after finishing the article. Search visibility is valuable, but trust is what turns visibility into a lasting professional relationship.",
       "Before publishing, read the article without looking at the keyword list. Does the explanation flow naturally? Are the examples relevant? Does the conclusion give the reader a practical next step? These checks are often more useful than trying to reach an arbitrary word count.",
       "Good SEO writing is patient work. It earns attention by being useful, keeps attention by being clear, and supports the wider website through relevant internal links and accurate information."
+    ]
+  },
+  {
+    "slug": "software-engineering-vs-web-development",
+    "title": "Software Engineering vs Web Development: What Is the Difference?",
+    "date": "2026-08-18",
+    "category": "Software Engineering",
+    "keywords": [
+      "software engineering",
+      "web development",
+      "full stack development",
+      "software engineer portfolio"
+    ],
+    "excerpt": "Software engineering and web development overlap, but they solve problems at different levels of product complexity.",
+    "content": [
+      "Software engineering covers the broader discipline of designing, building, testing, deploying, and maintaining software, while web development focuses on applications delivered through the browser. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A web project may start with an interface, but a production product also needs data contracts, security, error handling, performance, deployment, and maintenance. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "For a staffing platform, the interface is only one part of the system; recruiter workflows, candidate data, integrations, permissions, and reliability matter just as much. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The useful question is not which label sounds better. It is whether the developer can connect user needs with a dependable technical system. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is web development part of software engineering?",
+        "Yes. Web development is one area of software engineering, especially when it includes architecture, testing, deployment, and maintenance."
+      ],
+      [
+        "What should a business look for in a full stack developer?",
+        "Look for someone who can understand the product goal, build the interface, connect APIs and databases, and support the application after launch."
+      ]
+    ]
+  },
+  {
+    "slug": "choosing-a-frontend-stack-for-a-business-website",
+    "title": "How to Choose a Frontend Stack for a Business Website",
+    "date": "2026-08-19",
+    "category": "Frontend Engineering",
+    "keywords": [
+      "frontend stack",
+      "React.js website",
+      "business website technology",
+      "frontend architecture"
+    ],
+    "excerpt": "The right frontend stack depends on the website goals, content model, team workflow, and long-term maintenance needs.",
+    "content": [
+      "Choose a frontend stack by starting with the product requirements rather than selecting a framework because it is popular. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A content-focused marketing website may need a simple static structure, while a dashboard with live data, authentication, and complex interactions may benefit from React or Next.js. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A useful evaluation considers page speed, accessibility, SEO rendering, developer familiarity, integrations, hosting, and how easily another developer can maintain the code. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The best stack is the one that satisfies the current product needs without creating unnecessary complexity for the team. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is React always the best choice for a business website?",
+        "No. React is valuable for interactive applications, but a simpler site may be faster and easier to maintain with a lighter approach."
+      ],
+      [
+        "Should technology choice come before design?",
+        "No. The user journey and content requirements should guide both design and technology decisions."
+      ]
+    ]
+  },
+  {
+    "slug": "ssr-ssg-csr-which-rendering-strategy-to-use",
+    "title": "SSR, SSG, and CSR: Which Rendering Strategy Should You Use?",
+    "date": "2026-08-20",
+    "category": "Web Architecture",
+    "keywords": [
+      "SSR vs SSG",
+      "CSR",
+      "Next.js rendering",
+      "web application architecture"
+    ],
+    "excerpt": "Server-side rendering, static generation, and client-side rendering each solve a different performance and product problem.",
+    "content": [
+      "Use static generation for stable content, server-side rendering when fresh request-time data matters, and client-side rendering for highly interactive application areas. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The choice affects initial HTML, SEO visibility, caching, hosting, and how quickly users see useful content. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A blog can often use static pages, while a private dashboard can render much of its experience in the browser after authentication. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Rendering is an architectural decision, not a trend to apply to every page. A hybrid approach is often the most practical solution. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Which rendering strategy is best for SEO?",
+        "Static generation and server-side rendering usually make important content available in the initial HTML, but implementation quality still matters."
+      ],
+      [
+        "Can one website use multiple rendering strategies?",
+        "Yes. Different routes can use different strategies when the framework and architecture support it."
+      ]
+    ]
+  },
+  {
+    "slug": "designing-api-contracts-before-frontend-development",
+    "title": "Why API Contracts Should Be Designed Before Frontend Development",
+    "date": "2026-08-21",
+    "category": "API Development",
+    "keywords": [
+      "API contract",
+      "REST API design",
+      "frontend backend collaboration",
+      "JSON API"
+    ],
+    "excerpt": "A clear API contract gives frontend and backend work a shared agreement about data, errors, and behavior.",
+    "content": [
+      "An API contract should describe endpoints, request fields, response shapes, validation rules, authentication, and error formats before both teams build against assumptions. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Without an agreement, the interface may depend on field names or data structures that later change, creating avoidable rework. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A candidate search endpoint should define filters, pagination, empty results, validation errors, and authorization rather than documenting only the successful response. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Good contracts reduce surprises because they turn an informal conversation into something the team can test and review. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What should an API contract include?",
+        "It should include endpoints, methods, parameters, response examples, error responses, authentication, and important edge cases."
+      ],
+      [
+        "Does an API contract slow development?",
+        "A small amount of planning usually saves time by preventing repeated frontend and backend changes later."
+      ]
+    ]
+  },
+  {
+    "slug": "rest-api-error-responses-users-can-understand",
+    "title": "Designing REST API Error Responses That Teams Can Use",
+    "date": "2026-08-22",
+    "category": "Backend Development",
+    "keywords": [
+      "REST API errors",
+      "API error handling",
+      "backend development",
+      "HTTP status codes"
+    ],
+    "excerpt": "Useful API errors help developers recover quickly and help interfaces explain what happened without exposing internal details.",
+    "content": [
+      "A good REST API error response should use an appropriate status code, a stable error identifier, a safe message, and enough field-level detail for the client to recover. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Returning the same generic error for validation, authorization, and server failures makes debugging harder and leads to poor user experiences. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A validation response can identify an invalid email field, while an authorization response should ask the user to sign in rather than reveal protected resource details. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Error design is part of the API contract and should be tested like a successful response. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Which status code should validation errors use?",
+        "A 400-level response such as 400 or 422 may be appropriate depending on the API convention, as long as it is used consistently."
+      ],
+      [
+        "Should APIs return stack traces?",
+        "No. Internal stack traces belong in protected server logs, not in public API responses."
+      ]
+    ]
+  },
+  {
+    "slug": "jwt-oauth-api-authentication-explained",
+    "title": "JWT and OAuth API Authentication Explained for Business Applications",
+    "date": "2026-08-23",
+    "category": "Web Security",
+    "keywords": [
+      "JWT authentication",
+      "OAuth",
+      "API security",
+      "secure web applications"
+    ],
+    "excerpt": "JWT and OAuth solve related but different authentication problems, so the choice should follow the application and trust model.",
+    "content": [
+      "JWT is a token format, while OAuth is an authorization framework used when an application needs delegated access to resources or an identity provider. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Security depends on token lifetime, storage, refresh behavior, scopes, transport security, and server-side validation rather than on the token name alone. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A business dashboard may use a session or token-based login, while a third-party integration may use OAuth scopes to access only the approved account data. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Authentication decisions should be documented and tested because a convenient implementation can still create long-term security risk. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is JWT automatically more secure than sessions?",
+        "No. Both can be secure when implemented correctly; token storage, expiry, revocation, and transport matter."
+      ],
+      [
+        "When is OAuth useful?",
+        "OAuth is useful when users or systems need to authorize limited access to another service without sharing their password."
+      ]
+    ]
+  },
+  {
+    "slug": "api-pagination-filtering-and-sorting-best-practices",
+    "title": "API Pagination, Filtering, and Sorting Best Practices",
+    "date": "2026-08-24",
+    "category": "API Development",
+    "keywords": [
+      "API pagination",
+      "API filtering",
+      "API sorting",
+      "database performance"
+    ],
+    "excerpt": "Pagination, filtering, and sorting keep data-heavy APIs useful for people and affordable for the systems that serve them.",
+    "content": [
+      "An API should limit the amount of data returned, define stable filters, and make sorting behavior predictable for both the interface and the database. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Returning every record may work in a test environment but becomes slow and expensive as the dataset grows. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A recruiter dashboard can request a page of candidates with status and location filters instead of downloading the entire candidate table to the browser. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Good collection endpoints make performance a default behavior instead of something the team has to repair later. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Why is API pagination necessary?",
+        "It limits response size, reduces database work, and makes large collections easier to browse."
+      ],
+      [
+        "Should filtering happen in the browser?",
+        "For small local data it can, but server-side filtering is usually necessary for large or sensitive datasets."
+      ]
+    ]
+  },
+  {
+    "slug": "designing-database-schema-before-building-features",
+    "title": "Why Database Schema Design Should Happen Before Feature Development",
+    "date": "2026-08-25",
+    "category": "Database Engineering",
+    "keywords": [
+      "database schema design",
+      "MySQL database",
+      "MongoDB data modeling",
+      "application architecture"
+    ],
+    "excerpt": "A clear data model helps a team understand relationships, validation, ownership, and future changes before code becomes difficult to revise.",
+    "content": [
+      "Start database design by identifying business entities, relationships, ownership, lifecycle, and the queries the application must support. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Skipping this step often produces duplicated fields, unclear relationships, inconsistent states, and migrations that become harder to perform safely. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A staffing application may separate candidates, clients, jobs, applications, and status history instead of storing every value in one oversized record. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Schema design is not about predicting every future feature; it is about making today’s important relationships explicit. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Should the database follow the UI exactly?",
+        "No. The data model should represent domain relationships and reliable access patterns, not only the current screen layout."
+      ],
+      [
+        "Can schema design change later?",
+        "Yes. Good applications evolve through reviewed migrations and controlled data changes."
+      ]
+    ]
+  },
+  {
+    "slug": "mysql-vs-mongodb-choosing-a-database",
+    "title": "MySQL vs MongoDB: Choosing the Right Database for a Web Application",
+    "date": "2026-08-26",
+    "category": "Database Engineering",
+    "keywords": [
+      "MySQL vs MongoDB",
+      "database selection",
+      "SQL vs NoSQL",
+      "web application database"
+    ],
+    "excerpt": "MySQL and MongoDB are both useful, but their data models and strengths suit different application requirements.",
+    "content": [
+      "Choose MySQL when relationships, transactions, and structured reporting are central; consider MongoDB when document-shaped data and flexible iteration are stronger requirements. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The decision should include query patterns, consistency needs, reporting, team experience, hosting, backups, and expected growth. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A transactional workflow with linked users, jobs, applications, and audit records may benefit from relational constraints, while evolving document content may fit a document model. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "There is no universal winner. The database should make the important business operations easier to keep correct. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is MongoDB schema-less?",
+        "MongoDB is flexible, but production applications still need clear validation and data conventions."
+      ],
+      [
+        "Is MySQL outdated for modern applications?",
+        "No. MySQL remains a practical relational database for many web applications."
+      ]
+    ]
+  },
+  {
+    "slug": "database-indexes-and-slow-query-debugging",
+    "title": "Database Indexes and a Practical Method for Debugging Slow Queries",
+    "date": "2026-08-27",
+    "category": "Database Performance",
+    "keywords": [
+      "database indexes",
+      "slow SQL queries",
+      "MySQL performance",
+      "MongoDB performance"
+    ],
+    "excerpt": "Indexes can make common queries faster, but they work best when guided by real access patterns and measured execution plans.",
+    "content": [
+      "Find slow queries, inspect their filters and sorting, review the execution plan, then add or adjust indexes only when the access pattern justifies the write and storage cost. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Adding indexes without measurement can increase insert time, consume space, and still fail to help the query that matters. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A dashboard that repeatedly filters jobs by status and updated date may need a different index from a report that searches by client and location. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Database performance is an evidence-based debugging task, not a list of indexes copied from another application. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Do indexes always improve database performance?",
+        "No. They speed up supported access patterns but add storage and write overhead."
+      ],
+      [
+        "How do you find a slow query?",
+        "Use application timing, database logs, and execution-plan tools to identify where time is being spent."
+      ]
+    ]
+  },
+  {
+    "slug": "database-backups-security-and-recovery-planning",
+    "title": "Database Backups, Security, and Recovery Planning for Web Projects",
+    "date": "2026-08-28",
+    "category": "Application Reliability",
+    "keywords": [
+      "database backups",
+      "database security",
+      "disaster recovery",
+      "web application reliability"
+    ],
+    "excerpt": "A database plan is incomplete until it explains how data is protected, backed up, restored, and verified after a failure.",
+    "content": [
+      "A practical database plan covers access control, encryption, backups, retention, restore testing, monitoring, and a clear recovery objective. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A backup that has never been restored is only an assumption. Recovery testing confirms whether the files, credentials, schema, and application version work together. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A business application may need frequent backups for operational data while keeping longer retention for audit or compliance requirements. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Reliability is not only about preventing failure; it is also about reducing the time and uncertainty when failure happens. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "How often should a database be backed up?",
+        "It depends on how much data the business can afford to lose and how often the data changes."
+      ],
+      [
+        "Where should database backups be stored?",
+        "Use protected storage separate from the primary database and restrict access to the backup credentials."
+      ]
+    ]
+  },
+  {
+    "slug": "planning-third-party-api-integrations",
+    "title": "How to Plan a Third-Party API Integration Before Coding",
+    "date": "2026-08-29",
+    "category": "API Integration",
+    "keywords": [
+      "third-party API integration",
+      "API planning",
+      "CRM integration",
+      "ATS integration"
+    ],
+    "excerpt": "A successful integration starts with data ownership, failure handling, authentication, and business workflow mapping.",
+    "content": [
+      "Before coding, document what data enters and leaves each system, who owns the source of truth, how records are matched, and what happens when a request fails. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Integrations become fragile when teams focus only on the happy-path request and ignore rate limits, retries, duplicate events, changed fields, and partial failures. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "An ATS or CRM integration may need to map statuses, preserve external IDs, record sync timestamps, and provide a retry path for a temporary outage. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The integration is part of the business process, not just a request sent from one server to another. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What is the first step in an API integration?",
+        "Map the business workflow and data ownership before choosing endpoints or writing code."
+      ],
+      [
+        "How should integration failures be handled?",
+        "Record the failure safely, retry appropriate temporary errors, and give the team a way to inspect and resolve permanent errors."
+      ]
+    ]
+  },
+  {
+    "slug": "webhooks-vs-polling-for-real-time-integrations",
+    "title": "Webhooks vs Polling: Choosing a Reliable Integration Pattern",
+    "date": "2026-08-30",
+    "category": "API Integration",
+    "keywords": [
+      "webhooks vs polling",
+      "real-time API integration",
+      "event-driven integration",
+      "webhook security"
+    ],
+    "excerpt": "Webhooks and polling both synchronize systems, but they differ in latency, reliability, complexity, and operational cost.",
+    "content": [
+      "Use webhooks when a provider can notify your system about changes, and use polling when notifications are unavailable or when the workflow needs scheduled reconciliation. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A webhook receiver still needs signature validation, idempotency, quick acknowledgement, logging, and a retry strategy. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A payment or CRM event can trigger a webhook, while a nightly reconciliation job can compare recent records and repair missed events. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Reliable integrations often combine event notifications with periodic reconciliation rather than trusting a single mechanism completely. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Are webhooks always real time?",
+        "They are near real time, but delivery can be delayed, duplicated, or fail temporarily."
+      ],
+      [
+        "Why is polling sometimes useful with webhooks?",
+        "Polling can detect missed events and reconcile data after outages or configuration errors."
+      ]
+    ]
+  },
+  {
+    "slug": "safe-data-import-and-export-for-business-applications",
+    "title": "Safe Data Import and Export for Business Applications",
+    "date": "2026-08-31",
+    "category": "Business Applications",
+    "keywords": [
+      "data import export",
+      "CSV validation",
+      "business application data",
+      "data migration"
+    ],
+    "excerpt": "Import and export features need validation, preview, error reporting, and auditability to protect the business data behind them.",
+    "content": [
+      "A safe import flow validates the file type and fields, previews changes, reports row-level errors, and avoids partially changing production data without a recovery plan. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Exports also need access control because a convenient download may contain sensitive customer, candidate, or operational data. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A CSV import for job records can validate required identifiers, detect duplicate rows, and show the user which rows will be skipped before saving anything. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Data movement is a product feature with security and reliability consequences, not merely a file upload button. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Should imported data be saved immediately?",
+        "Usually a preview and validation step is safer, especially when the file can affect many records."
+      ],
+      [
+        "How should import errors be shown?",
+        "Provide clear row and field details without exposing sensitive values unnecessarily."
+      ]
+    ]
+  },
+  {
+    "slug": "debugging-production-issues-without-guesswork",
+    "title": "How to Debug Production Issues Without Guesswork",
+    "date": "2026-09-01",
+    "category": "Software Engineering",
+    "keywords": [
+      "production debugging",
+      "web application bugs",
+      "incident response",
+      "debugging workflow"
+    ],
+    "excerpt": "Production debugging becomes safer when developers collect evidence, reduce the scope, and make reversible changes.",
+    "content": [
+      "Start by defining the observed symptom, affected users, time window, recent changes, and available logs before changing code or data. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A calm debugging process separates facts from hypotheses and keeps a record of what was tested so the team does not repeat failed assumptions. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "If a form stopped submitting after a deployment, inspect browser errors, network responses, server logs, configuration changes, and the exact fields involved. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The goal is not to guess the fix quickly; it is to restore a reliable service while learning enough to prevent recurrence. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Should production data be changed during debugging?",
+        "Only with authorization, a backup or rollback plan, and a clear record of the change."
+      ],
+      [
+        "What makes a production bug easier to diagnose?",
+        "Useful logs, stable deployment history, reproducible steps, and clear ownership reduce diagnosis time."
+      ]
+    ]
+  },
+  {
+    "slug": "logging-and-observability-for-small-web-applications",
+    "title": "Logging and Observability for Small Web Applications",
+    "date": "2026-09-02",
+    "category": "Application Reliability",
+    "keywords": [
+      "application logging",
+      "web observability",
+      "error monitoring",
+      "production monitoring"
+    ],
+    "excerpt": "Small applications also need enough observability to explain failures, performance problems, and important user flows.",
+    "content": [
+      "Useful observability combines structured logs, error tracking, basic performance measurements, and alerts for the events the team actually needs to act on. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Logging every value is not the same as understanding the system. Logs should have timestamps, request or operation identifiers, severity, and safe context. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "An API log can record the route, duration, status, and correlation ID without recording a password, full token, or private message. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Good observability gives developers a path from a user-reported symptom to the part of the system that needs attention. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What should never be logged?",
+        "Passwords, private tokens, unnecessary personal data, and sensitive form content should not be logged."
+      ],
+      [
+        "Does a small website need monitoring?",
+        "If it supports leads, customers, or important workflows, basic monitoring can prevent silent failures."
+      ]
+    ]
+  },
+  {
+    "slug": "unit-integration-and-end-to-end-testing-explained",
+    "title": "Unit, Integration, and End-to-End Testing Explained",
+    "date": "2026-09-03",
+    "category": "Testing and Quality",
+    "keywords": [
+      "unit testing",
+      "integration testing",
+      "end-to-end testing",
+      "software quality"
+    ],
+    "excerpt": "Different testing levels protect different risks, so a balanced test strategy is more useful than choosing one tool for everything.",
+    "content": [
+      "Unit tests check focused logic, integration tests check connected components or services, and end-to-end tests verify important user journeys through the system. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The right balance depends on the cost of failure, the stability of the interface, and how quickly the team needs feedback. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A form validation function may use a unit test, an API and database flow may use an integration test, and a critical enquiry journey may use an end-to-end test. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Testing is most valuable when it protects behavior that matters to users and gives developers confidence during change. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Are end-to-end tests enough?",
+        "No. They are valuable but slower and more fragile, so focused unit and integration tests still have an important role."
+      ],
+      [
+        "What should be tested first?",
+        "Start with critical business paths, security-sensitive logic, data transformations, and areas that frequently break."
+      ]
+    ]
+  },
+  {
+    "slug": "practical-code-review-checklist-for-frontend-and-backend",
+    "title": "A Practical Code Review Checklist for Frontend and Backend Work",
+    "date": "2026-09-04",
+    "category": "Engineering Workflow",
+    "keywords": [
+      "code review checklist",
+      "frontend code review",
+      "backend code review",
+      "maintainable code"
+    ],
+    "excerpt": "A useful code review checks correctness, security, maintainability, accessibility, and user impact—not just formatting.",
+    "content": [
+      "Review the purpose of the change first, then inspect behavior, edge cases, data handling, tests, accessibility, performance, and whether the implementation fits the existing architecture. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Review comments should explain a risk or improvement clearly instead of turning personal preferences into blockers. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A frontend review may check keyboard behavior and loading states, while a backend review may check validation, authorization, error responses, and query cost. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The best review makes the code and the team stronger without turning collaboration into a contest. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What should a reviewer check first?",
+        "Start with the requirement and user behavior, then inspect whether the implementation actually satisfies it."
+      ],
+      [
+        "Should every review include style comments?",
+        "Only when style affects readability, consistency, tooling, or an agreed project standard."
+      ]
+    ]
+  },
+  {
+    "slug": "git-branching-strategy-for-small-development-teams",
+    "title": "A Practical Git Branching Strategy for Small Development Teams",
+    "date": "2026-09-05",
+    "category": "Engineering Workflow",
+    "keywords": [
+      "Git branching strategy",
+      "GitHub workflow",
+      "small development team",
+      "version control"
+    ],
+    "excerpt": "A small team needs a Git workflow that keeps changes reviewable without creating unnecessary branch complexity.",
+    "content": [
+      "Use short-lived branches, focused commits, pull requests, and a clear protected main branch so changes can be reviewed and released with confidence. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The exact naming convention matters less than keeping branches current, resolving conflicts early, and making each change understandable. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A feature branch for API validation should not also contain unrelated visual changes, dependency upgrades, and copied files from another experiment. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Version control is a communication system as much as it is a backup of source code. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "How long should a feature branch live?",
+        "As short as practical. Smaller changes are easier to review, merge, and revert."
+      ],
+      [
+        "Should commits be very small?",
+        "Commits should be focused and meaningful; they do not need to be artificially tiny."
+      ]
+    ]
+  },
+  {
+    "slug": "ci-cd-basics-for-static-and-full-stack-projects",
+    "title": "CI/CD Basics for Static and Full Stack Projects",
+    "date": "2026-09-06",
+    "category": "Deployment",
+    "keywords": [
+      "CI/CD basics",
+      "continuous integration",
+      "continuous deployment",
+      "GitHub Actions"
+    ],
+    "excerpt": "CI/CD turns repeatable checks and deployment steps into a safer path from a code change to a released website or application.",
+    "content": [
+      "Continuous integration validates changes automatically, while continuous delivery or deployment prepares or releases those changes through a controlled process. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A useful pipeline can start small with syntax checks, JSON validation, tests, link checks, and a build step before adding more advanced deployment workflows. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A static portfolio can validate generated blog pages and compile SCSS, while a full stack application can also run API tests and database migration checks. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Automation is valuable when it removes repeated manual mistakes and gives the team faster, clearer feedback. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Does a small portfolio need CI/CD?",
+        "A simple pipeline can be worthwhile when it validates generated content, styles, links, and deployment files."
+      ],
+      [
+        "What should run before deployment?",
+        "Run the checks that would catch broken pages, invalid data, failed tests, or missing build output."
+      ]
+    ]
+  },
+  {
+    "slug": "environment-variables-and-secrets-in-web-development",
+    "title": "Environment Variables and Secrets in Web Development",
+    "date": "2026-09-07",
+    "category": "Web Security",
+    "keywords": [
+      "environment variables",
+      "API key security",
+      "application secrets",
+      "deployment configuration"
+    ],
+    "excerpt": "Environment variables separate deployment configuration from source code, but public frontend values should never be mistaken for private secrets.",
+    "content": [
+      "Keep server-side API keys, database credentials, and signing secrets outside the repository, while treating every value shipped to the browser as public. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A secure workflow uses local environment files, deployment-provider secret settings, restricted keys, rotation plans, and logs that never print secret values. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A Gemini API key used by a server endpoint belongs in server configuration, not in a frontend JavaScript file that visitors can download. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Secret management is part of application architecture and should be planned before the first production deployment. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Can an API key be hidden in frontend JavaScript?",
+        "No. Anything delivered to the browser can be inspected by the visitor."
+      ],
+      [
+        "What should happen after a key is exposed?",
+        "Revoke or rotate it, inspect usage, and update the deployment with the replacement secret."
+      ]
+    ]
+  },
+  {
+    "slug": "staging-vs-production-environments",
+    "title": "Staging vs Production: Why Separate Environments Matter",
+    "date": "2026-09-08",
+    "category": "Deployment",
+    "keywords": [
+      "staging environment",
+      "production deployment",
+      "release workflow",
+      "web application deployment"
+    ],
+    "excerpt": "A staging environment gives a team a safer place to verify behavior before a change reaches real users and data.",
+    "content": [
+      "Staging should resemble production closely enough to expose configuration, integration, layout, and performance problems without using unsafe production data. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The separation also makes it possible to test migrations, forms, analytics, permissions, and rollback steps before release. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A contact form can be tested with a staging inbox and test endpoint instead of sending internal test messages to a live client workflow. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The value of staging comes from realistic checks and clear promotion criteria, not from creating another server that nobody uses. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Does staging need to be identical to production?",
+        "It should be similar in important runtime behavior, while keeping test data, credentials, and integrations safe."
+      ],
+      [
+        "What should be tested in staging?",
+        "Test critical user journeys, integrations, forms, access control, responsive layouts, and the deployment itself."
+      ]
+    ]
+  },
+  {
+    "slug": "caching-strategies-for-faster-websites",
+    "title": "Caching Strategies for Faster Websites",
+    "date": "2026-09-09",
+    "category": "Website Performance",
+    "keywords": [
+      "web caching",
+      "website performance",
+      "HTTP cache",
+      "API caching"
+    ],
+    "excerpt": "Caching reduces repeated work, but the right strategy must account for freshness, invalidation, privacy, and the type of content being served.",
+    "content": [
+      "Cache stable assets aggressively, choose suitable cache headers, and avoid caching private or rapidly changing responses without a clear invalidation plan. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Browser caching, CDN caching, server-side caching, and application data caching solve different parts of the performance problem. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A versioned CSS file can be cached for a long time, while a personalized dashboard response should require stricter controls. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Caching is a trade-off between speed and freshness, so every cached resource needs an explicit reason and expiry behavior. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Why is cache invalidation difficult?",
+        "Because old data may remain in multiple layers after the source has changed."
+      ],
+      [
+        "Should all API responses be cached?",
+        "No. Cache only responses that are safe, reusable, and fresh enough for the product requirement."
+      ]
+    ]
+  },
+  {
+    "slug": "accessible-form-design-for-business-websites",
+    "title": "Accessible Form Design for Business Websites",
+    "date": "2026-09-10",
+    "category": "Accessibility",
+    "keywords": [
+      "accessible forms",
+      "WCAG forms",
+      "ADA compliance",
+      "form usability"
+    ],
+    "excerpt": "An accessible form makes labels, instructions, focus, errors, and completion understandable for more people.",
+    "content": [
+      "Use real labels, logical field order, visible focus, descriptive errors, sufficient contrast, and a keyboard-friendly submission flow. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Placeholder text should not replace a label, and an error message should explain what needs to change instead of only showing a color or icon. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A service enquiry form can group related fields, identify required values, preserve entered data after an error, and announce the result to assistive technology. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Accessible forms are usually clearer for everyone because they reduce uncertainty and unnecessary effort. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Are labels required if placeholders are present?",
+        "Yes. Placeholders are not a reliable replacement for persistent field labels."
+      ],
+      [
+        "How should form errors be communicated?",
+        "Use text that identifies the field and explains how to fix the problem, with appropriate programmatic associations."
+      ]
+    ]
+  },
+  {
+    "slug": "keyboard-accessible-navigation-and-interactions",
+    "title": "How to Make Website Navigation Keyboard Accessible",
+    "date": "2026-09-11",
+    "category": "Accessibility",
+    "keywords": [
+      "keyboard accessibility",
+      "accessible navigation",
+      "focus management",
+      "WCAG navigation"
+    ],
+    "excerpt": "Keyboard users should be able to discover, operate, and understand navigation and interactive components without a mouse.",
+    "content": [
+      "Every interactive control needs a visible focus state, a logical tab order, a useful name, and behavior that works with standard keyboard commands. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Custom tabs, menus, modals, accordions, and filters require extra testing because browser defaults may no longer provide the expected behavior. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A project tab interface should expose selected state, move focus predictably, and keep the active content understandable to screen-reader and keyboard users. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Keyboard testing is a quick way to find interaction problems that visual testing alone can miss. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "How do you test keyboard accessibility?",
+        "Use Tab, Shift+Tab, Enter, Space, and arrow keys while checking focus visibility and whether every task can be completed."
+      ],
+      [
+        "Should focus outlines be removed?",
+        "No. Replace them only with an equally visible and accessible focus style."
+      ]
+    ]
+  },
+  {
+    "slug": "image-optimization-vs-javascript-performance",
+    "title": "Image Optimization vs JavaScript Optimization: Where Should You Start?",
+    "date": "2026-09-12",
+    "category": "Website Performance",
+    "keywords": [
+      "image optimization",
+      "JavaScript performance",
+      "page speed",
+      "Core Web Vitals"
+    ],
+    "excerpt": "Images and JavaScript can both affect performance, but the right first step depends on what the browser is spending time downloading, decoding, and executing.",
+    "content": [
+      "Measure the page before optimizing, then address the largest contributors such as oversized images, render-blocking scripts, long tasks, and unnecessary third-party code. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "An image-heavy landing page may benefit first from responsive formats and dimensions, while an application with large bundles may need code splitting and interaction profiling. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A project gallery can use correctly sized lazy-loaded images, while a dashboard can defer non-critical modules until the user opens a feature. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Performance work should follow evidence from tools such as Lighthouse, browser performance panels, and real-user data. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Should every image be lazy-loaded?",
+        "No. Above-the-fold images often need priority, while below-the-fold images are better candidates for lazy loading."
+      ],
+      [
+        "Can removing JavaScript always improve a website?",
+        "Reducing unnecessary JavaScript helps, but the goal is to preserve required behavior while reducing cost."
+      ]
+    ]
+  },
+  {
+    "slug": "lazy-loading-pitfalls-and-better-loading-strategies",
+    "title": "Lazy Loading Pitfalls and Better Loading Strategies",
+    "date": "2026-09-13",
+    "category": "Website Performance",
+    "keywords": [
+      "lazy loading",
+      "loading strategy",
+      "web performance",
+      "responsive images"
+    ],
+    "excerpt": "Lazy loading can reduce initial work, but applying it blindly can delay important content and create a worse experience.",
+    "content": [
+      "Lazy-load content that is genuinely below the initial viewport, prioritize important images, and test the result on slow networks and real devices. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "The browser needs enough information about image dimensions, responsive sources, and layout space to avoid shifting content while resources load. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A profile image or hero visual may need eager loading, while project logos and later blog cards can often load as the visitor approaches them. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Loading strategy should follow visual importance and user intent rather than a rule that every image must be lazy. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Can lazy loading hurt SEO?",
+        "It can if important content is made unavailable or delayed incorrectly; use standard, crawlable markup and test the rendered page."
+      ],
+      [
+        "How do dimensions prevent layout shift?",
+        "Width and height or an appropriate aspect ratio reserve space before the image is decoded."
+      ]
+    ]
+  },
+  {
+    "slug": "how-to-write-content-that-answers-ai-search-questions",
+    "title": "How to Write Content That Answers AI Search Questions",
+    "date": "2026-09-14",
+    "category": "SEO and AEO",
+    "keywords": [
+      "AEO content",
+      "AI search optimization",
+      "answer engine optimization",
+      "people-first content"
+    ],
+    "excerpt": "AEO-friendly content gives a clear answer quickly, supports it with useful detail, and makes the source easy to understand and trust.",
+    "content": [
+      "Start with the direct answer, define the subject clearly, use descriptive headings, cover follow-up questions, and include evidence from real experience. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Answer engines need content that is easy to interpret, but formatting alone cannot replace original information, accurate claims, and a clear site purpose. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "An article about API integrations can answer what an integration is in the opening, then explain planning, authentication, failure handling, and a practical workflow. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "AEO is not a separate trick from SEO. Clear, helpful, well-structured content supports both traditional and generative search experiences. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What is the best AEO format?",
+        "There is no guaranteed format, but direct answers, clear headings, useful examples, and trustworthy first-hand detail help people and systems understand the page."
+      ],
+      [
+        "Does repeating a question improve AEO?",
+        "Only when it improves clarity. Repetition without additional value makes the content harder to read."
+      ]
+    ]
+  },
+  {
+    "slug": "article-profile-and-breadcrumb-structured-data",
+    "title": "Article, Profile, and Breadcrumb Structured Data: What Each One Does",
+    "date": "2026-09-15",
+    "category": "Structured Data",
+    "keywords": [
+      "Article schema",
+      "ProfilePage schema",
+      "Breadcrumb schema",
+      "structured data SEO"
+    ],
+    "excerpt": "Structured data helps search systems understand a page, but each schema type should describe information that is visibly and accurately present.",
+    "content": [
+      "Use Article or BlogPosting data for an article, ProfilePage for a person-focused page, and BreadcrumbList for the page hierarchy when those relationships are real. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Structured data is a classification aid, not a guarantee of a rich result. The visible title, author, dates, content, and links still need to be accurate and useful. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A blog article can identify its headline, author, publication date, and canonical page, while the portfolio homepage can describe the person and profile relationship. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Schema works best when it reinforces a clear information architecture rather than trying to add markup for every possible feature. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Can structured data guarantee a rich result?",
+        "No. It makes a page eligible for supported features, but search systems decide whether and how to display them."
+      ],
+      [
+        "Should hidden content be added to schema?",
+        "No. Markup should accurately represent visible page content and follow search guidelines."
+      ]
+    ]
+  },
+  {
+    "slug": "internal-linking-architecture-for-service-and-blog-pages",
+    "title": "Internal Linking Architecture for Service and Blog Pages",
+    "date": "2026-09-16",
+    "category": "Technical SEO",
+    "keywords": [
+      "internal linking",
+      "website information architecture",
+      "service page SEO",
+      "blog SEO"
+    ],
+    "excerpt": "A thoughtful internal linking structure helps visitors and search systems discover how services, projects, and educational content relate to one another.",
+    "content": [
+      "Link from broad service pages to relevant guides and projects, use descriptive anchor text, and keep important pages reachable through crawlable links. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Internal links are most useful when they help the reader take a logical next step rather than appearing as a list of unrelated keywords. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "An API integration guide can link to a related project case study and the contact section, while a performance article can link to a website optimization service. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "The best internal-linking plan reflects the user journey and the real relationships between pages. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "How many internal links should an article contain?",
+        "There is no universal number. Add links where they help the reader understand or complete the next step."
+      ],
+      [
+        "Should internal links use exact-match keywords every time?",
+        "No. Use natural, descriptive anchor text that accurately describes the destination."
+      ]
+    ]
+  },
+  {
+    "slug": "service-page-vs-blog-post-search-intent",
+    "title": "Service Page vs Blog Post: Matching Content to Search Intent",
+    "date": "2026-09-17",
+    "category": "Content Strategy",
+    "keywords": [
+      "service page SEO",
+      "blog post SEO",
+      "search intent",
+      "content strategy"
+    ],
+    "excerpt": "A service page and a blog post can target related terms, but they should satisfy different stages of a visitor’s decision.",
+    "content": [
+      "Use a service page to explain what you offer, who it is for, how you work, and how to contact you; use a blog post to answer a question or teach a concept. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Publishing two pages with almost the same purpose creates overlap and makes the site harder to navigate. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A service page can describe API integration work, while a guide can explain how to plan an API integration before development. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Search intent gives every page a job and helps prevent content cannibalization. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Can a service page and blog target the same keyword?",
+        "They can be related, but each page should have a distinct purpose and avoid competing with nearly identical content."
+      ],
+      [
+        "Which page should include a contact CTA?",
+        "A service page should make the next contact step prominent, while a helpful article can use a lighter contextual CTA."
+      ]
+    ]
+  },
+  {
+    "slug": "measuring-seo-without-vanity-metrics",
+    "title": "How to Measure SEO Without Relying Only on Vanity Metrics",
+    "date": "2026-09-18",
+    "category": "SEO Measurement",
+    "keywords": [
+      "SEO measurement",
+      "organic traffic",
+      "Search Console metrics",
+      "conversion tracking"
+    ],
+    "excerpt": "SEO measurement becomes useful when it connects search visibility with qualified visits, useful engagement, and meaningful business actions.",
+    "content": [
+      "Review impressions, clicks, query intent, landing-page quality, contact actions, and assisted conversions instead of treating traffic volume as the only success measure. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "A page with fewer visits can be more valuable than a high-traffic page if it attracts the right audience and leads to relevant conversations. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A service page that receives fewer clicks but generates qualified project enquiries may deserve more attention than a broad article with high impressions and no next step. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Measurement should help decide what to improve, what to keep, and what not to chase. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is ranking position enough to judge SEO?",
+        "No. Position is useful context, but it does not show whether the page attracts the right visitors or supports a business goal."
+      ],
+      [
+        "What should a portfolio track?",
+        "Track project views, resume actions, contact submissions, important navigation, and search performance for relevant pages."
+      ]
+    ]
+  },
+  {
+    "slug": "secure-contact-forms-and-spam-prevention",
+    "title": "Secure Contact Forms and Practical Spam Prevention",
+    "date": "2026-09-19",
+    "category": "Forms and Security",
+    "keywords": [
+      "secure contact form",
+      "form spam prevention",
+      "input validation",
+      "website security"
+    ],
+    "excerpt": "A professional contact form protects user data, validates input, and reduces spam without making legitimate enquiries difficult.",
+    "content": [
+      "Use server-side validation through the form provider, safe field handling, rate controls, honeypots or provider spam protection, and clear privacy expectations. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Client-side validation improves the interface but cannot be the only security boundary because browser checks can be bypassed. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A service enquiry form can restrict unreasonable lengths, validate URLs and email formats, and avoid accepting private credentials in a free-text message. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Good form security balances protection with a simple path for a real person who wants to start a conversation. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Is frontend validation enough?",
+        "No. The server or form provider must validate and sanitize submissions independently."
+      ],
+      [
+        "Should a contact form ask for every project detail?",
+        "Only ask for information that helps the first response; excessive fields reduce completion."
+      ]
+    ]
+  },
+  {
+    "slug": "website-redesign-migration-without-losing-seo",
+    "title": "How to Redesign a Website Without Losing SEO Signals",
+    "date": "2026-09-20",
+    "category": "Website Migration",
+    "keywords": [
+      "website redesign SEO",
+      "URL migration",
+      "301 redirects",
+      "SEO website redesign"
+    ],
+    "excerpt": "A redesign can improve usability and performance, but it needs a migration plan so valuable URLs, content, and links do not disappear accidentally.",
+    "content": [
+      "Inventory existing URLs, preserve useful content, map changed URLs, configure redirects, update internal links, validate canonicals, and monitor the launch. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Visual improvements alone do not protect organic visibility if important pages become inaccessible or their purpose changes without a plan. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A project page that receives search traffic should either keep its URL or have a tested permanent redirect to the most relevant replacement. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Treat redesign as a product and migration project, not only as a visual replacement. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "Should every old URL redirect to the homepage?",
+        "No. Redirect each URL to the closest relevant replacement, or return an appropriate status when no useful replacement exists."
+      ],
+      [
+        "When should redirects be tested?",
+        "Test them before launch in staging and again immediately after the production release."
+      ]
+    ]
+  },
+  {
+    "slug": "website-maintenance-plan-for-small-businesses",
+    "title": "A Practical Website Maintenance Plan for Small Businesses",
+    "date": "2026-09-21",
+    "category": "Website Maintenance",
+    "keywords": [
+      "website maintenance plan",
+      "website support",
+      "security updates",
+      "website performance monitoring"
+    ],
+    "excerpt": "A simple maintenance plan keeps a business website secure, accurate, fast, and ready to support enquiries over time.",
+    "content": [
+      "Review backups, updates, forms, broken links, analytics, search visibility, performance, accessibility, and content accuracy on a regular schedule. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Maintenance is easier when the team records what was checked, what changed, and which known issues still need attention. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A monthly review can confirm that the contact form works, important pages load, project links are valid, and service information still matches the business. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Ongoing maintenance protects the investment made during the original website build and prevents small issues from becoming expensive failures. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "How often should a website be maintained?",
+        "The schedule depends on the stack and risk, but critical forms, security, backups, and uptime should be checked consistently."
+      ],
+      [
+        "Is content maintenance part of technical maintenance?",
+        "Yes. Outdated content and broken links affect trust, usability, and search quality."
+      ]
+    ]
+  },
+  {
+    "slug": "technical-discovery-questions-before-building-a-website",
+    "title": "Technical Discovery Questions to Ask Before Building a Website",
+    "date": "2026-09-22",
+    "category": "Project Planning",
+    "keywords": [
+      "website discovery",
+      "technical requirements",
+      "web project planning",
+      "software project questions"
+    ],
+    "excerpt": "A focused discovery conversation turns a vague website idea into clear goals, users, content, integrations, constraints, and launch criteria.",
+    "content": [
+      "Ask who the users are, what action matters, what content exists, which systems must connect, who will maintain the site, and how success will be measured. This article explains the decision in practical terms so a business owner, product team, or developer can understand what to do next.",
+      "Technical discovery also identifies constraints such as budget, timeline, accessibility, SEO, hosting, data privacy, and approval responsibilities. The useful implementation starts by making the requirement, risk, and expected behavior explicit before choosing a tool or writing a shortcut.",
+      "A project enquiry should clarify whether the client needs a marketing website, authenticated application, CMS workflow, API integration, or a combination of these. Reviewing this kind of example helps connect an engineering decision to the people, workflow, and outcome it is meant to support.",
+      "Good questions early in a project reduce rework and make the final solution easier to explain, build, and maintain. A strong solution remains understandable after launch, because maintainability, accessibility, performance, and reliable communication are part of the result.",
+      "Before publishing or implementing a solution, test the important path with realistic content and realistic failure cases. Record the decision, measure the result, and improve the system when new evidence appears."
+    ],
+    "faq": [
+      [
+        "What is the most important discovery question?",
+        "Ask what the website must help the intended user accomplish and how the business will know it is working."
+      ],
+      [
+        "Should technical discovery happen before design?",
+        "Yes. Early technical and content constraints help the design remain realistic and useful."
+      ]
     ]
   }
 ]
